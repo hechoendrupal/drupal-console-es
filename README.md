@@ -1,4 +1,4 @@
-# drupal-console-fr
+# drupal-console-es
 DrupalConsole Spanish Language / en Español
 
 # Version en Español
@@ -66,7 +66,7 @@ Drupal Console project it's installed per each Drupal 8 website with English lan
 To installe Drupal Console package for French language run the following instructions
 
 ```
-$ composer require drupal/console-fr
+$ composer require drupal/console-es
 ```
 
 ### Install Drupal Console
