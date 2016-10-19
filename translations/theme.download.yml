@@ -1,9 +1,9 @@
 description: 'Descarga un tema para la aplicación'
 arguments:
-    version: 'Theme version i.e 1.x-dev'
-    theme: 'the Theme name'
+    version: 'Versión del tema, por ejemplo, 1.x-dev'
+    theme: 'El nombre del tema'
 options:
-    composer: 'Use --composer option for manage the theme download with Composer'
+    composer: 'Use la opción --composer para llevar a cabo la descarga del tema con Composer'
     version: 'Versión del tema, por ejemplo, 1.x-dev'
 messages:
     no-releases: 'No hay ninguna versión para el tema "%s"'
@@ -15,4 +15,4 @@ messages:
     error-creating-folder: 'Error creando el directorio "%s", por favor, compruebe sus permisos'
 tips:
     -
-        tip: 'Pass a «true» value to «shellexec_output» key in your config.yml file to see interactively Composer''s output or «false» to hide it'
+        tip: 'Provea un valor de «true» a la clave «shellexec_output» en su archivo config.yml para ver interactivamente la salida de Composer o «false» para ocultarla'

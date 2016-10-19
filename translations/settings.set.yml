@@ -1,5 +1,7 @@
 description: 'Cambia un valor de configuración específico en el archivo de configuración de DrupalConsole'
 arguments:
+    name: 'Indique un nombre en formato YAML plano para establecer un valor en el archivo de configuración de Drupal Console'
+    value: 'Indique un valor para establecerlo en el archivo de configuración de Drupal Console'
     setting-name: 'Dispone un nombre para un valor en formato YAML en el archivo de configuración de Drupal Console'
     setting-value: 'Dispone un valor en el archivo de configuración de Drupal Console'
 messages:
@@ -7,4 +9,5 @@ messages:
     error-generating: 'Error estableciendo el nuevo idioma en el archivo de configuración.'
     error-writing: 'Error al escribir el archivo de configuración.'
     success: 'La configuración "%s" fué actualizada a "%s"'
-    missing-file: 'El archivo de configuración "%s" no está disponible, intenta ejecutando `drupal init`'
+    missing-file: 'El archivo de configuración "%s" no está disponible, intente ejecutar `drupal init`'
+    missing-language: 'El idioma "%s" provisto no ha sido encontrado'

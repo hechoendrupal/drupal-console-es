@@ -14,6 +14,6 @@ questions:
     class: 'Introduzca el nombre de la clase'
     interface: 'Crear una interfaz'
     services: common.options.services
-    path: 'Enter the path for the services'
+    path: 'Introduzca la ruta para los servicios'
 messages:
-    service-already-taken: 'The service name has been already taken in module "%s"'
+    service-already-taken: 'Ese nombre de servicio ya está cogido en el módulo "%s"'
