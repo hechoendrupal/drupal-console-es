@@ -1,0 +1,11 @@
+description: 'Elimina una entidad específica'
+help: 'El comando <info>entity:delete</info> le ayuda a eliminar entidades.'
+arguments:
+    entity-definition-id: 'ID de definición de la entidad'
+    entity-id: 'ID de la entitdad que será eliminada'
+questions:
+    entity-type: 'Introduzca el tipo de entidad'
+    entity-definition-id: 'Introduzca el id de definición de entidad'
+    entity-id: 'Introduzca el ID de entidad que será eliminada'
+messages:
+    deleted: 'La entidad %s con id %s ha sido eliminada con éxito'

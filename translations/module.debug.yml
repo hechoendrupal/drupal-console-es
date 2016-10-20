@@ -8,8 +8,8 @@ messages:
     status: Estado
     origin: Origen
     package: Paquete
-    installed: Installed
-    uninstalled: Uninstalled
+    installed: Instalado
+    uninstalled: Desinstalado
     version: Versión
     schema-version: 'Versión del esquema'
     total-downloads: 'Total de instalaciones'

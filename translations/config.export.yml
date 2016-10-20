@@ -1,10 +1,13 @@
 description: 'Exporta la configuración actual de la aplicación.'
-arguments:
-    directory: 'Define el directorio de exportación para guardar la configuración.'
-    tar: 'Indique esta opción para exportar la configuración a un archivo.'
+options:
+    directory: 'Define el directorio de exportación donde guardar la salida de la configuración.'
+    tar: 'Si se indica, la configuración será exportada a un archivo.'
 messages:
     directory: 'La configuración exportada fue guardada en el archivo "%s"'
     error: 'Ha ocurrido un error al crear su directorio en "%s"'
+arguments:
+    directory: 'Define el directorio de exportación para guardar la configuración.'
+    tar: 'Indique esta opción para exportar la configuración a un archivo.'
 content:
     type:
         description: 'Exporta un tipo de contenido determinado y todos sus campos.'
