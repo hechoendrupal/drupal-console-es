@@ -3,5 +3,6 @@ arguments:
     database: 'Clave de la base de datos, desde settings.php'
 options:
     file: ' Nombre del archivo para el respaldo de la base de datos'
+    gz: 'Pase esta opción si desea que el archivo sql resultante sea compimido en formato gz'
 messages:
     success: 'Base de datos exportada a:'
