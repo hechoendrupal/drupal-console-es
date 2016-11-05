@@ -15,3 +15,4 @@ messages:
     local-file-not-found: 'Archivo no encontrado en  "%s"'
     translation-not-determined: 'La ubicación del archivo de traducción no pudo ser determinada.'
     translation-project-updated: Actualizado
+    translation-project-available: 'Nueva traducción disponible'

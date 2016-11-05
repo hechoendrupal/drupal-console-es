@@ -27,3 +27,4 @@ messages:
     no-releases: 'No hay ninguna versión disponible del módulo "%s"'
     installing: 'Instalando módulo(s) "%s"'
     composer: 'El módulo ha sido instalado exitosamente mediante Composer'
+    error-creating-folder: 'Error creando el directorio "%s", por favor, compruebe sus permisos'
