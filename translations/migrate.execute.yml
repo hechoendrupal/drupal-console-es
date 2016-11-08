@@ -11,6 +11,7 @@ options:
     db-prefix: 'Prefijo de la base de datos'
     db-port: 'Puerto de la base de datos'
     exclude: 'Excluir los siguientes IDs de migración'
+    source-base_path: 'Directorio local que contiene el código de su sitio (e.g. /var/www/docroot), o la dirección de su sitio (por ejemplo, http://ejemplo.com)'
 questions:
     id: 'ID de migración'
     exclude-id: 'ID de migración a excluir (presione <enter> para dejar de agregar migraciones a excluir)'
@@ -24,6 +25,7 @@ questions:
     db-prefix: 'Prefijo de la base de datos'
     db-port: 'Puerto de la base de datos'
     invalid-migration-id: 'El ID de migración "%s" no es válido'
+    source-base_path: 'Directorio local que contiene el código de su sitio (e.g. /var/www/docroot), o la dirección de su sitio (por ejemplo, http://ejemplo.com)'
 messages:
     processing: 'Procesando la migración "%s"'
     imported: 'La migración "%s" fue importada con éxito'
