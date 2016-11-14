@@ -8,7 +8,7 @@ help: |
 
 arguments:
     role: 'Rol de usuario'
-errors:
+messages:
     role-error: 'Rol "%s" no existe. Por favor use un rol de usuario existente.'
 table-headers:
     permission-name: 'Nombre del permiso'
