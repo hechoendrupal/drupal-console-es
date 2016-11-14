@@ -1,12 +1,16 @@
 description: 'Copia los archivos de configuración al directorio home del usuario.'
 options:
+    destination: 'Directorio de destino para copiar los archivos'
     override: 'Sobreescribir los archivos de configuración'
+    autocomplete: 'Flag para herramienta de autocompletado.'
     local: 'Copiar config.yml en el directorio actual'
 questions:
-    local: '¿Copiar console/config.yml en el directorio actual?'
-    root: 'Introduzca el directorio raíz de Drupal [web, docroot] (en blanco para indicar ninguno)'
+    destination: 'Seleccionar destino para copiar la configuración'
+    autocomplete: 'Generar archivos de autocompletado'
     language: 'Seleccione idioma'
     temp: 'Introduzca la ruta al directorio de archivos temporales'
     learning: '¿Mostrar información explicativa que le ayude a aprender Drupal 8?'
     generate-inline: '¿Mostrar una representación subsiguiente al comando ejecutado?'
     generate-chain: 'Mostrar el comando ejecutado como comando chain?'
+    local: '¿Copiar console/config.yml en el directorio actual?'
+    root: 'Introduzca el directorio raíz de Drupal [web, docroot] (en blanco para indicar ninguno)'
