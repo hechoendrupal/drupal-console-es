@@ -16,9 +16,9 @@ questions:
 messages:
     user-id: 'ID del usuario'
     username: 'Nombre de usuario'
-    password: 'Contraseña'
-    email: 'E-mail'
-    roles: 'Roles'
-    created: 'Creado'
-    status: 'Status'
+    password: Contraseña
+    email: E-mail
+    roles: Roles
+    created: Creado
+    status: Status
     user-created: 'El usuario "%s" ha sido creado con éxito'
