@@ -52,3 +52,12 @@ site:
 user:
     messages:
         path: 'Ruta del home del usuario'
+remote:
+    errors:
+        passphrase-missing: 'No se encuentra el archivo de la frase de paso'
+        passphrase-empty: 'El archivo de la frase de paso está vacío'
+        private-missing: 'El archivo privado no se encuentra'
+        private-empty: 'El archivo privado está vacío'
+        private-invalid: 'El archivo privado no es válido'
+        invalid-root: 'El directorio raíz no es válido'
+        console-not-found: 'No se encuentra Drupal Console en este sitio'

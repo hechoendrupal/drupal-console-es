@@ -2,6 +2,8 @@ description: 'Exporta la configuración actual de la aplicación.'
 options:
     directory: 'Define el directorio de exportación donde guardar la salida de la configuración.'
     tar: 'Si se indica, la configuración será exportada a un archivo.'
+    remove-uuid: 'If set, the configuration will be exported without uuid key.'
+    remove-config-hash: 'If set, the configuration will be exported without the default site hash key.'
 messages:
     directory: 'La configuración exportada fue guardada en el archivo "%s"'
     error: 'Ha ocurrido un error al crear su directorio en "%s"'

@@ -25,3 +25,4 @@ messages:
     already-installed: 'Drupal está ya instalado, intente vaciar la base de datos y ejecutar site:install nuevamente'
     sites-backup: 'El archivo sites.php ha sido renombrado temporalmente a backup.sites.php mientras Drupal es instalado.'
     sites-restore: 'El backup de sites.php ha sido restaurado.'
+    invalid-multisite: 'Invalid multisite, please create multisite using command drupal multisite:new %s --site-uri=%s'
