@@ -1,6 +1,8 @@
 description: 'Ejecutar un comando externo.'
 arguments:
     bin: 'Nombre del ejecutable'
+options:
+    working-directory: 'El directorio actual.'
 messages:
     success: 'El comando ha sido ejecutado con éxito'
     invalid-bin: 'Error ejecutando el comando'

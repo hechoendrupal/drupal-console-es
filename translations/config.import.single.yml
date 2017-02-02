@@ -2,6 +2,7 @@ description: 'Importar la configuración seleccionada.'
 arguments:
     name: 'Nombre de la configuración.'
     file: 'Ruta al archivo a importar'
+    config-names: 'Nombres de configuración (para cuando se use con el comando «chain»).'
     input-file: 'Ruta de los archivos a importar.'
 questions:
     name: 'Introduzca el nombre de la configuración'

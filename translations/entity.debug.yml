@@ -1,0 +1,8 @@
+description: 'Debugea entidades disponibles en el sistema'
+help: 'El comando <info>entity:debug</info> le ayuda a obtener un listado de entidades.'
+arguments: null
+questions: null
+messages: null
+table-headers:
+    entity-name: 'Nombre de la entidad'
+    entity-type: 'Tipo de la entidad'

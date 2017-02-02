@@ -16,3 +16,4 @@ questions:
     has-bundles: 'Desea que esta entidad de contenido tenga bundles'
     base-path: 'Proporcione el directorio raíz para las rutas de la entidad de contenido'
     is-translatable: 'Es su entidad traducible'
+    revisionable: 'Is your entity revisionable'

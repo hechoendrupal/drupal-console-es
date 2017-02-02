@@ -7,5 +7,6 @@ messages:
     route: Ruta
     path: 'Directorio de la clase'
     defaults: 'Valores por defecto'
+    requirements: Requirements
     options: Opciones
     pattern: Patrón
