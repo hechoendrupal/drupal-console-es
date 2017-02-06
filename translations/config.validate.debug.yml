@@ -1,0 +1,7 @@
+description: 'Función helper para validar una implementación de schema antes de que sea instalado un módulo. Especifique las rutas de archivos de la configuración y el schema como argumentos y se lanzará la validación contra ellos, haciendo el schema más fácil de debugear ahorrando tiempo haciendo instalaciones'
+options: {}
+arguments: {}
+messages:
+    noConfFile: 'El fichero de configuración no existe en la ruta especificada'
+    noConfSchema: 'El schema de configuración no existe en la ruta especificada'
+    noSchemaName: 'No se ha podido encontrar una definición del schema en el archivo de schema. Usando el nombre de definición:'

@@ -7,4 +7,4 @@ messages:
 table-headers:
     permission-name: 'Nombre del permiso'
     permission-label: 'Etiqueta del permiso'
-    permission-role: 'Rol'
+    permission-role: Rol

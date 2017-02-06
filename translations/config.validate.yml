@@ -1,0 +1,6 @@
+description: 'Validar una configuración de Drupal según su schema'
+options: {}
+arguments: {}
+messages:
+    success: 'La configuración ha sido validada con éxito'
+    noConf: 'No hay ninguna configuración con este nombre'
