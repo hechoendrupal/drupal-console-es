@@ -16,7 +16,7 @@ questions:
         name: 'Introduzca el nombre del evento'
     services:
         confirm: 'Desea cargar los servicios del contenedor'
-        message: "\nEscriba el nombre del servicio o usa la tecla flecha hacia arriba o flecha hacia abajo.\nEsto es opcional, presione <info>enter</info para <info>continuar</info>\n"
+        message: "\nEscriba el nombre del servicio o usa la tecla flecha hacia arriba o flecha hacia abajo.\nEsto es opcional, presione <info>enter</info> para <info>continuar</info>\n"
         name: 'Introduzca su servicio'
     inputs:
         confirm: '¿Desea generar la estructura de un formulario?'

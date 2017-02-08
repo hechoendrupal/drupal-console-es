@@ -4,9 +4,9 @@ options:
     user-id: 'Filtrar eventos por un id de usuario específico'
 messages:
     event-id: 'ID de evento'
-    type: 'Tipo'
-    date: 'Fecha'
-    message: 'Mensaje'
-    user: 'Usuario'
-    severity: Severidad'
+    type: Tipo
+    date: Fecha
+    message: Mensaje
+    user: Usuario
+    severity: 'Severidad'''
     invalid-severity: 'El tipo de severidad no es válido, ignorando el filtro'
