@@ -12,9 +12,9 @@ options:
 messages:
     not-found: 'Evento DBLog no fue encontrado'
     event-id: 'ID de evento'
-    type: 'Tipo'
-    date: 'Fecha'
-    message: 'Mensaje'
-    user: 'Usuario'
-    severity: 'Severidad'
+    type: Tipo
+    date: Fecha
+    message: Mensaje
+    user: Usuario
+    severity: Severidad
     invalid-severity: 'Tipo de severidad no es válido, el filtro fue ignorado'
