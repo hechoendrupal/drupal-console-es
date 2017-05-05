@@ -3,4 +3,5 @@ options: {  }
 arguments: {  }
 messages:
     success: 'La configuración ha sido validada con éxito'
+    no-conf: 'No existe ninguna configuración con este nombre'
     noConf: 'No hay ninguna configuración con este nombre'

@@ -9,6 +9,8 @@ questions:
     autocomplete: 'Generar archivos de autocompletado'
     language: 'Seleccione idioma'
     temp: 'Introduzca la ruta al directorio de archivos temporales'
+    chain: 'Copiar los archivos chain de ejemplo'
+    sites: 'Copiar los archivos de alias de sitios de ejemplo'
     learning: '¿Mostrar información explicativa que le ayude a aprender Drupal 8?'
     generate-inline: '¿Mostrar una representación subsiguiente al comando ejecutado?'
     generate-chain: 'Mostrar el comando ejecutado como comando chain?'

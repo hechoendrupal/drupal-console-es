@@ -6,6 +6,7 @@ options:
     class: 'El nombre de la clase del formulario'
     form-id: 'El id del formulario'
     services: common.options.services
+    config-file: 'Añadir un fichero de configuración'
     inputs: common.options.inputs
     path: 'Introduzca la ruta del formulario'
     routing: 'Generar una ruta'
@@ -14,6 +15,7 @@ questions:
     class: 'Introduzca el nombre de la clase del formulario'
     form-id: 'Introduzca el id del formulario'
     services: common.questions.services
+    config-file: '¿ Desea generar un fichero de configuración ?'
     inputs: common.questions.inputs
     routing: 'Le gustaría registrar una ruta para este formulario'
     menu_link_gen: 'Generar un enlace de menú'
