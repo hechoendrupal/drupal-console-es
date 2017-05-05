@@ -1,6 +1,6 @@
 description: 'Muestra los módulos actualmente disponibles para la aplicación'
 options:
-    status: 'Estado del módulo [habilitado|deshabilitado]'
+    status: 'Estado del módulo [installed|uninstalled]'
     type: 'Tipo de módulo [core|no-core]'
 messages:
     id: ID
@@ -18,3 +18,8 @@ messages:
     no-results: 'El módulo "%s" no ha sido encontrado en el repositorio'
     enabled: Habilitado
     disabled: Deshabilitado
+examples:
+    - description: 'Muestra todos los módulos activados'
+    execution: 'drupal mod --status=installed'
+    - description: 'Muestra todos los módulos activados y que no son del core (contrib + custom)'
+    execution: 'drupal mod --status=installed --type=no-core'
