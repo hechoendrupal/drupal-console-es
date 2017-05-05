@@ -1,6 +1,8 @@
 description: 'Muestra los servicios actuales de la aplicación.'
 arguments:
     service: 'Nombre del servicio.'
+    method: 'Nombre de método.'
+    arguments: 'Array de argumentos en formato CSV o JSON.'
 messages:
     service_id: 'ID del servicio'
     class_name: 'Nombre de la clase'
@@ -10,3 +12,8 @@ messages:
     parent: 'Clase padre'
     variables: Variables
     methods: Métodos
+    arguments: Argumentos
+    method: Método
+    return: Return
+errors:
+    method_not_exists: 'Este método no existe en este servicio.'
