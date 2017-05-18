@@ -5,7 +5,7 @@ arguments:
     uri: 'URI del sitio que se añadirá al sites.php.'
     sites-subdir: 'Nombre del directorio bajo ''sites'' que será creado.'
 options:
-    copy-default: 'Copies existing site from the default install.'
+    copy-default: 'Copia un sitio existente desde la instalación por defecto.'
     site-uri: 'URI del sitio a añadir al sites.php.'
     copy-install: 'Copia el sitio existente desde la instalación por defecto.'
 errors:

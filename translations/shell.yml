@@ -1,0 +1,2 @@
+description: 'Abre una shell que provee un REPL (Read–Eval–Print-Loop) interactiv0.'
+help: 'Este comando provee un wrapper para psysh. Una consola de runtime para desarrolladores, un debugger interactivo y un REPL para PHP.'

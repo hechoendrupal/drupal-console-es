@@ -7,3 +7,6 @@ messages:
     success: 'El comando ha sido ejecutado con éxito'
     invalid-bin: 'Error ejecutando el comando'
     missing-bin: 'Debe proveer un ejecutable'
+    binary-not-found: 'No es posible encontrar el binario %s a ejecutar.'
+    working-directory: 'Directorio de trabajo'
+    executing-command: 'Comando ejecutado'
