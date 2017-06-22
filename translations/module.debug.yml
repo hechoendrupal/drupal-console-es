@@ -16,10 +16,10 @@ messages:
     total-monthly: 'Instalaciones mensuales'
     total-daily: 'Instalaciones diarias'
     no-results: 'El módulo "%s" no ha sido encontrado en el repositorio'
-    installed: Habilitado
-    uninstalled: Deshabilitado
 examples:
-    - description: 'Muestra todos los módulos habilitados'
-      execution: 'drupal mod --status=installed'
-    - description: 'Muestra todos los módulos habilitados y que no son del core (contrib + custom)'
-      execution: 'drupal mod --status=installed --type=no-core'
+    -
+        description: 'Muestra todos los módulos habilitados'
+        execution: 'drupal mod --status=installed'
+    -
+        description: 'Muestra todos los módulos habilitados y que no son del core (contrib + custom)'
+        execution: 'drupal mod --status=installed --type=no-core'
