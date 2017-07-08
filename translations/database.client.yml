@@ -4,5 +4,9 @@ arguments:
 messages:
     connection: 'Conexión: "%s"'
     executing: 'Ejecutando: "%s"'
+examples:
+    -
+        description: 'Launch the default client or could launch another regarding the specification on the argument'
+        execution: "drupal database:client <database>\n"
 options:
     query: 'La sentencia SQL a ejecutar'

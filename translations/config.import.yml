@@ -10,6 +10,13 @@ messages:
     already-imported: 'Otra petición puede estar sincronizando en este momento.'
     nothing-to-do: 'No hay cambios a importar.'
     copied: 'Todos los archivos de configuración han sido copiados al directorio de ''staging''.'
+examples:
+    -
+        description: 'Provide a configuration file'
+        execution: "drupal config:import \\\n  --file=/path/to/config/file"
+    -
+        description: 'Provide a configuration directory'
+        execution: "drupal config:import  \\\n  --directory=/path/to/config/dir\n"
 arguments:
     file: 'Ruta al archivo de configuración.'
     directory: 'Ruta al directorio de configuración a importar.'

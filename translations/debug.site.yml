@@ -9,3 +9,6 @@ messages:
     private-key: 'Error con la clave privada'
     connect-error: 'Error al conectar con la máquina remota'
     directory-not-found: 'Directorio local de sitios no encontrado'
+options:
+    target: Target
+    property: Property

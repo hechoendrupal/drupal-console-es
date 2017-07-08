@@ -11,7 +11,9 @@ messages:
     options: Opciones
     pattern: Patrón
 examples:
-    - description: 'Muestra todas las rutas disponibles en la aplicación'
-      execution: 'drupal rod'
-    - description: 'Muestra la información detallada de la ruta user.page (/user)'
-      execution: 'drupal rod user.page'
+    -
+        description: 'Muestra todas las rutas disponibles en la aplicación'
+        execution: 'drupal rod'
+    -
+        description: 'Muestra la información detallada de la ruta user.page (/user)'
+        execution: 'drupal rod user.page'

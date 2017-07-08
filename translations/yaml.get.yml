@@ -1,7 +1,0 @@
-value:
-    description: 'Obtiene un valor para una clave específica en un archivo YAML.'
-    arguments:
-        yaml-file: 'Ruta al archivo YAML que será actualizado'
-        yaml-key: 'Clave YAML a obtener'
-    messages:
-        invalid-key: 'No se ha podido encontrar la clave %s en %s.'

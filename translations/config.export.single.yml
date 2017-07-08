@@ -24,3 +24,10 @@ messages:
     invalid-config-name: 'El nombre de la configuración es inválido, por favor, seleccione uno de la lista'
     config-exported: 'La(s) configuración(es) ha(n) sido exportada(s) de modo exitoso'
     config_exported: 'La(s) configuración(es) ha(n) sido exportada(s) de modo exitoso'
+examples:
+    -
+        description: 'Provide config settings name to be exported'
+        execution: "drupal config:export:single \\\n  --name=config.settings.name"
+    -
+        description: 'if uuid and/or config hashes will be removed.'
+        execution: "drupal config:export:single \\\n  --name=config.settings.name \\\n  --remove-uuid \\\n  --remove-config-hash\n"

@@ -1,4 +1,5 @@
 description: 'Muestra los módulos actualmente disponibles para la aplicación'
+module: 'Module name'
 options:
     status: 'Estado del módulo [installed|uninstalled]'
     type: 'Tipo de módulo [core|no-core]'

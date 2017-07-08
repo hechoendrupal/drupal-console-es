@@ -13,8 +13,9 @@ questions:
     service-name: 'Introduzca el nombre del servicio'
     class: 'Introduzca el nombre de la clase'
     interface: 'Crear una interfaz'
-    interface_name: 'Introduzca el nombre de la interfaz'
+    interface-name: 'Enter the interface name'
     services: common.options.services
     path: 'Introduzca la ruta para los servicios'
+    interface_name: 'Introduzca el nombre de la interfaz'
 messages:
     service-already-taken: 'Ese nombre de servicio ya está cogido en el módulo "%s"'

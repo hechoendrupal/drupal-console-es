@@ -16,3 +16,7 @@ questions:
     port: 'Introduzca el puerto del servidor de la base de datos'
     driver: 'Introduzca el driver de la base de datos'
 error: 'No se ha podido escribir el fichero de configuración del sitio. O bien lance este comando con sudo o cambie temporalmente los permisos de modo que se permita la escritura en el settings.php.'
+examples:
+    -
+        description: 'Add a database to the settings.php'
+        execution: "drupal database:add \\\n  --database=DATABASE \\\n  --username=USERNAME \\\n  --password=PASSWORD\n"
