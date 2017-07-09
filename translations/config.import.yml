@@ -17,9 +17,3 @@ examples:
     -
         description: 'Provide a configuration directory'
         execution: "drupal config:import  \\\n  --directory=/path/to/config/dir\n"
-arguments:
-    file: 'Ruta al archivo de configuración.'
-    directory: 'Ruta al directorio de configuración a importar.'
-    remove-files: 'Eliminar archivos tras la sincronización.'
-    config-file: 'Ruta del archivo de configuración.'
-    copy-only: 'Copiar los archivos de configuración sólo en el directorio de ''staging''.'

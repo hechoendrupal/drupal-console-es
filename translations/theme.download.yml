@@ -13,6 +13,3 @@ messages:
     select-release: 'Por favor, seleccione la versión que desea'
     outside-drupal: 'No se encuentra la raíz de Drupal. Use --root para especificar el destino, será utilizado en lugar del directorio actual.'
     error-creating-folder: 'Error creando el directorio "%s", por favor, compruebe sus permisos'
-tips:
-    -
-        tip: 'Provea un valor de «true» a la clave «shellexec_output» en su archivo config.yml para ver interactivamente la salida de Composer o «false» para ocultarla'

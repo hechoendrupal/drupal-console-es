@@ -17,8 +17,3 @@ examples:
     -
         description: 'Providing file and directory options'
         execution: "drupal config:import:single  \\\n  --file=\"block.block.default_block.yml\" \\\n  --directory=\"/path/to/directory\"\n"
-arguments:
-    name: 'Nombre de la configuración.'
-    file: 'Ruta al archivo a importar'
-    config-names: 'Nombres de configuración (para cuando se use con el comando «chain»).'
-    input-file: 'Ruta de los archivos a importar.'
