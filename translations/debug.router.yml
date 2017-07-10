@@ -1,0 +1,19 @@
+description: 'Muestra las rutas actuales de la aplicación o la información detallada de una ruta en particular'
+arguments:
+    route-name: 'Nombres de ruta'
+messages:
+    name: 'Nombre de ruta'
+    class: 'Ruta al archivo de la clase'
+    route: Ruta
+    path: 'Directorio de la clase'
+    defaults: 'Valores por defecto'
+    requirements: Requisitos
+    options: Opciones
+    pattern: Patrón
+examples:
+    -
+        description: 'Muestra todas las rutas disponibles en la aplicación'
+        execution: 'drupal rod'
+    -
+        description: 'Muestra la información detallada de la ruta user.page (/user)'
+        execution: 'drupal rod user.page'

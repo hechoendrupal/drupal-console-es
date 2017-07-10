@@ -6,3 +6,10 @@ options:
     gz: 'Pase esta opción si desea que el archivo sql resultante sea compimido en formato gz'
 messages:
     success: 'Base de datos exportada a:'
+examples:
+    -
+        description: 'Dump default database or the one specified on the argument'
+        execution: "drupal database:dump \\\n  <database>"
+    -
+        description: 'Dump in gz compressed format'
+        execution: "drupal database:dump \\\n  --gz"

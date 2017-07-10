@@ -13,3 +13,7 @@ options:
 messages:
     connection: 'Conexión: "%s"'
 help: 'El primer argumento debe ser una sentencia SQL. El segundo argumento puede ser el nombre de la base de datos afectada.'
+examples:
+    -
+        description: 'Send a database query'
+        execution: "drupal database:query 'select * from node limit 0,1'\n"

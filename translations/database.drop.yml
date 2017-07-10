@@ -8,3 +8,7 @@ messages:
     table: Tabla
     table-drop: '"%s" tablas eliminadas con éxito'
     table-show: 'Mostrando las tablas de la base de datos "%s"'
+examples:
+    -
+        description: 'Drop the tables on the database specified on the argument'
+        execution: "drupal database:drop \\\n  <database>\n"

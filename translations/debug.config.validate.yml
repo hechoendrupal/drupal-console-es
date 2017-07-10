@@ -6,3 +6,7 @@ messages:
     noConfFile: 'El fichero de configuración no existe en la ruta especificada'
     noConfSchema: 'El schema de configuración no existe en la ruta especificada'
     noSchemaName: 'No se ha podido encontrar una definición del schema en el archivo de schema. Usando el nombre de definición:'
+examples:
+    -
+        description: ''
+        execution: "drupal debug:config:validate \\\n  /path/to/file \\\n  /path/to/schema-filepath\n"
