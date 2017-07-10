@@ -24,9 +24,6 @@ questions:
     dependencies: 'Le gustaría añadir dependencias al módulo'
     invalid-theme: 'El tema "%s" seleccionado es inválido'
     global-library: 'Introduzca el nombre de la librería de estilo global'
-    library-add: 'Do you want to add another library'
-    library-name: 'Enter library name'
-    library-version: 'Enter library version'
     regions: 'Desea generar las regiones del tema'
     region-name: 'Introduzca un nombre para la region'
     region-machine-name: 'Introduzca el nombre máquina de la región'
@@ -38,6 +35,9 @@ questions:
     breakpoint-weight: 'Introduzca el peso del punto de ruptura'
     breakpoint-multipliers: 'Introduzca los multiplicadores del breakpoint'
     breakpoint-add: 'Desea añadir otro punto de ruptura'
+    library-add: 'Do you want to add another library'
+    library-name: 'Enter library name'
+    library-version: 'Enter library version'
 warnings:
     module-unavailable: 'Advertencia: Los siguientes módulos todavía no están disponibles en tu entorno local "%s"'
 errors:

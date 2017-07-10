@@ -1,15 +1,19 @@
 description: 'Importar la configuración seleccionada.'
+arguments:
+    name: 'Configuration name'
+    file: 'Path to the import file'
+    config-names: 'Configuration names (when used with "chain" command).'
+questions:
+    name: 'Introduzca el nombre de la configuración'
+    file: 'Introduzca la ruta al archivo a importar'
+    directory: 'Enter path from where to import files.'
+messages:
+    empty-value: 'El valor no puede quedar vacío'
+    success: 'La configuración "%s" ha sido importada con éxito.'
+    missing-file: 'File option is missing.'
 options:
     file: 'The file(s) name or file(s) absolute path to import'
     directory: 'The path from where to import file(s).'
-questions:
-    file: 'Introduzca la ruta al archivo a importar'
-    directory: 'Enter path from where to import files.'
-    name: 'Introduzca el nombre de la configuración'
-messages:
-    missing-file: 'File option is missing.'
-    empty-value: 'El valor no puede quedar vacío'
-    success: 'La configuración "%s" ha sido importada con éxito.'
 examples:
     -
         description: 'Providing a file option using full path.'
