@@ -3,7 +3,7 @@ arguments:
     address: 'Los valores dirección:puerto'
 messages:
     executing: 'Ejecutando php desde "%s".'
-    listening: 'Listening on "%s".'
+    listening: 'Escuchando en "%s".'
 errors:
     binary: 'Ha sido imposible encontrar el binario PHP para ejecutar el servidor.'
 examples:

@@ -1,19 +1,19 @@
-description: 'Displays current services for an application.'
+description: 'Muestra los servicios actuales de la aplicación.'
 arguments:
-    service: 'Service name.'
-    method: 'Method name.'
-    arguments: 'Array of Arguments in CSV or JSON format.'
+    service: 'Nombre del Servicio.'
+    method: 'Nombre del método.'
+    arguments: 'Array de argumentos en formato CSV o JSON.'
 messages:
-    service_id: 'Service ID'
-    class_name: 'Class Name'
-    service: 'Service'
-    class: 'Class'
+    service_id: 'ID de Servicio'
+    class_name: 'Nombre de la clase'
+    service: 'Servicio'
+    class: 'Clase'
     interface: 'Interface(s)'
-    parent: 'Parent class'
+    parent: 'Clase padre (parent)'
     variables: 'Variables'
-    methods: 'Methods'
-    arguments: 'Arguments'
-    method: 'Method'
+    methods: 'Métodos'
+    arguments: 'Argumentos'
+    method: 'Método'
     return: 'Return'
 errors:
-    method_not_exists: "This method doesn't exists in this service."
+    method_not_exists: "En este servicio, este método no existe."

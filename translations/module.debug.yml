@@ -1,18 +1,18 @@
-description: 'Display current modules available for application'
+description: 'Muestra los módulos existentes disponibles'
 options:
-    status: 'Module status [installed|uninstalled]'
-    type: 'Module type [core|no-core]'
+    status: 'Estado del módulo [instalado|desinstalado]'
+    type: 'Tipo del módulo [core|no-core]'
 messages:
-    id: ID
-    name: Name
-    status: Status
-    origin: Origin
-    package: Package
-    installed: Installed
-    uninstalled: Uninstalled
+    id: 'ID'
+    name: 'Nombre'
+    status: 'Estado'
+    origin: 'Origen'
+    package: 'Paquete'
+    installed: 'Instalado'
+    uninstalled: 'Desinstalado'
     version: Version
-    schema-version: 'Schema version'
-    total-downloads: 'Total installs'
-    total-monthly: 'Monthly installs'
-    total-daily: 'Daily installs'
-    no-results: 'Module "%s" was not found in the repository'
+    schema-version: 'Versión del schema'
+    total-downloads: 'Instalaciones totales'
+    total-monthly: 'Instalaciones mensuales'
+    total-daily: 'Instalaciones diarias'
+    no-results: 'El módulo "%s" no ha sido encontrado en el repositorio'

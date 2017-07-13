@@ -1,26 +1,26 @@
-description: 'Display all plugin types.'
+description: 'Muestra todos los tipos de plugins.'
 help: |
-  Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
+  Muestra todos los tipos de plugins, instancias de plugin de un tipo específico, o la definición de un plugin específico.
 
-  List all plugin types:
+  Listar todos los tipos de plugin:
   <info>drupal plugin:debug</info>
 
-  List all instances of the image effect plugin type:
+  Listar todas las instancias del tipo de plugin de efecto de imagen:
   <info>drupal plugin:debug image.effect</info>
 
-  Show the definition for the image convert plugin:
+  Mostrar la definición del plugin para convertir imágenes:
   <info>drupal plugin:debug image.effect image_convert</info>
 
-  <comment>NOTE: Only plugin types exposed through services are supported.</comment> When developing a custom plugin type, expose it as a service by adding it to modulename.services.yml with the name "plugin.manager.PLUGIN_TYPE".
+  <comment>NOTA: Sólo se soportan los tipos de plugin expuestos mediantes servicios.</comment> Cuando desarrolle un tipo de plugin custom, expóngalo como un servicio añadiendolo al modulename.services.yml con el nombre "plugin.manager.PLUGIN_TYPE".
 arguments:
-    type: 'Plugin type'
-    id: 'Plugin ID'
+    type: 'Tipo de plugin'
+    id: 'ID de plugin'
 errors:
-    plugin-type-not-found: 'Plugin type "%s" not found. No service available for that type.'
+    plugin-type-not-found: 'No se ha encontrado el tipo de plugin "%s". No hay servicios disponibles para ese tipo.'
 table-headers:
-    plugin-type-name: 'Plugin type'
-    plugin-type-class: 'Plugin manager class'
-    plugin-id: 'Plugin ID'
-    plugin-class: 'Plugin class'
-    definition-key: 'Key'
-    definition-value: 'Value'
+    plugin-type-name: 'Tipo de plugin'
+    plugin-type-class: 'Clase manages del plugin'
+    plugin-id: 'ID del plugin'
+    plugin-class: 'Clase del plugin'
+    definition-key: 'Clave'
+    definition-value: 'Valor'

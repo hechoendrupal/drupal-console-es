@@ -1,11 +1,11 @@
-description: 'Displays current routes for the application'
+description: 'Muestra los enrutamientos existentes en el sitio'
 arguments:
-    route-name: 'Route names'
+    route-name: 'Nombres de enrutamiento'
 messages:
-    name: 'Route name'
-    class: 'Class path'
-    route: Route
-    path: Path
+    name: 'Nombre del enrutamiento'
+    class: 'Clase del enrutamiento'
+    route: 'Enrutamiento'
+    path: 'Ruta'
     defaults: Defaults
-    requirements: Requirements
-    options: Options
+    requirements: 'Requerimientos'
+    options: 'Opciones'
