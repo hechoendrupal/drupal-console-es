@@ -1,0 +1,10 @@
+description: 'Lista todos los sitios conocidos locales y remotos.'
+help: 'El comando <info>site:debug</info> lista todos los sitios conocidos remotos y locales.'
+messages:
+  site: 'Sitio'
+  host: 'Host'
+  root: 'Root'
+  not-sites: 'No hay sitios definidos'
+  invalid-site: 'Nombre de sitio no válido'
+  private-key: 'Error con la clave privada'
+  connect-error: 'Error conectando a la máquina remota'

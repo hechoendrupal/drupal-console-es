@@ -22,8 +22,8 @@ questions:
     config-file: '¿ Desea generar un fichero de configuración ?'
     inputs: common.questions.inputs
     routing: 'Le gustaría registrar una ruta para este formulario'
-    path: 'Introduzca la ruta'
     menu_link_gen: 'Generar un enlace de menú'
     menu_link_title: 'Título para el enlace de menú'
     menu_parent: 'Menú padre'
     menu_link_desc: 'Descripción para el enlace de menú'
+    path: 'Introduzca la ruta'

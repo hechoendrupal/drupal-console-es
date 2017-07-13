@@ -1,0 +1,18 @@
+description: 'Muestra los recursos actuales de vistas en el sitio'
+arguments:
+    view-id: 'ID de Vista'
+    view-tag: 'Etiqueta de la vista'
+    view-status: 'Estado de la vista (Habilitado|Deshabilitado)'
+messages:
+    view-id: 'ID de Vista'
+    view-name: 'Nombre de la vista'
+    description: 'Descripción'
+    tag: 'Etiqueta'
+    status: 'Estado'
+    path: 'Ruta'
+    not-found: 'La vista "%s" no se encuentra.'
+    display-list: 'Lista de display'
+    display-id: 'ID'
+    display-name: 'Nombre'
+    display-description: 'Descripción'
+    display-paths: 'Rutas'

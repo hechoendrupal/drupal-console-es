@@ -1,0 +1,11 @@
+description: 'Divide un archivo YAML usando indentación como criterio de separación'
+arguments:
+    yaml-file: 'Ruta del archivo YAML que será dividido'
+options:
+    indent-level: 'Dividir un archivo YAML utilizando un nivel de indentación específico'
+    exclude-parents-key: 'Excluir las claves "padres" del archivo generado'
+    starting-key: 'Clave YAML desde la que empezar la división (útil para extraer elementos parciales)'
+messages:
+    generating-split: 'Generando nuevos archivos'
+    split-generated: 'El archivo "%s" ha sido generado'
+    invalid-key: 'La clave provista como puento de empiece no ha sido encontrada, combine con nivel de indentación 0 para extraer valores'

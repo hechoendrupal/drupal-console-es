@@ -5,17 +5,17 @@ options:
     module: common.options.module
     service-name: 'Nombre del servicio'
     class: 'Nombre de la clase'
-    interface: Interfaz
+    interface: 'Interfaz'
     services: common.questions.services
-    path: Path
+    path: 'Ruta'
 questions:
     module: common.questions.module
     service-name: 'Introduzca el nombre del servicio'
     class: 'Introduzca el nombre de la clase'
     interface: 'Crear una interfaz'
-    interface-name: 'Enter the interface name'
+    interface_name: 'Introduzca el nombre de la interfaz'
     services: common.options.services
     path: 'Introduzca la ruta para los servicios'
-    interface_name: 'Introduzca el nombre de la interfaz'
+    interface-name: 'Enter the interface name'
 messages:
     service-already-taken: 'Ese nombre de servicio ya está cogido en el módulo "%s"'

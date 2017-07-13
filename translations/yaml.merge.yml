@@ -1,0 +1,17 @@
+description: 'Une dos o más archivos YAML. Se preservan los últimos valores.'
+arguments:
+    yaml-files: 'Ruta de los archivos YAML a unir'
+    yaml-destination: 'Ruta del nuevo archivo YAML resultado de la unión.'
+questions:
+    yaml-destination: 'Ruta del nuevo archivo YAML resultado de la unión.'
+    file: 'Ruta del archivo a unir'
+    other-file: 'Ruta del archivo a unir (dejar vacío para comenzar el proceso)'
+    invalid-file: 'La ruta del archivo no puede estar vacía'
+    file-already-added: 'La ruta del archivo ya ha sido añadida'
+messages:
+    wrong-parse: 'El arachivo YAML "%s" está vacío o no existe.'
+    error-parsing: 'Ha ocurrido un error durante el parseo del archivo YAML "%s".'
+    two-files-required: 'Se requieren al menos dos archivos.'
+    error-generating: 'Error generando el archivo YAML resultante.'
+    error-writing: 'Error escribiendo el archivo YAML resultante.'
+    merged: 'Ha sido creado el archivo "%s" con éxito como resultado de unificar los archivos YAML.'

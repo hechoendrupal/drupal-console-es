@@ -6,19 +6,19 @@ options:
     password: 'Contraseña del usuario'
     roles: 'Roles del usuario'
     email: 'E-mail del ususario'
-    status: 'Status del usuario'
+    status: 'Estado del usuario'
 questions:
     username: 'Nombre del usuario que será creado'
     password: 'Contraseña del usuario (dejar en blanco para auto-generar)'
     roles: 'Roles del usuario (en blanco para abandonar)'
     email: 'E-mail del usuario (en blanco para abandonar)'
-    status: 'Status del usuario (en blanco para abandonar)'
+    status: 'Estado del usuario (en blanco para abandonar)'
 messages:
     user-id: 'ID del usuario'
     username: 'Nombre de usuario'
-    password: Contraseña
-    email: E-mail
-    roles: Roles
-    created: Creado
-    status: Status
+    password: 'Contraseña'
+    email: 'E-mail'
+    roles: 'Roles'
+    created: 'Creado'
+    status: 'Estado'
     user-created: 'El usuario "%s" ha sido creado con éxito'

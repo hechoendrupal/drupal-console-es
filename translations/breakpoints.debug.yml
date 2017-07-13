@@ -1,0 +1,5 @@
+description: 'Muestra los breakpoints disponibles'
+options:
+  group-name: 'Introduzca el nombre del grupo de breakpoint'
+messages:
+  name: 'Extensiones con breakpoints'

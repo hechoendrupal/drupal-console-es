@@ -1,0 +1,26 @@
+description: 'Muestra todos los tipos de plugins.'
+help: |
+  Muestra todos los tipos de plugins, instancias de plugin de un tipo específico, o la definición de un plugin específico.
+
+  Listar todos los tipos de plugin:
+  <info>drupal plugin:debug</info>
+
+  Listar todas las instancias del tipo de plugin de efecto de imagen:
+  <info>drupal plugin:debug image.effect</info>
+
+  Mostrar la definición del plugin para convertir imágenes:
+  <info>drupal plugin:debug image.effect image_convert</info>
+
+  <comment>NOTA: Sólo se soportan los tipos de plugin expuestos mediantes servicios.</comment> Cuando desarrolle un tipo de plugin custom, expóngalo como un servicio añadiendolo al modulename.services.yml con el nombre "plugin.manager.PLUGIN_TYPE".
+arguments:
+    type: 'Tipo de plugin'
+    id: 'ID de plugin'
+errors:
+    plugin-type-not-found: 'No se ha encontrado el tipo de plugin "%s". No hay servicios disponibles para ese tipo.'
+table-headers:
+    plugin-type-name: 'Tipo de plugin'
+    plugin-type-class: 'Clase manages del plugin'
+    plugin-id: 'ID del plugin'
+    plugin-class: 'Clase del plugin'
+    definition-key: 'Clave'
+    definition-value: 'Valor'
