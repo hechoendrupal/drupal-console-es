@@ -1,4 +1,0 @@
-description: 'Generata un contexto de caché'
-questions:
-    name: 'Introduzca el nombre del contexto de caché'
-    class: 'Nombre de la clase de contexto de caché'
