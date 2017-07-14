@@ -13,10 +13,7 @@ questions:
     label: 'Introduzca la etiqueta del plugin'
     plugin-id: 'Introduzca el id del plugin'
     field-type: 'Introduzca el tipo de campo con el que el plugin puede ser usado'
-<<<<<<< HEAD
 examples:
     -
         description: 'Generate a a text field formatter plugin specifying the module name, the class, the label its plugin id and the field type'
         execution: "drupal generate:plugin:fieldformatter  \\\n  --module=\"modulename\"  \\\n  --class=\"ExampleFieldFormatter\"  \\\n  --label=\"Example field formatter\"  \\\n  --plugin-id=\"example_field_formatter\"  \\\n  --field-type=\"text\"\n"
-=======
->>>>>>> upstream/master

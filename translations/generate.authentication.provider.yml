@@ -5,10 +5,7 @@ options:
     provider-id: 'Provider ID'
     module: common.options.module
 module: common.options.module
-<<<<<<< HEAD
 examples:
     -
         description: 'Generate an authentication provider specifying the module, the class and the provider id'
         execution: "drupal generate:authentication:provider  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultAuthenticationProvider\"  \\\n  --provider-id=\"default_authentication_provider\"\n"
-=======
->>>>>>> upstream/master

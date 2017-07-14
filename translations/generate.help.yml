@@ -4,10 +4,7 @@ options: null
 questions: null
 messages:
     help-already-implemented: 'El hook de ayuda ya está implementado en el módulo "%s"'
-<<<<<<< HEAD
 examples:
     -
         description: 'Generate a hook help specifying the module name and the description'
         execution: "drupal generate:help  \\\n  --module=\"modulename\"  \\\n  --description=\"My Awesome Module\""
-=======
->>>>>>> upstream/master

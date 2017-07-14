@@ -19,7 +19,6 @@ questions:
     context-definition-id: 'ID de la definición de contexto'
     context-definition-label: 'Etiqueta de la definición de contexto'
     context-definition-required: 'La definición de contexto es obligatoria'
-<<<<<<< HEAD
 examples:
     -
         description: 'Generate a plugin condition for a node entity type specifying the module name, the class, the label, its id and the context definition'
@@ -30,5 +29,3 @@ examples:
     -
         description: 'Generate a plugin condition for role configuration specifying the module name, the class, the label, its id and the context definition'
         execution: "drupal generate:plugin:condition  \\\n  --module=\"modulename\"  \\\n  --class=\"ExampleCondition\"  \\\n  --label=\"Example condition\"  \\\n  --plugin-id=\"example_condition\"  \\\n  --context-definition-id=\"entity:user_role\"  \\\n  --context-definition-label=\"user_role\"  \\\n  --context-definition-required\n"
-=======
->>>>>>> upstream/master
