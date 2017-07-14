@@ -1,0 +1,18 @@
+description: 'Muestra información sobre los campos.'
+help: 'Muestra información sobre los campos.'
+options:
+    detailed: 'Información detallado con nombres máquina y descripciones'
+    entity: 'Restringir a un tipo de entidad con campos específico, por ejemplo: node, comment, taxonomy_term, shortcut, block_content, contact_message'
+    bundle: 'Restringir a un tipo de bundle específico, por ejemplo: artículo'
+messages:
+    fields-none: 'No se encontraron campos'
+    entity-type: 'Tipo de entidad con campos'
+    bundle-type: 'Tipo de bundle'
+    not-found: 'no encontrado'
+    in-entity-type: 'en tipo de entidad'
+    in-bundle-type: 'en tipo de bundle'
+table:
+    header-name: 'Etiqueta del campo'
+    header-type: 'Tipo del campo'
+    header-desc: 'Descripción del campo'
+    header-usage: 'También usado en'

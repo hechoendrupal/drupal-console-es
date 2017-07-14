@@ -1,0 +1,15 @@
+description: 'Importar módulo de configuración.'
+help: ''
+options:
+    bundle: 'Nombre del bundle'
+arguments:
+    packages: 'Nombre del paquete'
+questions:
+    packages: 'Introduzca el nombre del paquete a importar'
+messages:
+    no-packages: 'No hay paquetes disponibles.'
+    not-available: 'El paquete %s, no está disponible.'
+    importing: 'Importando el paquete %s.'
+    uninstall: 'El paquete %s ya está instalado.'
+    reverting: 'Revirtiendo el paquete %s.'
+    nothing: 'Nada que importar.'
