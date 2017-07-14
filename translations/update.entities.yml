@@ -3,3 +3,7 @@ messages:
     start: 'Iniciando las actualizaciones a entidades'
     end: 'Las actualizaciones a entidades han terminado'
     error: 'Error al intentar actualizar las entidades'
+examples:
+    -
+        description: 'Update entities'
+        execution: "drupal update:entities\n"

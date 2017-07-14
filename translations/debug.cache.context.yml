@@ -3,3 +3,7 @@ messages:
     code: 'ID de Contexto'
     label: 'Etiqueta'
     class: 'Ruta de la clase'
+examples:
+    -
+        description: 'Displays cache context'
+        execution: "drupal debug:cache:context\n"

@@ -2,5 +2,14 @@ description: 'Reconstruye los enrutamientos de la aplicación'
 arguments:
     route-name: 'Nombres de enrutamiento'
 messages:
+<<<<<<< HEAD
     rebuilding: 'Reconstruyendo los enrutamientos, espere un momento por favor'
     completed: 'El proceso de reconstrucción de enrutamiento(s) ha finalizado.'
+=======
+    rebuilding: 'Reconstruyendo las rutas, espere un momento por favor'
+    completed: 'El proceso de reconstrucción de ruta(s) ha finalizado.'
+examples:
+    -
+        description: 'Rebuild routes'
+        execution: 'drupal router:rebuild'
+>>>>>>> master

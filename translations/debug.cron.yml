@@ -1,0 +1,13 @@
+description: 'Listado de módulos que implementan ejecuciones de cron'
+messages:
+<<<<<<< HEAD:translations/cron.debug.yml
+    module-list: 'Módulos que implementan un módulo cron'
+    module: 'Módulo'
+=======
+    module-list: 'Módulos que implementan un método del cron'
+    module: Módulo
+examples:
+    -
+        description: 'This will show a list with modules implementing the cron hook'
+        execution: "drupal debug:cron\n"
+>>>>>>> master:translations/debug.cron.yml

@@ -11,3 +11,10 @@ messages:
     success: 'La configuración "%s" fué actualizada a "%s"'
     missing-file: 'El archivo de configuración "%s" no está disponible, intente ejecutar `drupal init`'
     missing-language: 'El idioma "%s" provisto no ha sido encontrado'
+<<<<<<< HEAD
+=======
+examples:
+    -
+        description: 'Set application language setting value to "es"'
+        execution: 'drupal settings:set  application.language es'
+>>>>>>> master

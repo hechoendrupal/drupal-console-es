@@ -5,6 +5,7 @@ messages:
     welcome: 'Bienvenido al comando cache:rebuild'
     rebuild: 'Reconstruyendo caché(s), espere un momento.'
     completed: 'Caché(s). reconstruidas con éxito'
+    invalid-cache: 'Cache "%s" is invalid.'
     invalid_cache: 'La caché "%s" es inválida.'
 questions:
     cache: 'Seleccione una caché.'

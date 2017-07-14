@@ -3,3 +3,7 @@ help: 'El comando <info>config:settings:debug</info> le ayuda a mostrar el par a
 welcome: 'Bienvenido al comando de Debug de Configuración de Drupal Config'
 messages:
     current: 'Par clave:valor actual en el archivo de configuración'
+examples:
+    -
+        description: 'Displays key:value as per the settings file'
+        execution: "drupal debug:config:settings\n"

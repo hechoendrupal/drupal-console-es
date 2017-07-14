@@ -39,6 +39,7 @@ messages:
             extra: 'Debe ejecutar "%s" en su lugar'
 errors:
     invalid-command: 'El comando "%s" no está definido.'
+    renamed-command: 'Command "%s" was renamed, use "%s" instead.'
 site:
     messages:
         path: 'Ruta del sitio'
@@ -61,3 +62,20 @@ remote:
         private-invalid: 'El archivo privado no es válido'
         invalid-root: 'El directorio raíz no es válido'
         console-not-found: 'No se encuentra Drupal Console en este sitio'
+<<<<<<< HEAD
+=======
+gitbook:
+    messages:
+        title: 'Available Drupal Console Commands'
+        note: Note
+        note-description: 'Drupal Console commands *must* be run from the root of a Drupal 8 installation'
+        command: 'Drupal Console Command'
+        command_description: 'The **"%s"** command "%s"'
+        usage: Usage
+        options: 'Available options'
+        option: Option
+        details: Details
+        arguments: 'Available arguments'
+        argument: Argument
+        examples: Examples
+>>>>>>> master

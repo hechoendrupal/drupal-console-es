@@ -1,0 +1,25 @@
+description: "Muestra todas las tablas de una base de datos dada."
+help: 'El comando <info>database:table:debug</info> le ayuda a inspeccionar las tablas de la base de datos.'
+arguments:
+  table: 'Tabla a inspeccionar'
+options:
+  database: "Clave de la base de datos en el settings.php"
+messages:
+<<<<<<< HEAD:translations/database.table.debug.yml
+  table-show: 'Mostrando tablas de la base de datos "%s"'
+  table: 'Tabla'
+  column: 'Columna'
+  type: 'Tipo'
+=======
+    table-show: 'Mostrando tablas de la base de datos "%s"'
+    table: Tabla
+    column: Columna
+    type: Tipo
+examples:
+    -
+        description: 'Show all tables on a database'
+        execution: 'drupal debug:database:table'
+    -
+        description: 'Show fields on the node table or another specified on the argument'
+        execution: "drupal debug:database:table node\n"
+>>>>>>> master:translations/debug.database.table.yml

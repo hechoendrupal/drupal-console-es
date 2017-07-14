@@ -9,3 +9,10 @@ questions:
     entity-id: 'Introduzca el ID de entidad que será eliminada'
 messages:
     deleted: 'La entidad %s con id %s ha sido eliminada con éxito'
+<<<<<<< HEAD
+=======
+examples:
+    -
+        description: 'Delete entity type content using node id'
+        execution: 'drupal entity:delete node 1'
+>>>>>>> master

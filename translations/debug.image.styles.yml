@@ -3,3 +3,7 @@ messages:
     styles-list: 'Estilos de imagen definidos en el sitio'
     styles-label: 'Etiqueta'
     styles-name: 'Nombre máquina'
+examples:
+    -
+        description: 'List all images styles on the site'
+        execution: "drupal debug:image:styles\n"

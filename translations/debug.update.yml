@@ -11,3 +11,7 @@ messages:
     module: 'Módulo'
     update-n: 'Actualización N'
     post-update: 'Función de post-actualización'
+examples:
+    -
+        description: 'List of pending updates'
+        execution: "drupal debug:update\n"

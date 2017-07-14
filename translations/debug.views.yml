@@ -6,6 +6,7 @@ arguments:
 messages:
     view-id: 'ID de Vista'
     view-name: 'Nombre de la vista'
+<<<<<<< HEAD:translations/views.debug.yml
     description: 'Descripción'
     tag: 'Etiqueta'
     status: 'Estado'
@@ -16,3 +17,19 @@ messages:
     display-name: 'Nombre'
     display-description: 'Descripción'
     display-paths: 'Rutas'
+=======
+    description: Descripción
+    tag: Etiqueta
+    status: Estado
+    path: Ruta
+    not-found: 'No se encontró la vista'
+    display-list: 'Lista de displays'
+    display-id: ID
+    display-name: Nombre
+    display-description: Descripción
+    display-paths: Rutas
+examples:
+    -
+        description: 'List of views on the site'
+        execution: "drupal debug:views\n"
+>>>>>>> master:translations/debug.views.yml

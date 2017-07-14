@@ -28,3 +28,13 @@ messages:
     installing: 'Instalando módulo(s) "%s"'
     composer: 'El módulo ha sido instalado exitosamente mediante Composer'
     error-creating-folder: 'Error creando el directorio "%s", por favor, compruebe sus permisos'
+<<<<<<< HEAD
+=======
+    download-with-composer: 'Module %s was downloaded with Composer.'
+    not-installed-with-composer: 'Module %s seems not to be installed with Composer. Halting.'
+    invalid-name: 'Invalid module name: %s'
+examples:
+    -
+        description: 'Install module specifying the module name'
+        execution: "drupal module:install  modulename\n"
+>>>>>>> master

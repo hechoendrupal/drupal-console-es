@@ -1,0 +1,20 @@
+description: 'Muestra los plugins de vistas existentes del sitio'
+arguments:
+    type: 'Filtrar plugins de vistas por tipo'
+messages:
+<<<<<<< HEAD:translations/views.plugins.debug.yml
+  type: 'Tipo'
+  name: 'Nombre'
+  provider: 'Proveedor'
+  views: 'Vistas'
+
+=======
+    type: Tipo
+    name: Nombre
+    provider: Proveedor
+    views: Vistas
+examples:
+    -
+        description: 'List of views plugins'
+        execution: "drupal debug:views:plugins\n"
+>>>>>>> master:translations/debug.views.plugins.yml

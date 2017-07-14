@@ -1,9 +1,0 @@
-description: 'Muestra los eventos actuales'
-help: 'El comando <info>event:debug</info> le ayuda a debuguear eventos.'
-arguments:
-  event: 'Evento a inspeccionar'
-messages:
-  event: 'Nombre del evento'
-  class: 'Clase'
-  method: 'Método'
-  no-events: "Ese evento no existe, intente ejecutar el siguiente comando: event:debug"

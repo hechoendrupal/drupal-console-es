@@ -1,0 +1,9 @@
+description: 'Muestra las colas de su aplicación'
+messages:
+    queue: Cola
+    items: Elementos
+    class: Clase
+examples:
+    -
+        description: 'Displays the queues of the application'
+        execution: "drupal debug:queue\n"

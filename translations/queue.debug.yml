@@ -1,5 +1,0 @@
-description: 'Muestra las colas de la aplicación'
-messages:
-  queue: 'Cola'
-  items: 'Elementos'
-  class: 'Clase'

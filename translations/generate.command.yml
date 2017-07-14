@@ -19,3 +19,7 @@ questions:
     controller-title: 'Título del controlador'
 messages:
     title-not-empty: 'el Título no puede estar vacío'
+examples:
+    -
+        description: 'Generate a command specifying the extension name and type, its class and the name.'
+        execution: "drupal generate:command  \\\n  --extension=\"ExtensionName\"  \\\n  --extension-type=\"module\"  \\\n  --class=\"DefaultCommand\"  \\\n  --name=\"CommandName\""
