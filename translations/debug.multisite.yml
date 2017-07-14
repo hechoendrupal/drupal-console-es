@@ -1,5 +1,5 @@
-description: 'Lista todos los sitios múltiples disponibles en el sistema'
-help: '<info>multisite:debug</info> enlista todos los sitios múltiples conocidos.'
+description: 'Lista todos los multisios disponibles en el sitio'
+help: 'El comando <info>multisite:debug</info> lista todos los multisitios conocidos.'
 messages:
     no-multisites: 'No hay sitios múltiples configurados'
     site: Sitio

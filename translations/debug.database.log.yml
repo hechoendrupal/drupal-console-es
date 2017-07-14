@@ -1,6 +1,6 @@
-description: 'Desplegar eventos registrados al momento para la aplicación'
+description: 'Muestra los eventos de log actuales de la aplicación'
 arguments:
-    event-id: 'ID del evento DBLog'
+    event-id: 'ID de evento de DBLog'
 options:
     asc: 'Listar eventos en orden ascendiente'
     limit: 'Limitar los resultados a un número específico'

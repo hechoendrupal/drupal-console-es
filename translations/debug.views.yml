@@ -1,10 +1,10 @@
-description: 'Muestra los recursos actuales de vistas para la aplicación'
+description: 'Muestra los recursos actuales de vistas en el sitio'
 arguments:
-    view-id: 'ID de la vista'
+    view-id: 'ID de Vista'
     view-tag: 'Etiqueta de la vista'
     view-status: 'Estado de la vista (Habilitado|Deshabilitado)'
 messages:
-    view-id: 'ID de la vista'
+    view-id: 'ID de Vista'
     view-name: 'Nombre de la vista'
     description: Descripción
     tag: Etiqueta

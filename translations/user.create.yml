@@ -6,7 +6,7 @@ options:
     password: 'Contraseña del usuario'
     roles: 'Roles del usuario'
     email: 'E-mail del ususario'
-    status: 'Status del usuario'
+    status: 'Estado del usuario'
 questions:
     username: 'Nombre del usuario que será creado'
     password: 'Contraseña del usuario (dejar en blanco para auto-generar)'

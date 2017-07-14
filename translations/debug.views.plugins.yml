@@ -1,6 +1,6 @@
-description: 'Mostrar los plugins de views en la aplicación'
+description: 'Muestra los plugins de vistas existentes del sitio'
 arguments:
-    type: 'Filtrar plugins de views por tipo'
+    type: 'Filtrar plugins de vistas por tipo'
 messages:
     type: Tipo
     name: Nombre

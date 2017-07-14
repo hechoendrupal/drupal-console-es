@@ -1,6 +1,6 @@
-description: 'Despliega los temas actuales para la aplicación'
+description: 'Muestra los themes actuales en la aplicación.'
 arguments:
-    theme: 'Tema específico a depurar'
+    theme: 'Especifique un theme para debuguear'
 messages:
     theme-id: ID
     theme-name: Nombre

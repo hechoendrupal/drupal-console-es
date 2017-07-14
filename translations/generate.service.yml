@@ -7,7 +7,7 @@ options:
     class: 'Nombre de la clase'
     interface: Interfaz
     services: common.questions.services
-    path: Path
+    path: Ruta
 questions:
     module: common.questions.module
     service-name: 'Introduzca el nombre del servicio'

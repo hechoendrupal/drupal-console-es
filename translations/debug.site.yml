@@ -1,5 +1,5 @@
-description: 'Enlista todos los sitios, locales y remotos, conocidos.'
-help: '<info>site:debug</info> enlista todos los sitios, locales y remotos, conocidos.'
+description: 'Lista todos los sitios conocidos locales y remotos.'
+help: 'El comando <info>site:debug</info> lista todos los sitios conocidos remotos y locales.'
 messages:
     site: Sitio
     host: Host
