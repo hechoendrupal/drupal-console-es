@@ -28,3 +28,7 @@ messages:
     installing: 'Instalando módulo(s) "%s"'
     composer: 'El módulo ha sido instalado exitosamente mediante Composer'
     error-creating-folder: 'Error creando el directorio "%s", por favor, compruebe sus permisos'
+examples:
+    -
+        description: 'Install module specifying the module name'
+        execution: "drupal module:install  modulename\n"

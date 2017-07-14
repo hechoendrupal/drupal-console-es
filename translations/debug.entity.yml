@@ -6,3 +6,7 @@ messages: null
 table-headers:
     entity-name: 'Nombre de la entidad'
     entity-type: 'Tipo de la entidad'
+examples:
+    -
+        description: 'Displays the available entities'
+        execution: "drupal debug:entity\n"

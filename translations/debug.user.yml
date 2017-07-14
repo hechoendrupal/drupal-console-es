@@ -15,3 +15,7 @@ messages:
     username: 'Nombre de usuario'
     roles: Roles
     status: Estado
+examples:
+    -
+        description: 'Users list on the site'
+        execution: "drupal debug:user\n"

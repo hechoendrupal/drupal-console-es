@@ -5,3 +5,10 @@ options:
     module: 'Nombre del módulo'
 questions:
     module: 'Introduzca el nombre del nuevo módulo'
+<<<<<<< HEAD
+examples:
+    -
+        description: 'Generate the .module file specifying the module name'
+        execution: "drupal generate:module:file  \\\n  --module=\"modulename\""
+=======
+>>>>>>> upstream/master

@@ -12,3 +12,10 @@ questions:
     breakpoint-weight: 'Introduzca el peso del breakpoint'
     breakpoint-multipliers: 'Introduzca los multiplicadores del breakpoint'
     breakpoint-add: '¿Desea añadir otro breakpoint?'
+<<<<<<< HEAD
+examples:
+    -
+        description: 'Generate a breakpoint specifying the theme, a breakpoint name, its label, the media query, its weight and multipliers'
+        execution: "drupal generate:breakpoint  \\\n  --theme=\"classy\"  \\\n  --breakpoints='\"breakpoint_name\":\"narrow\", \"breakpoint_label\":\"narrow\", \"breakpoint_media_query\":\"all and (min-width: 560px) and (max-width: 850px)\", \"breakpoint_weight\":\"1\", \"breakpoint_multipliers\":\"1x\"'"
+=======
+>>>>>>> upstream/master

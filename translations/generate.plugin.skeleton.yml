@@ -11,3 +11,10 @@ questions:
 messages:
     plugin-dont-exist: 'El plugin "%s" no existe'
     plugin-generator-implemented: 'El plugin "%s" ya tiene un generador de comando avanzado, por favor use "%s"'
+<<<<<<< HEAD
+examples:
+    -
+        description: 'Generate a plugin skeleton specifying module name, the plugin id and the class'
+        execution: "drupal generate:plugin:skeleton  \\\n  --module=\"modulename\"  \\\n  --plugin-id=\"link_relation_type\"  \\\n  --class=\"DefaultLinkRelationType\"\n"
+=======
+>>>>>>> upstream/master

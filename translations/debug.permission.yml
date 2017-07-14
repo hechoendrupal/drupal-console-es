@@ -8,3 +8,7 @@ table-headers:
     permission-name: 'Nombre del permiso'
     permission-label: 'Etiqueta del permiso'
     permission-role: Rol
+examples:
+    -
+        description: 'Displays all the permissions availables on the site'
+        execution: "drupal debug:permission\n"

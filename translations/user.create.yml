@@ -22,3 +22,10 @@ messages:
     created: Creado
     status: Status
     user-created: 'El usuario "%s" ha sido creado con éxito'
+examples:
+    -
+        description: 'Create user specifying username, password, role, email and status'
+        execution: "drupal user:create  john p455w0rd  \\\n  --roles='authenticated'  \\\n  --email=\"john@anexusit.com\"  \\\n  --status=\"1\""
+    -
+        description: 'Create admin user specifying username, password, role, email and status'
+        execution: "drupal user:create  doe p455w0rd  \\\n  --roles='administrator'  \\\n  --email=\"doe@anexusit.com\"  \\\n  --status=\"1\"\n"

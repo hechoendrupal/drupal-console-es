@@ -16,3 +16,10 @@ messages:
     error-copying-file: 'Error copiando el archivo'
     error-writing-file: 'Error copiando el archivo'
     services-file-overwritten: 'El archivo de servicios "%s" ha sido sobreescrito'
+examples:
+    -
+        description: 'Switch system to prod'
+        execution: 'drupal site:mode  prod'
+    -
+        description: 'Switch system to dev'
+        execution: "drupal site:mode  dev\n"

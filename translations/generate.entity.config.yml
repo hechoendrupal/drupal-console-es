@@ -14,3 +14,10 @@ questions:
     label: 'Introduzca la etiqueta de la nueva entidad de configuración'
     bundle-of: 'Nombre de la entidad de contenido para la que esta entidad de configuración debe actuar como un bundle'
     base-path: 'Introduzca la el directorio raíz para las rutas de la entidad de configuración'
+<<<<<<< HEAD
+examples:
+    -
+        description: 'Generate config entity specifying the module, the entity class, the entity name, its path and label'
+        execution: "drupal generate:entity:config  \\\n  --module=\"modulename\"  \\\n  --entity-class=\"DefaultEntity\"  \\\n  --entity-name=\"default_entity\"  \\\n  --base-path=\"/admin/structure\"  \\\n  --label=\"Default entity\""
+=======
+>>>>>>> upstream/master

@@ -12,3 +12,7 @@ messages:
     composer: 'El módulo "%s" fue instalado con éxito mediante Composer'
     only-composer: 'Ese comando sólo actualiza módulos via Composer. Use la opción --composer.'
     missing-module: 'Introduzca un(os) nombre(s) de módulo(s) para actualizar.'
+examples:
+    -
+        description: 'Update module specifying module name and composer parameter'
+        execution: "drupal module:update  modulename  \\\n  --composer\n"

@@ -2,7 +2,7 @@ description: 'Ver el estatus de la instalación actual de Drupal'
 messages:
     application: Aplicación
     system: 'Información del sistema'
-    hash_salt: 'Sal del hash'
+    hash-salt: 'Hash salt'
     console: 'Versión de la consola'
     database: 'Conexión de la base de datos'
     driver: Controlador
@@ -12,9 +12,18 @@ messages:
     password: Contraseña
     theme: Temas
     connection: Conexión
+    theme-default: 'Default theme'
+    theme-admin: 'Admin theme'
+    directory: Directorios
+    directory-root: 'Site root directory'
+    directory-temporary: 'Site temporary directory'
+    directory-theme-default: 'Default theme directory'
+    directory-theme-admin: 'Admin theme directory'
+    current-version: 'Current Drupal ("%s")'
+    not-installed: 'Drupal is not installed'
+    hash_salt: 'Sal del hash'
     theme_default: 'Tema por defecto'
     theme_admin: 'Tema de administración'
-    directory: Directorios
     directory_root: 'Directorio raíz del sitio'
     directory_temporary: 'Directorio temporal del sitio'
     directory_theme_default: 'Directorio del tema por defecto'
@@ -25,3 +34,7 @@ messages:
     configuration: Configuración
     active: 'Ruta de la configuración activa'
     staging: 'Ruta de la configuración de staging'
+examples:
+    -
+        description: 'Get drupal installation status specifying the output format as table'
+        execution: "drupal site:status  \\\n  --format=\"table\"\n"

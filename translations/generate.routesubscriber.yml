@@ -9,3 +9,10 @@ questions:
     module: common.questions.module
     name: 'Ingrese el nombre del servicio'
     class: 'Ingrese el nombre de la clase'
+<<<<<<< HEAD
+examples:
+    -
+        description: 'Generate a route subscriber specifying the module name, the route name and its class'
+        execution: "drupal generate:routesubscriber  \\\n  --module=\"modulename\"  \\\n  --name=\"modulename.route_subscriber\"  \\\n  --class=\"RouteSubscriber\"\n"
+=======
+>>>>>>> upstream/master
