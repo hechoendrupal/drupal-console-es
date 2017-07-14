@@ -4,8 +4,8 @@ arguments:
     method: 'Nombre de método.'
     arguments: 'Array de argumentos en formato CSV o JSON.'
 messages:
-    service_id: 'ID del servicio'
-    class_name: 'Nombre de la clase'
+    service-id: 'Service ID'
+    class-name: 'Class Name'
     service: Servicio
     class: Clase
     interface: Interface(s)
@@ -15,5 +15,12 @@ messages:
     arguments: Argumentos
     method: Método
     return: Return
+    service_id: 'ID del servicio'
+    class_name: 'Nombre de la clase'
 errors:
+    method-not-exists: 'This method doesn''t exists in this service.'
     method_not_exists: 'Este método no existe en este servicio.'
+examples:
+    -
+        description: 'Displays the views.views_data_helper services'
+        execution: "drupal debug:container views.views_data_helper\n"

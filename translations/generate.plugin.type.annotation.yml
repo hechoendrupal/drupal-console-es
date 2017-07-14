@@ -11,3 +11,7 @@ questions:
     class: 'Introduzca el nombre de la clase del tipo de plugin'
     machine-name: 'Introduzca el nombre máquina del tipo de plugin'
     label: 'Introduzca la etiqueta del tipo de plugin'
+examples:
+    -
+        description: 'Generate a plugin with annotation discovery specifying module name, class name, machine name and label'
+        execution: "drupal generate:plugin:type:annotation  \\\n  --module=\"modulename\"  \\\n  --class=\"ExamplePlugin\"  \\\n  --machine-name=\"example_plugin\"  \\\n  --label=\"Example plugin\"\n"

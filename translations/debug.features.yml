@@ -5,6 +5,7 @@ arguments:
 messages:
     bundle: Bundle
     name: Nombre
-    machine_name: 'Nombre máquina'
+    machine-name: 'Machine Name'
     status: Estado
     state: Situación
+    machine_name: 'Nombre máquina'

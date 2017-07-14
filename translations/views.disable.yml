@@ -1,3 +1,10 @@
 description: 'Deshabilita una vista'
 messages:
     disabled-successfully: 'La vista "%s" ha sido deshabilitada.'
+examples:
+    -
+        description: 'Disable content view'
+        execution: "drupal views:disable  content\n"
+    -
+        description: 'Disable frontpage view'
+        execution: "drupal views:disable  frontpage\n"
