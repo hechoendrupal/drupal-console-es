@@ -19,10 +19,7 @@ warnings:
     module-unavailable: 'Advertencia: Los siguientes módulos no están disponibles en su entorno local "%s"'
 errors:
     directory-exists: 'El directorio de destino "%s" no está vacío.'
-<<<<<<< HEAD
 examples:
     -
         description: 'Generate a profile specifying the profile name, the machine name, a description, the core and its module dependencies'
         execution: "drupal generate:profile  \\\n  --profile=\"NewProfileName\"  \\\n  --machine-name=\"newprofilename\"  \\\n  --description=\"My Useful Profile\"  \\\n  --core=\"8.x\"  \\\n  --dependencies=\"modulename\"\n"
-=======
->>>>>>> upstream/master

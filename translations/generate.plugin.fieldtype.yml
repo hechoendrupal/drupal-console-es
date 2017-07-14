@@ -17,7 +17,6 @@ questions:
     description: 'Introduzca la descripción del plugin'
     default-widget: 'Introduzca el widget de campo por defecto para este plugin'
     default-formatter: 'Introduzca el formateador de campo por defecto para este plugin'
-<<<<<<< HEAD
 examples:
     -
         description: 'Generate a field type plugin specifying the module name, the class, its label, the plugin id and a description'
@@ -25,5 +24,3 @@ examples:
     -
         description: 'Generate a field type plugin with a default widget and formatter specifying the module name, the class, its label, the plugin id and a description'
         execution: "drupal generate:plugin:fieldtype  \\\n  --module=\"modulename\"  \\\n  --class=\"ExampleFieldType\"  \\\n  --label=\"Example field type\"  \\\n  --plugin-id=\"example_field_type\"  \\\n  --description=\"My Field Type\"  \\\n  --default-widget=\"DefaultWidget\"  \\\n  --default-formatter=\"DefaultFormatter\"\n"
-=======
->>>>>>> upstream/master
