@@ -6,7 +6,10 @@ questions:
     update-n: 'Por favor, indique la actualización N que será implementada'
 messages:
     wrong-update-n: 'El número de actualización "%s" no es válido'
+<<<<<<< HEAD
 examples:
     -
         description: 'Generate an update N hook implementation specifying the module name and the N value'
         execution: "drupal generate:update  \\\n  --module=\"modulename\"  \\\n  --update-n=\"8001\"\n"
+=======
+>>>>>>> upstream/master

@@ -17,6 +17,7 @@ questions:
     base-path: 'Proporcione el directorio raíz para las rutas de la entidad de contenido'
     is-translatable: 'Es su entidad traducible'
     revisionable: 'Es su entidad revisionable'
+<<<<<<< HEAD
 examples:
     -
         description: 'Generate a content entity specifying the module, the entity class, the entity name, its path and label'
@@ -24,3 +25,5 @@ examples:
     -
         description: 'Generate a translatable and revisionable content entity specifying the module, the entity class, the entity name, its path and label'
         execution: "drupal generate:entity:content  \\\n  --module=\"modulename\"  \\\n  --entity-class=\"DefaultEntity\"  \\\n  --entity-name=\"default_entity\"  \\\n  --base-path=\"/admin/structure\"  \\\n  --label=\"Default entity\"  \\\n  --is-translatable  \\\n  --revisionable"
+=======
+>>>>>>> upstream/master
