@@ -1,14 +1,8 @@
 description: 'Muestra los eventos actuales'
 help: 'El comando <info>event:debug</info> le ayuda a debuguear eventos.'
 arguments:
-  event: 'Evento a inspeccionar'
+    event: 'Evento a inspeccionar'
 messages:
-<<<<<<< HEAD:translations/event.debug.yml
-  event: 'Nombre del evento'
-  class: 'Clase'
-  method: 'Método'
-  no-events: "Ese evento no existe, intente ejecutar el siguiente comando: event:debug"
-=======
     event: 'Nombre del evento'
     class: Clase
     method: Método
@@ -20,4 +14,3 @@ examples:
     -
         description: 'Show the information for the kernel.request event'
         execution: 'drupal debug:event kernel.request'
->>>>>>> master:translations/debug.event.yml

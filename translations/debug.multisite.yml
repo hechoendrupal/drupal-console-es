@@ -1,12 +1,6 @@
-description: "Lista todos los multisios disponibles en el sitio"
+description: 'Lista todos los multisios disponibles en el sitio'
 help: 'El comando <info>multisite:debug</info> lista todos los multisitios conocidos.'
 messages:
-<<<<<<< HEAD:translations/multisite.debug.yml
-  no-multisites: "No hay multisitios configurados"
-  site: 'Sitio'
-  directory: 'Directorio'
-  site-format: "Los sitios se escriben usando el siguiente formato: <port>.<domain>.<path>"
-=======
     no-multisites: 'No hay sitios múltiples configurados'
     site: Sitio
     directory: Directorio
@@ -15,4 +9,3 @@ examples:
     -
         description: 'Displays multisite information'
         execution: "drupal debug:multisite\n"
->>>>>>> master:translations/debug.multisite.yml

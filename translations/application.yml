@@ -62,8 +62,6 @@ remote:
         private-invalid: 'El archivo privado no es válido'
         invalid-root: 'El directorio raíz no es válido'
         console-not-found: 'No se encuentra Drupal Console en este sitio'
-<<<<<<< HEAD
-=======
 gitbook:
     messages:
         title: 'Available Drupal Console Commands'
@@ -78,4 +76,3 @@ gitbook:
         arguments: 'Available arguments'
         argument: Argument
         examples: Examples
->>>>>>> master

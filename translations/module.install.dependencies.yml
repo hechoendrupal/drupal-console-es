@@ -1,7 +1,0 @@
-description: 'Instala las dependencias de un módulo en la aplicación'
-arguments:
-    module: 'El módulo o los módulos que serán habilitados deben estar separados por un espacio'
-messages:
-    no-depencies: 'Nada que hacer. Estos módulos no tienen dependencias que instalar.'
-    installing: 'Instalando módulo(s) "%s"'
-    success: 'El siguiente módulo(s) ha sido instalado con éxito: "%s"'

@@ -1,7 +1,7 @@
 description: 'Muestra el contexto de caché actual de la aplicación.'
 messages:
     code: 'ID de Contexto'
-    label: 'Etiqueta'
+    label: Etiqueta
     class: 'Ruta de la clase'
 examples:
     -

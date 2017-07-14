@@ -3,20 +3,15 @@ help: 'Actualiza el comando de consola a la última versión'
 arguments:
     test-class: 'Clase de Test'
 options:
-    group: 'Group'
+    group: Group
 messages:
     class: 'Clase de Test'
-    description: 'Descripción'
-    group: 'Grupo'
+    description: Descripción
+    group: Grupo
     type: 'Tipo de test'
     success: 'La consola ha sido actualizada a su última versión.'
     missing-dependency: 'Dependencia insatisfecha'
     methods: 'Métodos de test'
-<<<<<<< HEAD:translations/test.debug.yml
-    not-found: 'No se ha encontrado el Debug, intente entrecomillar el ID del test con comillas dobles.'
-    success-groups: 'Todos los grupos de testing han sido listados satisfactoriamente, utilice el argumento para filtrar los tests unitarios por grupo; por ejemplo: $ drupal test:debug Url'
-    success-group: 'Todos los tests unitarios del grupo "%s" han sido listados con éxito'
-=======
     not-found: 'Imposible encontrar debug, intente poner el id del test entre comillas dobles.'
     success-groups: 'Todos los grupos de testeo han sido listados con éxito, utilice un argumento de grupo para filtrar los tests unitarios por grupo, por ejemplo: $ drupal test:debug Url'
     success-group: 'Todos los tests unitarios para el grupo "%s" han sido listados satisfactoriamente'
@@ -25,4 +20,3 @@ examples:
     -
         description: ''
         execution: "drupal debug:test\n"
->>>>>>> master:translations/debug.test.yml

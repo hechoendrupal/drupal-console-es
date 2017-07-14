@@ -13,14 +13,9 @@ questions:
 messages:
     user-id: 'ID de usuario'
     username: 'Nombre de usuario'
-<<<<<<< HEAD:translations/user.debug.yml
-    roles: 'Rol'
-    status: 'Estado'
-=======
     roles: Roles
     status: Estado
 examples:
     -
         description: 'Users list on the site'
         execution: "drupal debug:user\n"
->>>>>>> master:translations/debug.user.yml

@@ -1,13 +1,9 @@
 description: 'Muestra los breakpoints disponibles'
 options:
-  group-name: 'Introduzca el nombre del grupo de breakpoint'
+    group-name: 'Introduzca el nombre del grupo de breakpoint'
 messages:
-<<<<<<< HEAD:translations/breakpoints.debug.yml
-  name: 'Extensiones con breakpoints'
-=======
     name: 'Extensiones con breakpoints'
 examples:
     -
         description: 'Provide a group name.'
         execution: 'drupal breakpoints:debug bartik'
->>>>>>> master:translations/debug.breakpoints.yml

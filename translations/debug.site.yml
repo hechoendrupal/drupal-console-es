@@ -1,15 +1,6 @@
 description: 'Lista todos los sitios conocidos locales y remotos.'
 help: 'El comando <info>site:debug</info> lista todos los sitios conocidos remotos y locales.'
 messages:
-<<<<<<< HEAD:translations/site.debug.yml
-  site: 'Sitio'
-  host: 'Host'
-  root: 'Root'
-  not-sites: 'No hay sitios definidos'
-  invalid-site: 'Nombre de sitio no válido'
-  private-key: 'Error con la clave privada'
-  connect-error: 'Error conectando a la máquina remota'
-=======
     site: Sitio
     host: Host
     root: Raíz
@@ -25,4 +16,3 @@ examples:
     -
         description: ''
         execution: "drupal debug:site\n"
->>>>>>> master:translations/debug.site.yml
