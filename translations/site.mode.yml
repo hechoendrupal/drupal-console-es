@@ -1,6 +1,8 @@
 description: 'Cambiar la configuración de rendimiento del sistema'
 arguments:
     environment: 'Nombre de entorno'
+options:
+    local: 'Utilice esta opción si desea testear la configuración de Producción pero utilizando el archivo settings.local.php para utilizar su configuración local'
 messages:
     configuration: 'Nombre de la configuración'
     configuration-key: 'Clave de la configuración'

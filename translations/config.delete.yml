@@ -14,3 +14,7 @@ warnings:
     undo: 'Esta acción eliminara toda la configuración permanentemente.'
 questions:
     sure: 'Esta seguro de eliminar toda la configuración'
+examples:
+    -
+        description: 'Provide a config type and a config name'
+        execution: 'drupal config:delete active all'

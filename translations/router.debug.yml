@@ -1,11 +1,11 @@
-description: 'Muestra las rutas actuales de la aplicación'
+description: 'Muestra los enrutamientos existentes en el sitio'
 arguments:
-    route-name: 'Nombres de ruta'
+    route-name: 'Nombres de enrutamiento'
 messages:
-    name: 'Nombre de ruta'
-    class: 'Ruta al archivo de la clase'
-    route: Ruta
-    path: 'Directorio de la clase'
-    defaults: 'Valores por defecto'
-    options: Opciones
-    pattern: Patrón
+    name: 'Nombre del enrutamiento'
+    class: 'Clase del enrutamiento'
+    route: 'Enrutamiento'
+    path: 'Ruta'
+    defaults: Defaults
+    requirements: 'Requerimientos'
+    options: 'Opciones'

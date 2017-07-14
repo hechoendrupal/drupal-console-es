@@ -35,6 +35,9 @@ questions:
     breakpoint-weight: 'Introduzca el peso del punto de ruptura'
     breakpoint-multipliers: 'Introduzca los multiplicadores del breakpoint'
     breakpoint-add: 'Desea añadir otro punto de ruptura'
+    library-add: 'Do you want to add another library'
+    library-name: 'Enter library name'
+    library-version: 'Enter library version'
 warnings:
     module-unavailable: 'Advertencia: Los siguientes módulos todavía no están disponibles en tu entorno local "%s"'
 errors:

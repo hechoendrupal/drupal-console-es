@@ -11,3 +11,7 @@ messages:
     set-environment-placeholders: 'Establecer comodines de entorno como:'
     missing-inline-placeholders: 'No se encuentran el/los comodín(es) "%s" en línea'
     set-inline-placeholders: 'Pasar comodines en línea como:'
+examples:
+    -
+        description: 'Providing a file option using full path.'
+        execution: "drupal chain \\\n  --file=\"/path/to/file/chain-file.yml\"\n"

@@ -1,5 +1,5 @@
-description: 'Lista los estilos de imágenes del sitio'
+description: 'Lista los estilos de imagen en el sitio'
 messages:
-    styles-list: 'Estilos de imágenes definidos en el sitio'
-    styles-label: Etiqueta
+    styles-list: 'Estilos de imagen definidos en el sitio'
+    styles-label: 'Etiqueta'
     styles-name: 'Nombre máquina'

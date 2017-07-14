@@ -6,4 +6,5 @@ questions:
     resource-id: 'ID Rest '
 messages:
     invalid-rest-id: 'El ID rest "%s" no es válido'
-    success: 'Rest ID "%s" disabled'
+    success: 'El ID rest "%s" ha sido deshabilitado'
+    already-disabled: 'El ID rest "%s" ya estaba deshabilitado'

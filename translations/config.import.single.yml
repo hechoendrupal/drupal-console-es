@@ -1,11 +1,23 @@
 description: 'Importar la configuración seleccionada.'
 arguments:
-    name: 'Nombre de la configuración.'
-    file: 'Ruta al archivo a importar'
-    input-file: 'Ruta de los archivos a importar.'
+    name: 'Nombre de configuración'
+    file: 'Ruta al archivo de importación'
+    config-names: 'Nombres de configuración (cuando se use junto con el comando "chain").'
 questions:
     name: 'Introduzca el nombre de la configuración'
     file: 'Introduzca la ruta al archivo a importar'
+    directory: 'Introduzca la ruta desde la que importar los archivos.'
 messages:
     empty-value: 'El valor no puede quedar vacío'
     success: 'La configuración "%s" ha sido importada con éxito.'
+    missing-file: 'Opción de fichero no encontrada.'
+options:
+    file: 'El nombre de el/los archivo/s o la ruta absoluta de el/los archivo/s file(s) a importar'
+    directory: 'La ruta desde donde importar los archivos.'
+examples:
+    -
+        description: 'Facilitando una opción de archivo usando la ruta absoluta.'
+        execution: "drupal config:import:single \\\n  --file=\"/ruta/al/archivo/block.block.default_block.yml\""
+    -
+        description: 'Facilitando opciones de archivo y directorio'
+        execution: "drupal config:import:single  \\\n  --file=\"block.block.default_block.yml\" \\\n  --directory=\"/ruta/al/directorio\"\n"

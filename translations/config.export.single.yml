@@ -1,12 +1,20 @@
-description: 'Exportar configuración como fichero yml.'
+description: 'Exporta configuración como fichero yml.'
 arguments:
+    name: 'Nombre de la configuración.'
     config-name: 'Nombre de la configuración.'
 options:
     include-dependencies: 'Exportar dependencias de la configuración también.'
     simple-configuration: 'Configuración simple'
-    optional-config: 'Exportar la configuración como una configuración YAML opcional in su módulo'
+    optional: 'Exportar la configuración como una configuración opcional en formato YAML su módulo'
+    remove-uuid: 'Si se utiliza, la configuración será exportada sin clave uuid.'
+    remove-config-hash: 'Si se utiliza, la configuración será exportada sin la clave hash por defecto del sitio.'
+    optional-config: 'Exportar la configuración como una configuración YAML opcional en su módulo'
 questions:
     config-type: 'Tipo de configuración'
+    name: 'Nombre de la configuración'
+    optional: 'Exportar la configuración en un módulo como configuración opcional'
+    remove-uuid: '¿Desea eliminar el uuid de esta exportación?'
+    remove-config-hash: '¿Desea excluir el hash por defecto del sitio en esta exportación?'
     config-name: 'Nombre de la configuración'
     optional-config: 'Exportar la configuración en módulo como una configuración opcional'
 messages:
@@ -14,4 +22,12 @@ messages:
     export: 'La configuración ha sido exportada al fichero "%s".'
     invalid-config-type: 'El tipo de configuración es inválido, por favor, seleccione uno de la lista'
     invalid-config-name: 'El nombre de la configuración es inválido, por favor, seleccione uno de la lista'
+    config-exported: 'La(s) configuración(es) ha(n) sido exportada(s) de modo exitoso'
     config_exported: 'La(s) configuración(es) ha(n) sido exportada(s) de modo exitoso'
+examples:
+    -
+        description: 'Provide config settings name to be exported'
+        execution: "drupal config:export:single \\\n  --name=config.settings.name"
+    -
+        description: 'if uuid and/or config hashes will be removed.'
+        execution: "drupal config:export:single \\\n  --name=config.settings.name \\\n  --remove-uuid \\\n  --remove-config-hash\n"
