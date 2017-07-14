@@ -7,7 +7,10 @@ options:
 questions:
     class: 'Introduzca el nombre de la clase del plugin para proceso de migración'
     plugin-id: 'Introduzca el id del plugin para proceso de migración'
+<<<<<<< HEAD
+=======
 examples:
     -
         description: 'Generate a migration plugin process specifying the module name, the class and its id'
         execution: "drupal generate:plugin:migrate:process  \\\n  --module=\"modulename\"  \\\n  --class=\"MigrationProcess\"  \\\n  --plugin-id=\"migrationprocess\"\n"
+>>>>>>> master

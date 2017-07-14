@@ -1,3 +1,13 @@
+<<<<<<< HEAD
+description: 'Muestra la migración actualmente disponible'
+arguments:
+    tag: 'Etiqueta de la migración'
+messages:
+    id: 'ID de la migración'
+    description: 'Descripción'
+    no-migrations: 'No hay migraciones disponible, intente ejecutar el comando: migrate:setup:migrations'
+    tags: 'Etiquetas'
+=======
 description: 'Displays current migration available for the application'
 arguments:
     tag: 'Migrate tag'
@@ -6,3 +16,4 @@ messages:
     description: Description
     no-migrations: 'There aren''t migrations available try to execute command: migrate:setup:migrations'
     tags: Tags
+>>>>>>> master

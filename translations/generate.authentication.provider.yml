@@ -1,6 +1,12 @@
 description: 'Generar un Proveedor de Autenticación'
 help: 'El comando <info>generate:authentication:provider</info> le ayuda a generar un nuevo Proveedor de Autenticación'
 options:
+<<<<<<< HEAD
+    class: 'Clase del proveedor de autenticación'
+    provider-id: 'ID del proveedor'
+    module: common.options.module
+module: common.options.module
+=======
     class: 'Authentication Provider class'
     provider-id: 'Provider ID'
     module: common.options.module
@@ -9,3 +15,4 @@ examples:
     -
         description: 'Generate an authentication provider specifying the module, the class and the provider id'
         execution: "drupal generate:authentication:provider  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultAuthenticationProvider\"  \\\n  --provider-id=\"default_authentication_provider\"\n"
+>>>>>>> master

@@ -1,15 +1,39 @@
 description: 'Importar la configuración seleccionada.'
+<<<<<<< HEAD
+arguments:
+    name: 'Nombre de configuración'
+    file: 'Ruta al archivo de importación'
+    config-names: 'Nombres de configuración (cuando se use junto con el comando "chain").'
+=======
 options:
     file: 'The file(s) name or file(s) absolute path to import'
     directory: 'The path from where to import file(s).'
+>>>>>>> master
 questions:
     file: 'Introduzca la ruta al archivo a importar'
+<<<<<<< HEAD
+    directory: 'Introduzca la ruta desde la que importar los archivos.'
+=======
     directory: 'Enter path from where to import files.'
     name: 'Introduzca el nombre de la configuración'
+>>>>>>> master
 messages:
     missing-file: 'File option is missing.'
     empty-value: 'El valor no puede quedar vacío'
     success: 'La configuración "%s" ha sido importada con éxito.'
+<<<<<<< HEAD
+    missing-file: 'Opción de fichero no encontrada.'
+options:
+    file: 'El nombre de el/los archivo/s o la ruta absoluta de el/los archivo/s file(s) a importar'
+    directory: 'La ruta desde donde importar los archivos.'
+examples:
+    -
+        description: 'Facilitando una opción de archivo usando la ruta absoluta.'
+        execution: "drupal config:import:single \\\n  --file=\"/ruta/al/archivo/block.block.default_block.yml\""
+    -
+        description: 'Facilitando opciones de archivo y directorio'
+        execution: "drupal config:import:single  \\\n  --file=\"block.block.default_block.yml\" \\\n  --directory=\"/ruta/al/directorio\"\n"
+=======
 examples:
     -
         description: 'Providing a file option using full path.'
@@ -17,3 +41,4 @@ examples:
     -
         description: 'Providing file and directory options'
         execution: "drupal config:import:single  \\\n  --file=\"block.block.default_block.yml\" \\\n  --directory=\"/path/to/directory\"\n"
+>>>>>>> master

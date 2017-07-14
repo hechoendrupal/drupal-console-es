@@ -1,7 +1,20 @@
-description: 'Despliega los temas actuales para la aplicación'
+description: 'Muestra los themes actuales en la aplicación.'
 arguments:
-    theme: 'Tema específico a depurar'
+    theme: 'Especifique un theme para debuguear'
 messages:
+<<<<<<< HEAD:translations/theme.debug.yml
+    theme-id: 'ID'
+    theme-name: 'Nombre'
+    status: 'Estado'
+    version: 'Versión'
+    installed: 'Instalado'
+    uninstalled: 'Desinstalado'
+    default-theme: 'Theme por defecto'
+    properties: 'Propiedades'
+    regions: 'Regiones'
+    invalid-theme: 'El theme "%s" es inválido'
+    theme-properties: 'Propiedades'
+=======
     theme-id: ID
     theme-name: Nombre
     status: Estado
@@ -20,3 +33,4 @@ examples:
     -
         description: 'Bartik theme information'
         execution: 'drupal debug:theme bartik'
+>>>>>>> master:translations/debug.theme.yml

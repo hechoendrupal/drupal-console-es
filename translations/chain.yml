@@ -11,11 +11,14 @@ messages:
     set-environment-placeholders: 'Establecer comodines de entorno como:'
     missing-inline-placeholders: 'No se encuentran el/los comodín(es) "%s" en línea'
     set-inline-placeholders: 'Pasar comodines en línea como:'
+<<<<<<< HEAD
+=======
     select-value-for-placeholder: 'Select value for %s placeholder'
     enter-value-for-placeholder: 'Enter value for %s placeholder'
     missing_file: 'Debe proporcionar un nombre y ruta de archivo válidos.'
     invalid_file: 'El archivo "%s" no existe.'
     module_install: 'El comando module:install no es ejecutable dentro de una secuencia de comandos y se debe ejecutar de forma independiente.'
+>>>>>>> master
 examples:
     -
         description: 'Providing a file option using full path.'
