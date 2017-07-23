@@ -11,3 +11,10 @@ arguments:
 options:
     optional-config: 'Exportar la vista como una configuración YAML opcional en tu módulo'
     include-module-dependencies: 'Incluir las dependencias del módulo en un fichero YAML'
+examples:
+    -
+        description: 'Provide a view id'
+        execution: 'drupal config:export:view viewid'
+    -
+        description: 'You can provide the interactive values like parameter.'
+        execution: "drupal config:export:view viewid \\\n  --module=\"modulename\" \\\n  --optional-config \\\n  --include-module-dependencies\n"

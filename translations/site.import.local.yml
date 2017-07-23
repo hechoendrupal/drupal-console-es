@@ -14,3 +14,7 @@ questions:
     directory: 'Introduzca el nombre del directorio donde instalar Drupal'
     name: 'Introduzca el nombre del sitio'
     environment: 'Introduzca el nombre de entorno del sitio'
+examples:
+    -
+        description: 'Importar un proyecto Drupal local especificando el nombre del sitio y la ruta'
+        execution: 'drupal site:import:local  SiteName /private/var/www/vhost/anexusit/drupal8.dev/web'

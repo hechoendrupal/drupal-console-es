@@ -1,6 +1,7 @@
 description: 'Muestra ayuda para un comando dado'
 help: "El comando <info>%command.name%</info> muestra la ayuda para un comando dado:\n\n<info>php %command.full_name% list</info>\n\nTambién puede mostrar la ayuda en otros formatos usando la opción <comment>--format</comment>:\n\n<info>php %command.full_name% --format=xml list</info>\n\nPara mostrar el listado de comandos disponibles, por favor, use el comando <info>list</info>.\n"
 arguments:
+    command-name: 'The command name'
     command_name: 'El nombre del comando'
 options:
     xml: 'Mostrar el listado como XML'

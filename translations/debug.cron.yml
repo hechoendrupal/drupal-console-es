@@ -1,0 +1,8 @@
+description: 'Listado de módulos que implementan el hook cron'
+messages:
+    module-list: 'Módulos que implementan un método cron'
+    module: Módulo
+examples:
+    - description: 'Listar todos los módulos que implementan el hook cron'
+      execution: |
+        drupal debug:cron

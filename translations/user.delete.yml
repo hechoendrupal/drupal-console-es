@@ -15,3 +15,10 @@ messages:
 errors:
     invalid-user-id: 'El id de usuario "%s" no es válido'
     invalid-user: 'El id de usuario "%s" no es válido'
+examples:
+    -
+        description: 'Eliminar un usuario especificando el id y el rol de usuario'
+        execution: "drupal user:delete  \\\n  --user-id=\"2\"\n  --roles='authenticated'"
+    -
+        description: 'Eliminar un usuario especificando su id'
+        execution: "drupal user:delete  \\\n  --user-id=\"3\"\n"

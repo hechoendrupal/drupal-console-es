@@ -1,0 +1,13 @@
+description: 'Lista los nombres de objetos de configuración y objectos de configuración única.'
+arguments:
+    name: 'Nombre de configuración de objeto, por ejemplo "system.site".'
+errors:
+    not-exists: 'La configuración "%s" no existe.'
+
+examples:
+    - description: 'Lista todos los nombres de objeto de configuración.'
+      execution: 'drupal config:debug'
+    - description: 'Muestra los valores de configuración de sistema del sitio.'
+      execution: 'drupal config:debug system.site'
+    - description: 'Lista todos los nombres de configuración de sistema.'
+      execution: 'drupal config:debug | grep system'

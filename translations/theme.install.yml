@@ -19,3 +19,7 @@ messages:
     theme-default-success: 'El tema "%s" ha sido instalado satisfactoriamente como tema por defecto'
     disabled-themes: 'Solo desactivar temas que serán listados en autocompletar'
     invalid-theme-default: 'La opción por defecto es válida solo para un tema'
+examples:
+    -
+        description: 'Instalar un tema especificando el nombre'
+        execution: "drupal theme:install  mytheme\n"

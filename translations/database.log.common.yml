@@ -1,0 +1,12 @@
+options:
+    type: 'Filtrar eventos por un tipo específico'
+    severity: 'Filtrar eventos por un nivel de severidad específico'
+    user-id: 'Filtrar eventos por un id de usuario específico'
+messages:
+    event-id: 'ID de Evento'
+    type: Type
+    date: Date
+    message: Message
+    user: User
+    severity: Severity
+    invalid-severity: 'El tipo de severidad no es válido, el filtro se ignorará.'

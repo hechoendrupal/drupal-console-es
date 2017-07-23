@@ -6,12 +6,14 @@ options:
 messages:
     id: 'ID Rest'
     label: Etiqueta
-    canonical_url: 'URL Canónica'
+    canonical-url: 'URL Canónica'
     status: Estado
     provider: Proveedor
     enabled: Habilitado
     disabled: Deshabilitado
     rest-state: 'Estados REST'
     supported-formats: 'Formatos Soportados'
-    supported_auth: 'Proveedores de autenticación soportados'
+    supported-auth: 'Proveedores de autenticación soportados'
     not-found: 'El recurso rest "%s" no se ha encontrado'
+    canonical_url: 'URL Canónica'
+    supported_auth: 'Proveedores de autenticación soportados'

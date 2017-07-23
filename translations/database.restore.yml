@@ -7,3 +7,7 @@ messages:
     success: 'La base de datos ha sido importada desde:'
     no-file: 'No se ha definido la opción "file"'
 help: 'Restaura la estructura y los contenidos de una bases de datos.'
+examples:
+    -
+        description: 'Restaurar el volcado en archivo de la base de datos en la base de datos por defecto o en la que se especifique'
+        execution: "drupal database:restore \\\n  --file='/srv/dump/db.sql'\n"

@@ -1,9 +1,10 @@
 description: 'Deshabilita un recurso rest en la aplicación'
 arguments:
-    resource-id: 'ID Rest'
+    resource-id: 'Rest ID'
     states: 'Estados REST a deshabilitar para el recurso Rest'
 questions:
-    resource-id: 'ID Rest '
+    resource-id: 'ID Rest'
 messages:
     invalid-rest-id: 'El ID rest "%s" no es válido'
-    success: 'Rest ID "%s" disabled'
+    success: 'Rest ID "%s" deshabilitado'
+    already-disabled: 'EL Rest ID "%s" ya había sido deshabilitado'

@@ -2,4 +2,10 @@ description: 'Habilita una vista'
 messages:
     enabled-successfully: 'La vista "%s" ha sido habilitada con éxito.'
     disabled-successfully: 'La vista "%s" ha sido deshabilitada con éxito.'
-disabled-successfully: 'La vista "%s" ha sido deshabilitada con éxito.'
+examples:
+    -
+        description: 'Habilitar contenido de la vista'
+        execution: "drupal views:enable  content\n"
+    -
+        description: 'Habilitar vista de Portada'
+        execution: "drupal views:enable  frontpage\n"

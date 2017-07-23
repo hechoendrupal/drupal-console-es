@@ -6,18 +6,31 @@ options:
     class: 'El nombre de la clase del formulario'
     form-id: 'El id del formulario'
     services: common.options.services
+    config-file: 'Add a config file'
     inputs: common.options.inputs
     path: 'Enter the form path'
+    menu-link-gen: 'Generate a menu link'
+    menu-link-title: 'A title for the menu link'
+    menu-parent: 'Menu parent'
+    menu-link-desc: 'A description for the menu link'
     routing: 'Generar una ruta'
 questions:
     module: common.questions.module
     class: 'Introduzca el nombre de la clase del formulario'
     form-id: 'Introduzca el id del formulario'
     services: common.questions.services
+    config-file: 'Do you want to generate a config file'
     inputs: common.questions.inputs
     routing: 'Le gustaría registrar una ruta para este formulario'
+    path: 'Enter the route path'
     menu_link_gen: 'Generar un enlace de menú'
     menu_link_title: 'Título para el enlace de menú'
     menu_parent: 'Menú padre'
     menu_link_desc: 'Descripción para el enlace de menú'
-    path: 'Enter the route path'
+examples:
+    -
+        description: 'Generate an empty form with config file specifying the module name, the class, a form id and the path'
+        execution: "drupal generate:form  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultForm\"  \\\n  --form-id=\"default_form\"  \\\n  --config-file  \\\n  --path=\"/modulename/form/default\""
+    -
+        description: 'Generate a form with 2 fields and a config file specifying the module name, the class, a form id, the inputs and the path'
+        execution: "drupal generate:form  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultForm\"  \\\n  --form-id=\"default_form\"  \\\n  --config-file  \\\n  --inputs='\"name\":\"inputname\", \"type\":\"text_format\", \"label\":\"InputName\", \"options\":\"\", \"description\":\"Just a text input\", \"maxlength\":\"\", \"size\":\"\", \"default_value\":\"\", \"weight\":\"0\", \"fieldset\":\"\"'  \\\n  --inputs='\"name\":\"email\", \"type\":\"email\", \"label\":\"Email\", \"options\":\"\", \"description\":\"Just an email input\", \"maxlength\":\"\", \"size\":\"\", \"default_value\":\"\", \"weight\":\"0\", \"fieldset\":\"\"'  \\\n  --path=\"/modulename/form/default\""

@@ -1,0 +1,6 @@
+description: 'Revertir una o múltiples migraciones'
+arguments:
+    id: 'id(s) de Migración'
+messages:
+    not-available: 'Id de Migración "%s" no es válido. Abortando.'
+    processing: 'Reversión de migración "%s" completada'

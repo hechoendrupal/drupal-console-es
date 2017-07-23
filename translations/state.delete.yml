@@ -5,3 +5,7 @@ messages:
     enter-name: 'El nombre del Estado debe contener un valor.'
     state-not-exists: 'El Estado "%s" no existe.'
     deleted: 'El Estado "%s" fue eliminado con éxito.'
+examples:
+    -
+        description: 'Eliminar Estado especificando el nombre de Estado'
+        execution: "drupal state:delete  comment.maintain_entity_statistics\n"

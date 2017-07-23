@@ -11,3 +11,10 @@ messages:
     no-role-found: 'El rol "%s" no ha sido encontrado!'
     add-success: 'Al nombre de usuario %1$s le ha sido añadido el rol %2$s de manera exitosa'
     remove-success: 'Al nombre de usuario %1$s le ha sido eliminado el rol %2$s de manera exitosa'
+examples:
+    -
+        description: 'Añadir el rol administrador al usuario administrador espacificando el nombre de usuario y el rol'
+        execution: 'drupal user:role  add admin administrator'
+    -
+        description: 'Eliminar el rol administrador del usuario administrador espacificando el nombre de usuario y el rol'
+        execution: "drupal user:role  remove admin administrator\n"

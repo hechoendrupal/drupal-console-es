@@ -1,0 +1,14 @@
+description: 'Valida una implementación de schema antes de instalar un módulo.'
+help: 'Función helper para validar un schema antes de instalar un módulo. Specify the config and the schema file paths as arguments and validation will be run against them, making schema easier to debug without time consuming installs'
+options: {}
+arguments: {}
+messages:
+    noConfFile: 'El archivo de configuración no existe en la ruta especificada'
+    noConfSchema: 'El schema de configuración no existe en la ruta especificada'
+    noSchemaName: 'No se ha podido encontrar la definición del schema en el archivo de schema. Usando el nombre de definición:'
+examples:
+    - description: 'Validar un schema'
+      execution: |
+        drupal debug:config:validate \
+          /path/to/file \
+          /path/to/schema-filepath

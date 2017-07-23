@@ -1,9 +1,8 @@
-description: 'Process the selected queue.'
+description: 'Procesa la cola seleccionada.'
 arguments:
-  name: 'Queue name.'
+    name: 'Nombre de la cola.'
 messages:
-  success: 'Processed "%s": "%s"/"%s" items in "%s" seconds.'
-  failed: '"%s" failed: "%s".'
-  missing-name: 'Provide a valid queue name.'
-  invalid-name: 'Invalid queue name "%s" provided.'
-
+    success: '"%s" procesada: "%s"/"%s" items en "%s" segundos.'
+    failed: '"%s" falló: "%s".'
+    missing-name: 'Indique un nombre de cola válido.'
+    invalid-name: 'El nombre de cola provisto "%s" no es válido.'

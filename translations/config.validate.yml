@@ -1,0 +1,10 @@
+description: 'Validar una configuración de Drupal contra su schema'
+options: {}
+arguments: {}
+messages:
+    success: 'La Configuración ha sido validad con éxito'
+    no-conf: 'La Configuración con este nombre no existe'
+examples:
+    - description: 'Validar la configuración proveyendo el nombre de configuración.'
+      execution: 'drupal config:validate configuration.name'
+

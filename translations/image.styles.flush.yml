@@ -6,3 +6,10 @@ options:
     image-style: 'Nombre del estilo de imagen.'
 questions:
     image-style: 'Seleccione los estilos de imágenes a limpiar.'
+examples:
+    -
+        description: 'Flush large image style'
+        execution: 'drupal image:styles:flush  large'
+    -
+        description: 'Flush thumbnail image style'
+        execution: "drupal image:styles:flush  thumbnail\n"

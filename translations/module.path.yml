@@ -4,3 +4,7 @@ arguments:
 options:
     absolute: 'Indica la ruta absoluta del módulo'
 messages: null
+examples:
+    -
+        description: 'Obtener la ruta relativa del módulo especificando el nombre del módulo'
+        execution: "drupal module:path  modulename\n"
