@@ -1,27 +1,3 @@
-<<<<<<< HEAD
-description: 'Displays all user permissions.'
-help: |
-  Display all user permissions and also list all user permissions from a specific user role.
-
-  List all user permissions:
-  <info>drupal permission:debug</info>
-
-  List all user permissions from a user role
-  <info>drupal permission:debug authenticated</info>
-
-arguments:
-    role: 'User role'
-messages:
-    role-error: 'Role "%s" does not exist. Please use an existing user role.'
-table-headers:
-    permission-name: 'Permission name'
-    permission-label: 'Permission Label'
-    permission-role: 'Role'
-examples:
-    - description: 'Displays all the permissions availables on the site'
-      execution: |
-        drupal debug:permission
-=======
 description: 'Muestra todos los permisos y además lista todos los permisos de un especifico rol de usuario.'
 help: "Lista todos los permisos:\n<info>drupal permission:debug</info>\n\nLista todos los permisos apartir de un rol de usuario.\n<info>drupal permission:debug authenticated</info>\n"
 arguments:
@@ -36,4 +12,3 @@ examples:
     -
         description: 'Displays all the permissions availables on the site'
         execution: "drupal debug:permission\n"
->>>>>>> upstream/master

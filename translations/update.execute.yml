@@ -8,9 +8,5 @@ messages:
     executing-required-previous-updates: 'Ejecutando las actualizaciones previas requeridas'
 examples:
     -
-<<<<<<< HEAD
         description: 'Actualizar todas las entidades'
-=======
-        description: 'Update all entities'
->>>>>>> upstream/master
         execution: "drupal update:execute\n"

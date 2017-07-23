@@ -1,14 +1,3 @@
-<<<<<<< HEAD
-description: 'Displays the queues of your application'
-messages:
-  queue: 'Queue'
-  items: 'Items'
-  class: 'Class'
-examples:
-    - description: 'Displays the queues of the application'
-      execution: |
-        drupal debug:queue
-=======
 description: 'Muestra las colas de su aplicación'
 messages:
     queue: Cola
@@ -18,4 +7,3 @@ examples:
     -
         description: 'Displays the queues of the application'
         execution: "drupal debug:queue\n"
->>>>>>> upstream/master

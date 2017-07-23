@@ -35,13 +35,8 @@ messages:
     version: '<info>"%s"</info> versión <comment>"%s"</comment>'
     disable:
         command:
-<<<<<<< HEAD
-            error: 'Command: "%s" is deprecated.'
-            extra: 'You must execute: "%s" instead'
-=======
             error: 'El comando "%s" está obsoleto.'
             extra: 'Debe ejecutar "%s" en su lugar'
->>>>>>> upstream/master
 errors:
     invalid-command: 'El comando "%s" no está definido.'
     renamed-command: 'Command "%s" was renamed, use "%s" instead.'
@@ -51,31 +46,15 @@ site:
     errors:
         settings: 'Para listar todos los comandos disponibles primero debe instalar Drupal.'
         directory: 'Para listar todos los comandos disponibles, debe estar dentro del directorio raíz de Drupal.'
-<<<<<<< HEAD
-        not-installed: 'Drupal Console is not installed at: %s'
-        execute-composer: 'You must execute the following composer commands:'
-        missing-config-file: 'Missing configuration file, possible paths:'
-        missing-config-file-command: 'Execute "drupal init" command to generate one'
-=======
         not-installed: 'Drupal Console no está instalado en: %s'
         execute-composer: 'Debe ejecutar este comando de Composer:'
         missing-config-file: 'No se encuentra el archivo de configuración, las rutas posibles son:'
         missing-config-file-command: 'Ejecute el comando "drupal init" para generar uno'
->>>>>>> upstream/master
 user:
     messages:
         path: 'Ruta del home del usuario'
 remote:
     errors:
-<<<<<<< HEAD
-        passphrase-missing: 'Passphrase file is missing'
-        passphrase-empty: 'Passphrase file is empty'
-        private-missing: 'Private file is missing'
-        private-empty: 'Private file is empty'
-        private-invalid: 'Private file is invalid'
-        invalid-root: 'Invalid root directory'
-        console-not-found: 'Drupal Console not found on this site'
-=======
         passphrase-missing: 'No se encuentra el archivo de la frase de paso'
         passphrase-empty: 'El archivo de la frase de paso está vacío'
         private-missing: 'El archivo privado no se encuentra'
@@ -83,7 +62,6 @@ remote:
         private-invalid: 'El archivo privado no es válido'
         invalid-root: 'El directorio raíz no es válido'
         console-not-found: 'No se encuentra Drupal Console en este sitio'
->>>>>>> upstream/master
 gitbook:
     messages:
         title: 'Available Drupal Console Commands'

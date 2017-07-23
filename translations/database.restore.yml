@@ -9,9 +9,5 @@ messages:
 help: 'Restaura la estructura y los contenidos de una bases de datos.'
 examples:
     -
-<<<<<<< HEAD
         description: 'Restaurar el volcado en archivo de la base de datos en la base de datos por defecto o en la que se especifique'
-=======
-        description: 'Restore the database file dump to the database default or another one specified'
->>>>>>> upstream/master
         execution: "drupal database:restore \\\n  --file='/srv/dump/db.sql'\n"

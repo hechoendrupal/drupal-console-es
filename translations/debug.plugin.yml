@@ -1,41 +1,3 @@
-<<<<<<< HEAD
-description: 'Displays all plugin types.'
-help: |
-  Display all plugin types, plugin instances of a specific type, or the definition for a specific plugin.
-
-  List all plugin types:
-  <info>drupal plugin:debug</info>
-
-  List all instances of the image effect plugin type:
-  <info>drupal plugin:debug image.effect</info>
-
-  Show the definition for the image convert plugin:
-  <info>drupal plugin:debug image.effect image_convert</info>
-
-  <comment>NOTE: Only plugin types exposed through services are supported.</comment> When developing a custom plugin type, expose it as a service by adding it to modulename.services.yml with the name "plugin.manager.PLUGIN_TYPE".
-arguments:
-    type: 'Plugin type'
-    id: 'Plugin ID'
-errors:
-    plugin-type-not-found: 'Plugin type "%s" not found. No service available for that type.'
-table-headers:
-    plugin-type-name: 'Plugin type'
-    plugin-type-class: 'Plugin manager class'
-    plugin-id: 'Plugin ID'
-    plugin-class: 'Plugin class'
-    definition-key: 'Key'
-    definition-value: 'Value'
-examples:
-    - description: 'Displays a list with all the plugins on the current site'
-      execution: |
-        drupal debug:plugin
-    - description: 'Displays block plugin information'
-      execution: |
-        drupal debug:plugin block
-    - description: 'Displays block broken information'
-      execution: |
-        drupal debug:plugin block broken
-=======
 description: 'Muestra todos los tipos de plugins.'
 help: "Muestra todos los tipos de plugins, instancias de plugin de un tipo específico, o la definición de un plugin específico.\n\nListar todos los tipos de plugin:\n<info>drupal plugin:debug</info>\n\nListar todas las instancias del tipo de plugin de efecto de imagen:\n<info>drupal plugin:debug image.effect</info>\n\nMostrar la definición del plugin para convertir imágenes:\n<info>drupal plugin:debug image.effect image_convert</info>\n\n<comment>NOTA: Sólo se soportan los tipos de plugin expuestos mediantes servicios.</comment> Cuando desarrolle un tipo de plugin custom, expóngalo como un servicio añadiendolo al modulename.services.yml con el nombre \"plugin.manager.PLUGIN_TYPE\".\n"
 arguments:
@@ -60,4 +22,3 @@ examples:
     -
         description: 'Displays block broken information'
         execution: "drupal debug:plugin block broken\n"
->>>>>>> upstream/master

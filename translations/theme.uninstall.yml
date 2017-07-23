@@ -20,9 +20,5 @@ messages:
     error-admin-theme: 'El tema "%s" es el tema de administración y no puede ser desinstalado.'
 examples:
     -
-<<<<<<< HEAD
         description: 'Desinstalar tema especificando su nombre'
-=======
-        description: 'Uninstall theme specifying the name'
->>>>>>> upstream/master
         execution: "drupal theme:uninstall  mytheme\n"

@@ -2,21 +2,11 @@ description: 'Ejecutar un comando externo.'
 arguments:
     bin: 'Nombre del ejecutable'
 options:
-<<<<<<< HEAD
-    working-directory: 'The current working directory.'
-=======
     working-directory: 'El directorio actual.'
->>>>>>> upstream/master
 messages:
     success: 'El comando ha sido ejecutado con éxito'
     invalid-bin: 'Error ejecutando el comando'
     missing-bin: 'Debe proveer un ejecutable'
-<<<<<<< HEAD
-    binary-not-found: 'Unable to find the binary %s to execute.'
-    working-directory: 'Working directory'
-    executing-command: 'Executing command'
-=======
     binary-not-found: 'No es posible encontrar el binario %s a ejecutar.'
     working-directory: 'Directorio de trabajo'
     executing-command: 'Comando ejecutado'
->>>>>>> upstream/master

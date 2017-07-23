@@ -12,7 +12,6 @@ messages:
     password: Contraseña
     theme: Temas
     connection: Conexión
-<<<<<<< HEAD
     theme-default: 'Tema por defecto'
     theme-admin: 'Tema de administración'
     directory: Directorios
@@ -22,17 +21,6 @@ messages:
     directory-theme-admin: 'Directorio del tema de administración'
     current-version: 'Drupal actual ("%s")'
     not-installed: 'Drupal no está instalado'
-=======
-    theme-default: 'Default theme'
-    theme-admin: 'Admin theme'
-    directory: Directorios
-    directory-root: 'Site root directory'
-    directory-temporary: 'Site temporary directory'
-    directory-theme-default: 'Default theme directory'
-    directory-theme-admin: 'Admin theme directory'
-    current-version: 'Current Drupal ("%s")'
-    not-installed: 'Drupal is not installed'
->>>>>>> upstream/master
     hash_salt: 'Sal del hash'
     theme_default: 'Tema por defecto'
     theme_admin: 'Tema de administración'
@@ -48,9 +36,5 @@ messages:
     staging: 'Ruta de la configuración de staging'
 examples:
     -
-<<<<<<< HEAD
         description: 'Obtener el estatus de la instalación de drupal especificando el formato de salida como tabla'
-=======
-        description: 'Get drupal installation status specifying the output format as table'
->>>>>>> upstream/master
         execution: "drupal site:status  \\\n  --format=\"table\"\n"

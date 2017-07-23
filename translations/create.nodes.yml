@@ -29,15 +29,8 @@ messages:
     generated-content: '"%s" nodos creados con éxito'
 examples:
     -
-<<<<<<< HEAD
         description: 'Facilitando el nombre de tipo de contenido.'
         execution: 'drupal create:nodes content-name'
     -
         description: 'Facilitando el límite de publicaciones, de palabras en el título, con rango de tiempo e idioma.'
-=======
-        description: 'Provide the content type name.'
-        execution: 'drupal create:nodes content-name'
-    -
-        description: 'Provide the limit of publications, limit of title words, time range and language.'
->>>>>>> upstream/master
         execution: "drupal create:nodes content-name \\\n  --limit=\"5\" \\\n  --title-words=\"5\" \\\n  --time-range=\"1\" \\\n  --language=\"und\"\n"

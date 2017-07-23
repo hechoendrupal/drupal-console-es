@@ -8,9 +8,5 @@ messages:
     connection: 'Conexión: "%s"'
 examples:
     -
-<<<<<<< HEAD
         description: 'Conectar a una base de datos especificada, o a la por defecto si no se pasaran argumentos'
-=======
-        description: 'Connects to an specified database, or the default if not arguments passed'
->>>>>>> upstream/master
         execution: "drupal database:connect \\\n  <database>\n"

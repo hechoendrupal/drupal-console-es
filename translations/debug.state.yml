@@ -1,18 +1,3 @@
-<<<<<<< HEAD
-description: 'Show the current State keys.'
-help: 'Show the current State keys.'
-arguments:
-  key: 'The State key to debug.'
-messages:
-  key: 'The State key'
-examples:
-    - description: 'List of the states on the site'
-      execution: |
-        drupal debug:state
-    - description: 'Displays a detail of the state install_task tok from the list of states'
-      execution: |
-        drupal debug:state install_task
-=======
 description: 'Muestra las claves de Estado actual.'
 help: 'Muestra las claves de Estado actual.'
 arguments:
@@ -20,10 +5,9 @@ arguments:
 messages:
     key: 'La clave de Estado'
 examples:
-    -
-        description: 'List of the states on the site'
-        execution: "drupal debug:state\n"
-    -
-        description: 'Displays a detail of the state install_task tok from the list of states'
-        execution: "drupal debug:state install_task\n"
->>>>>>> upstream/master
+    - description: 'List of the states on the site'
+      execution: |
+        drupal debug:state
+    - description: 'Displays a detail of the state install_task tok from the list of states'
+      execution: |
+        drupal debug:state install_task

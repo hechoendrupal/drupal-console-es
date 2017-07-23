@@ -6,11 +6,7 @@ messages:
     inputs: "Puede añadir campos para modificar el formulario.\nEsto es opcional, pulse <info>enter</info> para <info>continuar</info>"
     loading-forms: 'Cargando definición de forms desde el módulo Webprofiler'
     hide-form-elements: 'Opcionalmente puede seleccionar items del form a esconder'
-<<<<<<< HEAD
-    help-already-implemented: 'The hook form alter was already implemented in module "%s"'
-=======
     help-already-implemented: 'El hook form alter ya ha sido implementado en el módulo "%s"'
->>>>>>> upstream/master
 examples:
     -
         description: 'Generate a hook form alter for an empty form specifying the module name'

@@ -8,15 +8,8 @@ errors:
     invalid-mode: 'Modo de mantenimiento inválido'
 examples:
     -
-<<<<<<< HEAD
         description: 'Activar el modo mantenimiento'
         execution: 'drupal site:maintenance  on'
     -
         description: 'Desactivar el modo mantenimiento'
-=======
-        description: 'Switch on maintenance'
-        execution: 'drupal site:maintenance  on'
-    -
-        description: 'Switch off maintenance'
->>>>>>> upstream/master
         execution: "drupal site:maintenance  off\n"

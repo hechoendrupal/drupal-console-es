@@ -11,15 +11,8 @@ messages:
     clear-sucess: 'La eliminación de eventos fue exitosa'
 examples:
     -
-<<<<<<< HEAD
         description: 'Vaciar el log en la tabla DBLog de la base de datos'
         execution: "drupal database:log:clear \\\n  <database>"
     -
         description: 'Vaciar el log en la tabla DBLog de la base de datos usando filtros'
-=======
-        description: 'Clear the database log from DBLog table'
-        execution: "drupal database:log:clear \\\n  <database>"
-    -
-        description: 'Clear the database log from DBLog table using filters'
->>>>>>> upstream/master
         execution: "drupal database:log:clear \\\n  <database> \\\n  --type=TYPE \\\n  --severity=SEVERITY"

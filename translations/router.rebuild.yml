@@ -6,9 +6,5 @@ messages:
     completed: 'El proceso de reconstrucción de ruta(s) ha finalizado.'
 examples:
     -
-<<<<<<< HEAD
         description: 'Reconstruir rutas'
-=======
-        description: 'Rebuild routes'
->>>>>>> upstream/master
         execution: 'drupal router:rebuild'

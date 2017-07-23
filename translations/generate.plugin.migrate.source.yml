@@ -1,47 +1,3 @@
-<<<<<<< HEAD
-description: 'Generate a migrate source plugin'
-help: 'The <info>generate:migrate:plugin:source</info> command helps you generate a new migrate source plugin.'
-welcome: 'Welcome to the Drupal Migrate Source Plugin generator'
-options:
-  module: common.options.module
-  class: 'Plugin class name'
-  plugin-id: 'Plugin id'
-  table: 'Table to query'
-  alias: 'Short alias to refer to the table as'
-  group-by: 'Field to group results by'
-  fields: 'Fields to export'
-questions:
-  module: common.questions.module
-  class: 'Enter the plugin class name'
-  plugin-id: 'Enter the plugin id'
-  table: 'Enter the table name'
-  alias: 'Enter the alias for the table'
-  group-by: 'Enter a field to group by if desired'
-  fields:
-    id: 'Enter the field id or press <info>enter</enter> if done'
-    description: 'Enter the field description'
-examples:
-  - description: 'Generate a migration source plugin specifying the module name, the class, its plugin id, the table and its alias'
-    execution: |
-      drupal generate:plugin:migrate:source  \
-        --module="modulename"  \
-        --class="PluginClassName"  \
-        --plugin-id="plugin_class_name"  \
-        --table="DefaultTableName"  \
-        --alias="D"
-  - description: 'Generate a migration source plugin for specific fields of the users table specifying the module name, the class, its plugin id, the table, its alias and the fields'
-    execution: |
-      drupal generate:plugin:migrate:source  \
-        --module="modulename"  \
-        --class="DefaultPluginClass"  \
-        --plugin-id="default_plugin_class"  \
-        --table="users"  \
-        --alias="u"  \
-        --fields='"id":"id", "description":"the user id"'  \
-        --fields='"id":"username", "description":"the username"'  \
-        --fields='"id":"password", "description":"the user password"'  \
-        --fields='"id":"email", "description":"the user email"'
-=======
 description: 'Genera un plugin de migración de fuentes'
 help: 'El comando <info>generate:migrate:plugin:source</info> le ayuda a generar un plugin de migración de fuentes.'
 welcome: 'Bienvenido al generador de plugins de migración de fuentes para Drupal'
@@ -64,10 +20,23 @@ questions:
         id: 'Introduzca el ID del campo o presione <info>enter</enter> si ya está'
         description: 'Introduzca la descripción del campo'
 examples:
-    -
-        description: 'Generate a migration source plugin specifying the module name, the class, its plugin id, the table and its alias'
-        execution: "drupal generate:plugin:migrate:source  \\\n  --module=\"modulename\"  \\\n  --class=\"PluginClassName\"  \\\n  --plugin-id=\"plugin_class_name\"  \\\n  --table=\"DefaultTableName\"  \\\n  --alias=\"D\""
-    -
-        description: 'Generate a migration source plugin for specific fields of the users table specifying the module name, the class, its plugin id, the table, its alias and the fields'
-        execution: "drupal generate:plugin:migrate:source  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultPluginClass\"  \\\n  --plugin-id=\"default_plugin_class\"  \\\n  --table=\"users\"  \\\n  --alias=\"u\"  \\\n  --fields='\"id\":\"id\", \"description\":\"the user id\"'  \\\n  --fields='\"id\":\"username\", \"description\":\"the username\"'  \\\n  --fields='\"id\":\"password\", \"description\":\"the user password\"'  \\\n  --fields='\"id\":\"email\", \"description\":\"the user email\"'\n"
->>>>>>> upstream/master
+  - description: 'Generate a migration source plugin specifying the module name, the class, its plugin id, the table and its alias'
+    execution: |
+      drupal generate:plugin:migrate:source  \
+        --module="modulename"  \
+        --class="PluginClassName"  \
+        --plugin-id="plugin_class_name"  \
+        --table="DefaultTableName"  \
+        --alias="D"
+  - description: 'Generate a migration source plugin for specific fields of the users table specifying the module name, the class, its plugin id, the table, its alias and the fields'
+    execution: |
+      drupal generate:plugin:migrate:source  \
+        --module="modulename"  \
+        --class="DefaultPluginClass"  \
+        --plugin-id="default_plugin_class"  \
+        --table="users"  \
+        --alias="u"  \
+        --fields='"id":"id", "description":"the user id"'  \
+        --fields='"id":"username", "description":"the username"'  \
+        --fields='"id":"password", "description":"the user password"'  \
+        --fields='"id":"email", "description":"the user email"'

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 description: 'Validar una configuración de Drupal contra su schema'
 options: {}
 arguments: {}
@@ -8,17 +7,3 @@ messages:
 examples:
     - description: 'Validar la configuración proveyendo el nombre de configuración.'
       execution: 'drupal config:validate configuration.name'
-
-=======
-description: 'Validar una configuración de Drupal según su schema'
-options: {  }
-arguments: {  }
-messages:
-    success: 'La configuración ha sido validada con éxito'
-    no-conf: 'No existe ninguna configuración con este nombre'
-    noConf: 'No hay ninguna configuración con este nombre'
-examples:
-    -
-        description: 'Provide the configuration name.'
-        execution: 'drupal config:validate configuration.name'
->>>>>>> upstream/master

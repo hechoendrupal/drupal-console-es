@@ -14,9 +14,5 @@ messages:
     error: 'Error creando los vocabularios: "%s"'
 examples:
     -
-<<<<<<< HEAD
         description: 'Facilitar el número de vocabularios a crear y el número máximo de palabras en los nombres de vocabulario.'
-=======
-        description: 'Provide the number of vocabularies to create and maximum number of words in vocabulary names'
->>>>>>> upstream/master
         execution: "drupal create:vocabularies \\\n  --limit=\"5\" \\\n  --name-words=\"5\"\n"

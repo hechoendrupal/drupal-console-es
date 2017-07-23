@@ -5,15 +5,6 @@ options:
     theme: 'Nombre del tema'
     breakpoints: Breakpoints
 questions:
-<<<<<<< HEAD
-    theme: 'Enter the theme name (i.e. classy, stable)'
-    breakpoint-name: 'Enter breakpoint name'
-    breakpoint-label: 'Enter breakpoint label'
-    breakpoint-media-query: 'Enter breakpoint media query'
-    breakpoint-weight: 'Enter breakpoint weight'
-    breakpoint-multipliers: 'Enter breakpoint multipliers'
-    breakpoint-add: 'Do you want to add another breakpoint'
-=======
     theme: 'Introduzca el nombre del tema (por ejemplo: classy, stable)'
     breakpoint-name: 'Introduzca el nombre del breakpoint'
     breakpoint-label: 'Introduzca la etiqueta del breakpoint'
@@ -21,7 +12,6 @@ questions:
     breakpoint-weight: 'Introduzca el peso del breakpoint'
     breakpoint-multipliers: 'Introduzca los multiplicadores del breakpoint'
     breakpoint-add: '¿Desea añadir otro breakpoint?'
->>>>>>> upstream/master
 examples:
     -
         description: 'Generate a breakpoint specifying the theme, a breakpoint name, its label, the media query, its weight and multipliers'

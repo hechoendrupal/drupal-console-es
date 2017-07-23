@@ -7,9 +7,5 @@ errors:
     invalid-user: 'No se puede cargar la entidad de usuario (ID de usuario: "%s").'
 examples:
     -
-<<<<<<< HEAD
         description: 'Proporciona una url de login de un sólo uso para el id de usuario 1'
-=======
-        description: 'Get one time login url for user id 1'
->>>>>>> upstream/master
         execution: "drupal user:login:url  1\n"

@@ -2,13 +2,8 @@ options:
     class: 'Nombre de la clase'
     events: 'Cargar eventos desde el contenedor.'
     module: 'Nombre del módulo.'
-<<<<<<< HEAD
-    extension: 'The extension name.'
-    extension-type: 'The extension type.'
-=======
     extension: 'Nombre de la extensión.'
     extension-type: 'Tipo de la extensión.'
->>>>>>> upstream/master
     services: 'Cargar servicios desde el contenedor.'
     tags: 'Asignar etiquetas de servicio desde el contenedor.'
     inputs: 'Crear campos de entrada en un formulario.'
@@ -16,13 +11,8 @@ options:
 questions:
     class: 'Introduzca el nombre de la clase'
     module: 'Escriba el nombre del módulo'
-<<<<<<< HEAD
-    extension: 'Enter the extension name'
-    extension-type: 'Enter the extension type'
-=======
     extension: 'Introduzca el nombre de la extensión'
     extension-type: 'Introduzca el tipo de la extensión'
->>>>>>> upstream/master
     confirm: '¿Confirma la generación?'
     canceled: 'Comando de generacion cancelado.'
     events:

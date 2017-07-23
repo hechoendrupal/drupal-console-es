@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-description: 'Debug entities available in the system'
-help: 'The <info>entity:debug</info> command helps get a list of entities.'
-arguments:
-questions:
-messages:
-table-headers:
-  entity-name: 'Entity name'
-  entity-type: 'Entity type'
-examples:
-    - description: 'Displays the available entities'
-      execution: |
-        drupal debug:entity
-=======
 description: 'Debugea entidades disponibles en el sistema'
 help: 'El comando <info>entity:debug</info> le ayuda a obtener un listado de entidades.'
 arguments: null
@@ -24,4 +10,3 @@ examples:
     -
         description: 'Displays the available entities'
         execution: "drupal debug:entity\n"
->>>>>>> upstream/master

@@ -1,26 +1,3 @@
-<<<<<<< HEAD
-description: 'Display current rest resource for the application'
-arguments:
-    resource-id: 'Rest ID'
-options:
-    status: 'Rest resource status enabled | disabled'
-messages:
-    id: 'Rest ID'
-    label: Label
-    canonical-url: 'Canonical URL'
-    status: Status
-    provider: Provider
-    enabled: Enabled
-    disabled: Disabled
-    rest-state: 'REST States'
-    supported-formats: 'Supported Formats'
-    supported-auth: 'Supported Authentication Providers'
-    not-found: 'Rest resource "%s" not found'
-examples:
-    - description: 'Displays rest hooks'
-      execution: |
-        drupal debug:rest
-=======
 description: 'Muestra el actual recurso rest para la aplicación'
 arguments:
     resource-id: 'ID de recurso rest'
@@ -44,4 +21,3 @@ examples:
     -
         description: 'Displays rest hooks'
         execution: "drupal debug:rest\n"
->>>>>>> upstream/master

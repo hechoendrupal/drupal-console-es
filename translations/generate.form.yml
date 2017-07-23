@@ -6,15 +6,9 @@ options:
     class: 'El nombre de la clase del formulario'
     form-id: 'El id del formulario'
     services: common.options.services
-<<<<<<< HEAD
-    config-file: 'Add a config file'
-    inputs: common.options.inputs
-    path: 'Enter the form path'
-=======
     config-file: 'Añadir un fichero de configuración'
     inputs: common.options.inputs
     path: 'Introduzca la ruta del formulario'
->>>>>>> upstream/master
     menu-link-gen: 'Generate a menu link'
     menu-link-title: 'A title for the menu link'
     menu-parent: 'Menu parent'
@@ -25,17 +19,10 @@ questions:
     class: 'Introduzca el nombre de la clase del formulario'
     form-id: 'Introduzca el id del formulario'
     services: common.questions.services
-<<<<<<< HEAD
-    config-file: 'Do you want to generate a config file'
-    inputs: common.questions.inputs
-    routing: 'Le gustaría registrar una ruta para este formulario'
-    path: 'Enter the route path'
-=======
     config-file: '¿ Desea generar un fichero de configuración ?'
     inputs: common.questions.inputs
     routing: 'Le gustaría registrar una ruta para este formulario'
     path: 'Introduzca la ruta'
->>>>>>> upstream/master
     menu_link_gen: 'Generar un enlace de menú'
     menu_link_title: 'Título para el enlace de menú'
     menu_parent: 'Menú padre'

@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-description: 'Displays current views plugins for the application'
-arguments:
-    type: 'Filter views plugins by type'
-messages:
-  type: 'Type'
-  name: 'Name'
-  provider: 'Provider'
-  views: 'Views'
-examples:
-    - description: 'List of views plugins'
-      execution: |
-        drupal debug:views:plugins
-=======
 description: 'Muestra los plugins de vistas existentes del sitio'
 arguments:
     type: 'Filtrar plugins de vistas por tipo'
@@ -24,4 +10,3 @@ examples:
     -
         description: 'List of views plugins'
         execution: "drupal debug:views:plugins\n"
->>>>>>> upstream/master

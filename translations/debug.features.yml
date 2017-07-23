@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 description: 'List registered features.'
 help: ''
 arguments:
@@ -9,17 +8,4 @@ messages:
   machine-name: 'Machine Name'
   status: 'Status'
   state: 'State'
-
-=======
-description: 'Ofrece un listado de las features registradas.'
-help: ''
-arguments:
-    bundle: 'Nombre del bundle'
-messages:
-    bundle: Bundle
-    name: Nombre
-    machine-name: 'Machine Name'
-    status: Estado
-    state: Situación
-    machine_name: 'Nombre máquina'
->>>>>>> upstream/master
+  machine_name: 'Nombre máquina'

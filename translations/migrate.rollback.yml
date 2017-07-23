@@ -1,15 +1,6 @@
-<<<<<<< HEAD
 description: 'Revertir una o múltiples migraciones'
 arguments:
     id: 'id(s) de Migración'
 messages:
     not-available: 'Id de Migración "%s" no es válido. Abortando.'
     processing: 'Reversión de migración "%s" completada'
-=======
-description: 'Hacer Rollback de una o varias migraciones'
-arguments:
-    id: 'Id(s) de migración'
-messages:
-    not-available: 'El id de migración "%s" es inválido. Abortando.'
-    processing: 'Rollback "%s" completado'
->>>>>>> upstream/master

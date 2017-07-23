@@ -3,15 +3,6 @@ options:
     severity: 'Filtrar eventos por un nivel de severidad específico'
     user-id: 'Filtrar eventos por un id de usuario específico'
 messages:
-<<<<<<< HEAD
-    event-id: 'ID de Evento'
-    type: Type
-    date: Date
-    message: Message
-    user: User
-    severity: Severity
-    invalid-severity: 'El tipo de severidad no es válido, el filtro se ignorará.'
-=======
     event-id: 'ID de evento'
     type: Tipo
     date: Fecha
@@ -19,4 +10,3 @@ messages:
     user: Usuario
     severity: 'Severidad'''
     invalid-severity: 'El tipo de severidad no es válido, ignorando el filtro'
->>>>>>> upstream/master

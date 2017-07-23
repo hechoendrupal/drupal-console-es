@@ -1,21 +1,3 @@
-<<<<<<< HEAD
-description: 'Displays current events '
-help: 'The <info>event:debug</info> command helps you debug events.'
-arguments:
-  event: 'Event to debug'
-messages:
-  event: Event Name
-  class: 'Class'
-  method: 'Method'
-  no-events: "This event does not exist, try to execute command: event:debug"
-examples:
-    - description: 'List all the events that could be debugged'
-      execution: |
-        drupal debug:evet
-    - description: 'Show the information for the kernel.request event'
-      execution: |
-        drupal debug:event kernel.request
-=======
 description: 'Muestra los eventos actuales'
 help: 'El comando <info>event:debug</info> le ayuda a debuguear eventos.'
 arguments:
@@ -32,4 +14,3 @@ examples:
     -
         description: 'Show the information for the kernel.request event'
         execution: 'drupal debug:event kernel.request'
->>>>>>> upstream/master

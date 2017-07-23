@@ -2,17 +2,10 @@ description: 'Prepara los archivos para una nueva instalación multisitio.'
 help: 'El comando <info>multisite:new</info> le ayuda a preparar una nueva instalación multisitio creado el subdirectorio y archivos necesarios. Además, opcionalmente, puede copiar una instalación ''default'' existente.'
 arguments:
     directory: 'Nombre del directorio bajo ''sites'' que será creado.'
-<<<<<<< HEAD
-    uri: 'URI del sitio a añadir al sites.php.'
-    sites-subdir: 'Nombre del directorio bajo ''sites'' que será creado.'
-options:
-    copy-default: 'Copia el sitio existente desde la instalación por defecto.'
-=======
     uri: 'URI del sitio que se añadirá al sites.php.'
     sites-subdir: 'Nombre del directorio bajo ''sites'' que será creado.'
 options:
     copy-default: 'Copia un sitio existente desde la instalación por defecto.'
->>>>>>> upstream/master
     site-uri: 'URI del sitio a añadir al sites.php.'
     copy-install: 'Copia el sitio existente desde la instalación por defecto.'
 errors:
@@ -30,18 +23,10 @@ errors:
 warnings:
     missing-files: 'No se ha encontrado el directorio sites/default/files. El directorio files necesitará ser creado a mano.'
 messages:
-<<<<<<< HEAD
     copy-default: 'La instalación por defecto se ha copiado con éxito a "sites/%s".'
-=======
-    copy-default: 'La instalación por defecto ha sido copiada con éxito en "sites/%s".'
->>>>>>> upstream/master
     fresh-site: 'La nueva estructura multisitio ha sido creada con éxito en sites/"%s" y está lista para su instalación.'
     copy-install: 'La instalación por defecto ha sido copiada exitosamente en sites/"%s".'
 examples:
     -
-<<<<<<< HEAD
         description: 'Configurar los archivos para una instalación por defecto especificando el directorio de destino y la url'
-=======
-        description: 'Set up files for a multisite install specifying destination path and uri'
->>>>>>> upstream/master
         execution: "drupal multisite:new  vendor/newsite http://mysite.example.com\n"

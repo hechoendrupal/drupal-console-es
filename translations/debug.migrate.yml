@@ -1,17 +1,3 @@
-<<<<<<< HEAD
-description: 'Display current migration available for the application'
-arguments:
-    tag: 'Migrate tag'
-messages:
-    id: 'Migration Id'
-    description: Description
-    no-migrations: "There aren't migrations available try to execute command: migrate:setup:migrations"
-    tags: Tags
-examples:
-    - description: 'Displays current migration'
-      execution: |
-        drupal debug:migrate
-=======
 description: 'Muestra la migración actual disponible para la aplicación'
 arguments:
     tag: 'Etiqueta de migración'
@@ -24,4 +10,3 @@ examples:
     -
         description: 'Displays current migration'
         execution: "drupal debug:migrate\n"
->>>>>>> upstream/master

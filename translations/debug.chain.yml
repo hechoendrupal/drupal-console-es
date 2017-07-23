@@ -1,9 +1,4 @@
 description: 'Lista los archivos chain disponibles.'
 messages:
-<<<<<<< HEAD
     directory: 'Directorio'
     file: 'Nombre de fichero chain.'
-=======
-    directory: Directorio
-    file: 'Nombre del archivo chain.'
->>>>>>> upstream/master

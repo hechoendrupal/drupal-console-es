@@ -1,20 +1,3 @@
-<<<<<<< HEAD
-description: 'Import module config.'
-help: ''
-options:
-  bundle: 'Bundle name'
-arguments:
-  packages: 'Package name'
-questions:
-  packages: 'Enter package name to import'
-messages:
-  no-packages: 'No packages available.'
-  not-available: 'Package %s, not available.'
-  importing: 'Importing package %s.'
-  uninstall: 'Package %s already installed.'
-  reverting: 'Reverting package %s.'
-  nothing: 'Nothing to import.'
-=======
 description: 'Importar módulo de configuración.'
 help: ''
 options:
@@ -30,4 +13,3 @@ messages:
     uninstall: 'El paquete %s ya está instalado.'
     reverting: 'Revirtiendo el paquete %s.'
     nothing: 'Nada que importar.'
->>>>>>> upstream/master

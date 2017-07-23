@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 description: 'Muestra los pares clave:valor actual en el fichero settings.'
 help: 'El comando <info>config:settings:debug</info> le muestra los pares clave:valor en el archivo settings.'
 welcome: 'Bienvenido la comando de debug de settings de la configuración de Drupal'
@@ -8,14 +7,3 @@ examples:
     - description: 'Mostrar los pares clave:valor que contiene el archivo settings'
       execution: |
         drupal debug:config:settings
-=======
-description: 'Muestra el actual clave:valor en el archivo de configuración.'
-help: 'El comando <info>config:settings:debug</info> le ayuda a mostrar el par actual clave:valor en el archivo de configuración.'
-welcome: 'Bienvenido al comando de Debug de Configuración de Drupal Config'
-messages:
-    current: 'Par clave:valor actual en el archivo de configuración'
-examples:
-    -
-        description: 'Displays key:value as per the settings file'
-        execution: "drupal debug:config:settings\n"
->>>>>>> upstream/master
