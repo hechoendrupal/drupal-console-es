@@ -5,5 +5,9 @@ messages:
     error: 'Error al intentar actualizar las entidades'
 examples:
     -
+<<<<<<< HEAD
         description: 'Actualizar entidades'
+=======
+        description: 'Update entities'
+>>>>>>> upstream/master
         execution: "drupal update:entities\n"

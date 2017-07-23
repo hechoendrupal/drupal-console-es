@@ -10,5 +10,9 @@ messages:
     table-show: 'Mostrando las tablas de la base de datos "%s"'
 examples:
     -
+<<<<<<< HEAD
         description: 'Elimina las tablas de la base de datos especificada como argumento'
+=======
+        description: 'Drop the tables on the database specified on the argument'
+>>>>>>> upstream/master
         execution: "drupal database:drop \\\n  <database>\n"

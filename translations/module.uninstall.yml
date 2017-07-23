@@ -15,5 +15,9 @@ messages:
     composer-success: 'El/Los siguiente(s) módulo(s) fueron eliminados exitosamente mediante Composer: "%s"'
 examples:
     -
+<<<<<<< HEAD
         description: 'Desinstalar un módulo especificando el nombre del módulo'
+=======
+        description: 'Uninstall the module specifying the module name'
+>>>>>>> upstream/master
         execution: "drupal module:uninstall  modulename\n"

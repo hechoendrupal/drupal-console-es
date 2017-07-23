@@ -2,7 +2,14 @@ description: 'Procesa la cola seleccionada.'
 arguments:
     name: 'Nombre de la cola.'
 messages:
+<<<<<<< HEAD
     success: '"%s" procesada: "%s"/"%s" items en "%s" segundos.'
     failed: '"%s" falló: "%s".'
     missing-name: 'Indique un nombre de cola válido.'
     invalid-name: 'El nombre de cola provisto "%s" no es válido.'
+=======
+    success: '"%s" procesado: "%s"/"%s" elementos en "%s" segundos.'
+    failed: '"%s" ha fallado: "%s".'
+    missing-name: 'Introduzca un nombre de cola válido.'
+    invalid-name: 'El nombre de cola "%s" provisto es inválido.'
+>>>>>>> upstream/master

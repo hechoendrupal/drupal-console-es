@@ -1,24 +1,26 @@
-description: 'Displays current modules available for application'
+description: 'Muestra los módulos actualmente disponibles para la aplicación'
 module: 'Module name'
 options:
-    status: 'Module status [installed|uninstalled]'
-    type: 'Module type [core|no-core]'
+    status: 'Estado del módulo [installed|uninstalled]'
+    type: 'Tipo de módulo [core|no-core]'
 messages:
     id: ID
-    name: Name
-    status: Status
-    origin: Origin
-    package: Package
-    installed: Installed
-    uninstalled: Uninstalled
-    version: Version
-    schema-version: 'Schema version'
-    total-downloads: 'Total installs'
-    total-monthly: 'Monthly installs'
-    total-daily: 'Daily installs'
-    no-results: 'Module "%s" was not found in the repository'
+    name: Nombre
+    status: Estado
+    origin: Origen
+    package: Paquete
+    installed: Instalado
+    uninstalled: Desinstalado
+    version: Versión
+    schema-version: 'Versión del esquema'
+    total-downloads: 'Total de instalaciones'
+    total-monthly: 'Instalaciones mensuales'
+    total-daily: 'Instalaciones diarias'
+    no-results: 'El módulo "%s" no ha sido encontrado en el repositorio'
 examples:
-    - description: 'Display all installed modules'
-      execution: 'drupal mod --status=installed'
-    - description: 'Display all installed and no core modules'
-      execution: 'drupal mod --status=installed --type=no-core'
+    -
+        description: 'Muestra todos los módulos habilitados'
+        execution: 'drupal mod --status=installed'
+    -
+        description: 'Muestra todos los módulos habilitados y que no son del core (contrib + custom)'
+        execution: 'drupal mod --status=installed --type=no-core'

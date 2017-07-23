@@ -1,3 +1,9 @@
+<<<<<<< HEAD
 description: 'Drupal Console equivalents'
 messages:
   not-found: 'Drush command not found'
+=======
+description: 'Equivalentes a Drupal Console'
+messages:
+    not-found: 'Comando de Drush no encontrado'
+>>>>>>> upstream/master

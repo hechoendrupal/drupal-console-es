@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 description: 'Displays current updates available for the application'
 messages:
     no-updates: 'No pending updates'
@@ -15,3 +16,22 @@ examples:
     - description: 'List of pending updates'
       execution: |
         drupal debug:update
+=======
+description: 'Muestra las actualizaciones disponibles'
+messages:
+    no-updates: 'No hay actualizaciones pendientes'
+    severity: Severidad
+    title: Título
+    value: Valor
+    description: Descripción
+    requirements-error: 'El siguiente requerimiento no fué completado'
+    module-list: 'Módulos con actualizaciones pendientes'
+    module-list-post-update: 'Módulos con post-actualizaciones pendientes'
+    module: Módulo
+    update-n: 'Actualización N'
+    post-update: 'Función de post-actualización'
+examples:
+    -
+        description: 'List of pending updates'
+        execution: "drupal debug:update\n"
+>>>>>>> upstream/master

@@ -3,5 +3,9 @@ messages:
     released: 'Cron desbloqueado con éxito'
 examples:
     -
+<<<<<<< HEAD
         description: 'Ejecutar el cron globalmente'
+=======
+        description: 'Execute the cron globally'
+>>>>>>> upstream/master
         execution: "drupal cron:execute\n"

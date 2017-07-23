@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 description: 'Muestra la cache de contexto actual en la aplicación.'
 messages:
     code: 'ID de Contexto'
@@ -7,3 +8,14 @@ examples:
     - description: 'Muestra el contexto de caché'
       execution: |
         drupal debug:cache:context
+=======
+description: 'Muestra el contexto de caché actual de la aplicación.'
+messages:
+    code: 'ID de Contexto'
+    label: Etiqueta
+    class: 'Ruta de la clase'
+examples:
+    -
+        description: 'Displays cache context'
+        execution: "drupal debug:cache:context\n"
+>>>>>>> upstream/master

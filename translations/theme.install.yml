@@ -21,5 +21,9 @@ messages:
     invalid-theme-default: 'La opción por defecto es válida solo para un tema'
 examples:
     -
+<<<<<<< HEAD
         description: 'Instalar un tema especificando el nombre'
+=======
+        description: 'Install theme specifying the name'
+>>>>>>> upstream/master
         execution: "drupal theme:install  mytheme\n"

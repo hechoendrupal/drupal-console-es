@@ -16,7 +16,11 @@ questions:
     has-bundles: 'Desea que esta entidad de contenido tenga bundles'
     base-path: 'Proporcione el directorio raíz para las rutas de la entidad de contenido'
     is-translatable: 'Es su entidad traducible'
+<<<<<<< HEAD
     revisionable: 'Is your entity revisionable'
+=======
+    revisionable: 'Es su entidad revisionable'
+>>>>>>> upstream/master
 examples:
     -
         description: 'Generate a content entity specifying the module, the entity class, the entity name, its path and label'

@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 description: 'Editar en vivo el watchdog imprimiendo las nuevas entradas en el log cada x segundos'
 arguments:
     duration: 'Duración en segundos en los que se producirá el intervalo de lecturas en la base de datos'
@@ -12,3 +13,14 @@ examples:
       execution: |
         drupal database:log:poll \
           100
+=======
+description: 'Observar el watchdog e imprimir nuevas entradas en el log cada x segundos'
+arguments:
+    duration: 'Intervalo en segundos para lectura en la base de datos'
+messages:
+    warning: "No use este comando en entornos de producción\nDado que este script produce bloqueos, considérese advertido de ejecutarlo sólo en máquinas virtuales con múltiples cores por motivos de rendimiento\n¡Detenga este mecanismo de observación antes de vaciar la tabla del watchdog!\nAbandone con ^C\n"
+examples:
+    -
+        description: 'Print the log entries on screen every x seconds'
+        execution: "drupal database:log:poll \\\n  100\n"
+>>>>>>> upstream/master

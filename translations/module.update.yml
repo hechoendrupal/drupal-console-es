@@ -14,5 +14,9 @@ messages:
     missing-module: 'Introduzca un(os) nombre(s) de módulo(s) para actualizar.'
 examples:
     -
+<<<<<<< HEAD
         description: 'Actualizar un módulo especificando el nombre del módulo mediante composer'
+=======
+        description: 'Update module specifying module name and composer parameter'
+>>>>>>> upstream/master
         execution: "drupal module:update  modulename  \\\n  --composer\n"

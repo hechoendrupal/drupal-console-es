@@ -1,11 +1,11 @@
-description: 'Instala las dependencias del módulo en la aplicación'
+description: 'Install dependencies module in the application'
 arguments:
-  module: 'El módulo o módulos a habilitar deben estar separados por un espacio'
+    module: 'Module or modules to be enabled should be separated by a space'
 messages:
-  no-depencies: 'Nada que hacer. Este módulo no tiene dependencias que instalar'
-  installing: 'Instalando módulo(s) "%s"'
-  success: 'El/Los siguiente(s) módulo(s) han sido instalados con éxito: "%s"'
+    no-depencies: 'Nothing to do. This modules has not dependencies to install'
+    installing: 'Installing module(s) "%s"'
+    success: 'The following module(s) were installed successfully: "%s"'
 examples:
-    - description: 'Instala las dependencias del módulo especificado'
-      execution: |
-        drupal module:dependency:install  modulename
+    -
+        description: 'Install the dependencies of the specfied module'
+        execution: "drupal module:dependency:install  modulename\n"

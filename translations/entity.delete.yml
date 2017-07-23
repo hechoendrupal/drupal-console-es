@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 description: 'Delete an specific entity'
 help: 'The <info>entity:delete</info> command helps you delete entities.'
 arguments:
@@ -13,3 +14,20 @@ examples:
   - description: 'Delete entity type content using node id'
     execution: |
       drupal entity:delete node 1
+=======
+description: 'Elimina una entidad específica'
+help: 'El comando <info>entity:delete</info> le ayuda a eliminar entidades.'
+arguments:
+    entity-definition-id: 'ID de definición de la entidad'
+    entity-id: 'ID de la entitdad que será eliminada'
+questions:
+    entity-type: 'Introduzca el tipo de entidad'
+    entity-definition-id: 'Introduzca el id de definición de entidad'
+    entity-id: 'Introduzca el ID de entidad que será eliminada'
+messages:
+    deleted: 'La entidad %s con id %s ha sido eliminada con éxito'
+examples:
+    -
+        description: 'Delete entity type content using node id'
+        execution: 'drupal entity:delete node 1'
+>>>>>>> upstream/master

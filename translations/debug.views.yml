@@ -1,22 +1,22 @@
-description: 'Displays current views resources for the application'
+description: 'Muestra los recursos actuales de vistas en el sitio'
 arguments:
-    view-id: 'View ID'
-    view-tag: 'View tag'
-    view-status: 'View status (Enabled|Disabled)'
+    view-id: 'ID de Vista'
+    view-tag: 'Etiqueta de la vista'
+    view-status: 'Estado de la vista (Habilitado|Deshabilitado)'
 messages:
-    view-id: 'View ID'
-    view-name: 'View name'
-    description: Description
-    tag: Tag
-    status: Status
-    path: Path
-    not-found: 'View "%s" wasn''t found.'
-    display-list: 'Display list'
+    view-id: 'ID de Vista'
+    view-name: 'Nombre de la vista'
+    description: Descripción
+    tag: Etiqueta
+    status: Estado
+    path: Ruta
+    not-found: 'No se encontró la vista'
+    display-list: 'Lista de displays'
     display-id: ID
-    display-name: Name
-    display-description: Description
-    display-paths: Paths
+    display-name: Nombre
+    display-description: Descripción
+    display-paths: Rutas
 examples:
-    - description: 'List of views on the site'
-      execution: |
-        drupal debug:views
+    -
+        description: 'List of views on the site'
+        execution: "drupal debug:views\n"

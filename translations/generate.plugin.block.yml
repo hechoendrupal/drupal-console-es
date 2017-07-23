@@ -16,7 +16,11 @@ questions:
     plugin-id: 'Introduzca el id del plugin'
     inputs: common.questions.inputs
     services: common.questions.services
+<<<<<<< HEAD
     theme-region: 'Enter the theme region to render the Plugin Block.'
+=======
+    theme-region: 'Introduzca la región del theme para renderizar el Plugin Block.'
+>>>>>>> upstream/master
 messages:
     inputs: "\nPuede añadir campos de tipo input para crear configuraciones particulares en cada bloque.\nEsto es opcional, pulse <info>enter</info> para <info>continuar</info>"
     invalid-theme-region: 'Región "%s" no es válida'

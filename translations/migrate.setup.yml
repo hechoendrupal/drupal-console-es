@@ -7,7 +7,11 @@ options:
     db-pass: 'Contraseña de base de datos'
     db-prefix: 'Prefijo de base de datos'
     db-port: Puerto
+<<<<<<< HEAD
     source-base_path: 'Directorio local que contiene los fuentes de su sitio (p.ej. /var/www/docroot), o la dirección de su sitio (por ejemplo, http://example.com)'
+=======
+    source-base_path: 'Directorio local que contiene el código de su sitio (e.g. /var/www/docroot), o la dirección de su sitio (por ejemplo, http://ejemplo.com)'
+>>>>>>> upstream/master
     files-directory: 'Directorio de archivos'
 questions:
     db-type: 'Tipo de base de datos de Drupal'
@@ -17,7 +21,11 @@ questions:
     db-pass: 'Contraseña de base de datos'
     db-prefix: 'Prefijo de base de datos'
     db-port: Puerto
+<<<<<<< HEAD
     source-base_path: 'Directorio local que contiene los fuentes de su sitio (p.ej. /var/www/docroot), o la dirección de su sitio (por ejemplo, http://example.com)'
+=======
+    source-base_path: 'Directorio local que contiene el código de su sitio (e.g. /var/www/docroot), o la dirección de su sitio (por ejemplo, http://ejemplo.com)'
+>>>>>>> upstream/master
     files-directory: 'Directorio de archivos'
 messages:
     not-drupal: 'La base de datos no contiene una versión reconocible de Drupal.'

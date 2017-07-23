@@ -1,7 +1,12 @@
 description: 'Cambia un valor de configuración específico en el archivo de configuración de DrupalConsole'
 arguments:
+<<<<<<< HEAD
     name: 'Nombre de valor en formato YAML para establecer un valor en el archivo de configuración de Drupal Console'
     value: 'Valor que será dispuesto en el archivo de configuración de Drupal Console'
+=======
+    name: 'Indique un nombre en formato YAML plano para establecer un valor en el archivo de configuración de Drupal Console'
+    value: 'Indique un valor para establecerlo en el archivo de configuración de Drupal Console'
+>>>>>>> upstream/master
     setting-name: 'Dispone un nombre para un valor en formato YAML en el archivo de configuración de Drupal Console'
     setting-value: 'Dispone un valor en el archivo de configuración de Drupal Console'
 messages:
@@ -9,9 +14,17 @@ messages:
     error-generating: 'Error estableciendo el nuevo idioma en el archivo de configuración.'
     error-writing: 'Error al escribir el archivo de configuración.'
     success: 'La configuración "%s" fué actualizada a "%s"'
+<<<<<<< HEAD
     missing-file: 'El archivo de configuración "%s" no está disponible, intenta ejecutando `drupal init`'
     missing-language: 'No se ha encontrado el idioma especificado: "%s"'
 examples:
     -
         description: 'Establecer el valor del idioma de la aplicación como "es"'
+=======
+    missing-file: 'El archivo de configuración "%s" no está disponible, intente ejecutar `drupal init`'
+    missing-language: 'El idioma "%s" provisto no ha sido encontrado'
+examples:
+    -
+        description: 'Set application language setting value to "es"'
+>>>>>>> upstream/master
         execution: 'drupal settings:set  application.language es'

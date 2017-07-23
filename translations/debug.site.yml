@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 description: 'List all known local and remote sites.'
 help: 'The <info>site:debug</info> list all known local and remote sites.'
 messages:
@@ -15,3 +16,23 @@ examples:
     - description: ''
       execution: |
         drupal debug:site
+=======
+description: 'Lista todos los sitios conocidos locales y remotos.'
+help: 'El comando <info>site:debug</info> lista todos los sitios conocidos remotos y locales.'
+messages:
+    site: Sitio
+    host: Host
+    root: Raíz
+    not-sites: 'No hay sitios definidos'
+    invalid-site: 'El nombre del sitio no es válido'
+    private-key: 'Error con la clave privada'
+    connect-error: 'Error al conectar con la máquina remota'
+    directory-not-found: 'Directorio local de sitios no encontrado'
+options:
+    target: Target
+    property: Property
+examples:
+    -
+        description: ''
+        execution: "drupal debug:site\n"
+>>>>>>> upstream/master

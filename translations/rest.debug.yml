@@ -1,19 +1,29 @@
-description: 'Muestra el actual recurso rest para la aplicación'
+description: 'Muestra los actuales recursos REST en el sitio'
 arguments:
-    resource-id: 'ID de recurso rest'
+    resource-id: 'ID Rest'
 options:
-    status: 'Estado del recuros rest habilitado | deshabilitado'
+    status: 'Estado del recurso rest (activado | desactivado)'
 messages:
     id: 'ID Rest'
     label: Etiqueta
+<<<<<<< HEAD
     canonical-url: 'URL Canónica'
+=======
+    canonical-url: 'Canonical URL'
+>>>>>>> upstream/master
     status: Estado
     provider: Proveedor
-    enabled: Habilitado
-    disabled: Deshabilitado
+    enabled: Activado
+    disabled: Desactivado
     rest-state: 'Estados REST'
+<<<<<<< HEAD
     supported-formats: 'Formatos Soportados'
     supported-auth: 'Proveedores de autenticación soportados'
     not-found: 'El recurso rest "%s" no se ha encontrado'
+=======
+    supported-formats: 'Formatos soportados'
+    supported-auth: 'Supported Authentication Providers'
+    not-found: 'El recurso rest "%s" no ha sido encontrado'
+>>>>>>> upstream/master
     canonical_url: 'URL Canónica'
     supported_auth: 'Proveedores de autenticación soportados'

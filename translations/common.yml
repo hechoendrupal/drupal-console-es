@@ -1,26 +1,36 @@
 options:
-    class: 'Class name'
+    class: 'Nombre de la clase'
     events: 'Cargar eventos desde el contenedor.'
     module: 'Nombre del módulo.'
+<<<<<<< HEAD
     extension: 'The extension name.'
     extension-type: 'The extension type.'
+=======
+    extension: 'Nombre de la extensión.'
+    extension-type: 'Tipo de la extensión.'
+>>>>>>> upstream/master
     services: 'Cargar servicios desde el contenedor.'
     tags: 'Asignar etiquetas de servicio desde el contenedor.'
     inputs: 'Crear campos de entrada en un formulario.'
     permissions: 'Crear permisos.'
 questions:
-    class: 'Enter the Class name'
+    class: 'Introduzca el nombre de la clase'
     module: 'Escriba el nombre del módulo'
+<<<<<<< HEAD
     extension: 'Enter the extension name'
     extension-type: 'Enter the extension type'
+=======
+    extension: 'Introduzca el nombre de la extensión'
+    extension-type: 'Introduzca el tipo de la extensión'
+>>>>>>> upstream/master
     confirm: '¿Confirma la generación?'
     canceled: 'Comando de generacion cancelado.'
     events:
-        message: "\nEscribe el nombre del evento o usa la tecla flecha hacia arriba o flecha hacia abajo.\nEsto es opcional, presione <info>enter</info> para <info>continuar</info>\n"
+        message: "\nEscriba el nombre del evento o usa la tecla flecha hacia arriba o flecha hacia abajo.\nEsto es opcional, presione <info>enter</info> para <info>continuar</info>\n"
         name: 'Introduzca el nombre del evento'
     services:
         confirm: 'Desea cargar los servicios del contenedor'
-        message: "\nEscribe el nombre del servicio o usa la tecla flecha hacia arriba o flecha hacia abajo.\nEsto es opcional, presione <info>enter</info para <info>continuar</info>\n"
+        message: "\nEscriba el nombre del servicio o usa la tecla flecha hacia arriba o flecha hacia abajo.\nEsto es opcional, presione <info>enter</info> para <info>continuar</info>\n"
         name: 'Introduzca su servicio'
     inputs:
         confirm: '¿Desea generar la estructura de un formulario?'

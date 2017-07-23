@@ -1,12 +1,19 @@
 description: 'Importa la configuración del estado actual de la aplicación.'
 options:
+<<<<<<< HEAD
     file: 'Ruta a un archivo de configuración para importar.'
     directory: 'Ruta de un directorio de configuración para importar.'
     remove-files: 'Eliminar archivos después de la sincronización.'
+=======
+    file: 'Ruta al archivo de configuración que será importado.'
+    directory: 'Ruta al directorio de configuración para la importación.'
+    remove-files: 'Eliminar archivos tras la sincronización.'
+>>>>>>> upstream/master
 messages:
     config_files_imported: 'Listado de archivos de configuración.'
     imported: 'Todos los archivos de configuración han sido importados y copiados al directorio de ''staging''.'
     importing: 'Importando la configuración.'
+<<<<<<< HEAD
     already-imported: 'Otra petición puede estar ya sincronizado la configuración.'
     nothing-to-do: 'No hay cambios que importar.'
     copied: 'Todos los archivos de configuración han sido copiados al directorio de ''staging''.'
@@ -16,4 +23,15 @@ examples:
         execution: "drupal config:import \\\n  --file=/path/to/config/file"
     -
         description: 'Facilitando un directorio de configuración'
+=======
+    already-imported: 'Otra petición puede estar sincronizando en este momento.'
+    nothing-to-do: 'No hay cambios a importar.'
+    copied: 'Todos los archivos de configuración han sido copiados al directorio de ''staging''.'
+examples:
+    -
+        description: 'Provide a configuration file'
+        execution: "drupal config:import \\\n  --file=/path/to/config/file"
+    -
+        description: 'Provide a configuration directory'
+>>>>>>> upstream/master
         execution: "drupal config:import  \\\n  --directory=/path/to/config/dir\n"

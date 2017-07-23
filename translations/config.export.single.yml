@@ -1,10 +1,15 @@
-description: 'Exportar configuración como fichero yml.'
+description: 'Exporta configuración como fichero yml.'
 arguments:
+<<<<<<< HEAD
     name: 'Configuration name.'
+=======
+    name: 'Nombre de la configuración.'
+>>>>>>> upstream/master
     config-name: 'Nombre de la configuración.'
 options:
     include-dependencies: 'Exportar dependencias de la configuración también.'
     simple-configuration: 'Configuración simple'
+<<<<<<< HEAD
     optional: 'Export config as an optional YAML configuration in your module'
     remove-uuid: 'If set, the configuration will be exported without uuid key.'
     remove-config-hash: 'If set, the configuration will be exported without the default site hash key.'
@@ -15,6 +20,18 @@ questions:
     optional: 'Export config in module as an optional configuration'
     remove-uuid: 'Do you want to remove the uuid from this export'
     remove-config-hash: 'Do you want to remove the default site hash from this export'
+=======
+    optional: 'Exportar la configuración como una configuración opcional en formato YAML su módulo'
+    remove-uuid: 'Si se utiliza, la configuración será exportada sin clave uuid.'
+    remove-config-hash: 'Si se utiliza, la configuración será exportada sin la clave hash por defecto del sitio.'
+    optional-config: 'Exportar la configuración como una configuración YAML opcional en su módulo'
+questions:
+    config-type: 'Tipo de configuración'
+    name: 'Nombre de la configuración'
+    optional: 'Exportar la configuración en un módulo como configuración opcional'
+    remove-uuid: '¿Desea eliminar el uuid de esta exportación?'
+    remove-config-hash: '¿Desea excluir el hash por defecto del sitio en esta exportación?'
+>>>>>>> upstream/master
     config-name: 'Nombre de la configuración'
     optional-config: 'Exportar la configuración en módulo como una configuración opcional'
 messages:
@@ -22,7 +39,11 @@ messages:
     export: 'La configuración ha sido exportada al fichero "%s".'
     invalid-config-type: 'El tipo de configuración es inválido, por favor, seleccione uno de la lista'
     invalid-config-name: 'El nombre de la configuración es inválido, por favor, seleccione uno de la lista'
+<<<<<<< HEAD
     config-exported: 'Configuration(s) exported successfully'
+=======
+    config-exported: 'La(s) configuración(es) ha(n) sido exportada(s) de modo exitoso'
+>>>>>>> upstream/master
     config_exported: 'La(s) configuración(es) ha(n) sido exportada(s) de modo exitoso'
 examples:
     -

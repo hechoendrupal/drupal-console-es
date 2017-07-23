@@ -1,5 +1,6 @@
 description: 'Importar la configuración seleccionada.'
 options:
+<<<<<<< HEAD
     file: 'El nombre del fichero o la ruta absoluta del archivo a importar'
     directory: 'La ruta desde dónde importar los archivos.'
 questions:
@@ -8,12 +9,29 @@ questions:
     name: 'Introduzca el nombre de la configuración'
 messages:
     missing-file: 'Falta la opción File.'
+=======
+    file: 'The file(s) name or file(s) absolute path to import'
+    directory: 'The path from where to import file(s).'
+questions:
+    file: 'Introduzca la ruta al archivo a importar'
+    directory: 'Enter path from where to import files.'
+    name: 'Introduzca el nombre de la configuración'
+messages:
+    missing-file: 'File option is missing.'
+>>>>>>> upstream/master
     empty-value: 'El valor no puede quedar vacío'
     success: 'La configuración "%s" ha sido importada con éxito.'
 examples:
     -
+<<<<<<< HEAD
         description: 'Facilitando una opción File usando la ruta absoluta.'
         execution: "drupal config:import:single \\\n  --file=\"/path/to/file/block.block.default_block.yml\""
     -
         description: 'Facilitando las opciones File y Directory'
+=======
+        description: 'Providing a file option using full path.'
+        execution: "drupal config:import:single \\\n  --file=\"/path/to/file/block.block.default_block.yml\""
+    -
+        description: 'Providing file and directory options'
+>>>>>>> upstream/master
         execution: "drupal config:import:single  \\\n  --file=\"block.block.default_block.yml\" \\\n  --directory=\"/path/to/directory\"\n"

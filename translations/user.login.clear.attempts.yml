@@ -10,4 +10,8 @@ messages:
     successful: 'Los intentos de inicio de sesión fueron restablecidos satisfactoriamente para el id del usuario "%s".'
 errors:
     invalid-user: 'No se puede cargar la entidad de usuario (Uid: "%s").'
+<<<<<<< HEAD
     no-flood: 'No se encuentra la tabla de flood en el sistema.'
+=======
+    no-flood: 'No se encuentra la tabla de eventos en el sistema.'
+>>>>>>> upstream/master

@@ -13,7 +13,11 @@ options:
     composer: 'Añadir un archivo composer.json'
     dependencies: 'Dependencias del módulo (por ejemplo: context, galleria, panels)'
     test: 'Generar una clase de test'
+<<<<<<< HEAD
     twigtemplate: 'Generate theme template'
+=======
+    twigtemplate: 'Generar plantilla de theme'
+>>>>>>> upstream/master
     controller: 'Controlador por defecto'
 questions:
     module: 'Introduzca el nombre del nuevo módulo'
@@ -24,12 +28,17 @@ questions:
     package: 'Introduzca el nombre del paquete'
     features-support: 'Definir el módulo como una feature'
     features-bundle: 'Introduzca el nombre del bundle de Feature'
-    module-file: 'Desea generar un archivo .module'
-    composer: 'Desea añadir un archivo composer.json a tu módulo'
-    dependencies: 'Le gustaría añadir dependencias al modulo'
+    module-file: '¿Desea generar un archivo .module?'
+    composer: '¿Desea añadir un archivo composer.json a tu módulo?'
+    dependencies: '¿Le gustaría añadir dependencias al modulo?'
     test: 'Quiere generar una clase de unit test'
+<<<<<<< HEAD
     twigtemplate: 'Do you want to generate a themeable template'
     controller: 'Quiere generar un controlador por defecto'
+=======
+    twigtemplate: '¿Desea generar un template que se pueda themear?'
+    controller: '¿Quiere generar un controlador por defecto?'
+>>>>>>> upstream/master
 warnings:
     module-unavailable: 'Advertencia: Los siguientes módulos ya no están disponibles en su entorno local "%s"'
 errors:

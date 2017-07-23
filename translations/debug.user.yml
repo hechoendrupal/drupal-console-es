@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 description: 'Displays current users for the application'
 help: 'The <info>user:debug</info> command helps you get current users.'
 welcome: 'Welcome to the Drupal user debug'
@@ -19,3 +20,26 @@ examples:
     - description: 'Users list on the site'
       execution: |
         drupal debug:user
+=======
+description: 'Muestra los usuarios existentes en el sitio'
+help: 'El comando <info>user:debug</info> le ayuda a obtener los usuarios existentes.'
+welcome: 'Bienvenido al inspector de usuarios de Drupal'
+options:
+    roles: 'Roles a filtrar la inspección'
+    limit: 'Cuántos usuarios le gustaría que se listaran en la inspección'
+    uid: 'Filtra el listado de resultados por uids [entre comillas, separados por espacios]'
+    username: 'Filtra el listado de resultados por nombres de usuario [entre comillas, separados por espacios]'
+    mail: 'Filtra el listado de resultados por e-mails [entre comillas, separados por espacios]'
+questions:
+    roles: 'Seleccione los roles que serán usados para filtrar el listado'
+    limit: 'Introduzca cuántos usuarios le gustaría que fueran mostrados'
+messages:
+    user-id: 'ID de usuario'
+    username: 'Nombre de usuario'
+    roles: Roles
+    status: Estado
+examples:
+    -
+        description: 'Users list on the site'
+        execution: "drupal debug:user\n"
+>>>>>>> upstream/master

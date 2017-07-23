@@ -6,5 +6,9 @@ messages:
     executing: 'Ejecutando: "%s"'
 examples:
     -
+<<<<<<< HEAD
         description: 'Lanzar el cliente por defecto especificando el nombre de la base de datos'
+=======
+        description: 'Launch the default client or could launch another regarding the specification on the argument'
+>>>>>>> upstream/master
         execution: "drupal database:client <database>\n"

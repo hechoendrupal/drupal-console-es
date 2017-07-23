@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 description: 'Generate a migrate process plugin'
 help: 'Creates new process plugin for the migration.'
 options:
@@ -14,3 +15,18 @@ examples:
         --module="modulename"  \
         --class="MigrationProcess"  \
         --plugin-id="migrationprocess"
+=======
+description: 'Genera un plugin de proceso para migración'
+help: 'Crea un nuevo plugin de proceso para la migración.'
+options:
+    module: common.options.module
+    class: 'Nombre de la clase del plugin'
+    plugin-id: 'ID del Plugin'
+questions:
+    class: 'Introduzca el nombre de la clase del plugin para proceso de migración'
+    plugin-id: 'Introduzca el id del plugin para proceso de migración'
+examples:
+    -
+        description: 'Generate a migration plugin process specifying the module name, the class and its id'
+        execution: "drupal generate:plugin:migrate:process  \\\n  --module=\"modulename\"  \\\n  --class=\"MigrationProcess\"  \\\n  --plugin-id=\"migrationprocess\"\n"
+>>>>>>> upstream/master

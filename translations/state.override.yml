@@ -12,5 +12,9 @@ errors:
     no-value: 'Debes indicar un valor de Estado para poder establecerlo.'
 examples:
     -
+<<<<<<< HEAD
         description: 'Sobreescribir el valor de Estado especificando el nombre de Estado y el nuevo valor'
+=======
+        description: 'Override state value specifying the state name and the new value'
+>>>>>>> upstream/master
         execution: "drupal state:override  comment.node_comment_statistics_scale \"!!float 1\"\n"

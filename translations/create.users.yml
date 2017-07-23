@@ -27,8 +27,15 @@ messages:
     created-users: 'Han sido creados "%s" usuarios con éxito'
 examples:
     -
+<<<<<<< HEAD
         description: 'Facilitar el rol de usuario.'
         execution: 'drupal create:users role'
     -
         description: 'Facilitar el número de usuarios a crear, la contraseña y el rango de tiempo.'
+=======
+        description: 'Provide the user role.'
+        execution: 'drupal create:users role'
+    -
+        description: 'Provide the number of users to create, password and time range to create.'
+>>>>>>> upstream/master
         execution: "drupal create:users role \\\n  --limit=\"5\" \\\n  --password=\"usersnewpassword\" \\\n  --time-range=\"1\"\n"
