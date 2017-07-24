@@ -8,5 +8,5 @@ messages:
     wrong-update-n: 'El número de actualización "%s" no es válido'
 examples:
     -
-        description: 'Generate an update N hook implementation specifying the module name and the N value'
+        description: 'Generar una implementación del hook update_N especificando el nombre del módulo y el valor de N'
         execution: "drupal generate:update  \\\n  --module=\"modulename\"  \\\n  --update-n=\"8001\"\n"

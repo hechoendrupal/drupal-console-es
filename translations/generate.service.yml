@@ -18,11 +18,11 @@ questions:
     path: 'Introduzca la ruta para los servicios'
     interface_name: 'Introduzca el nombre de la interfaz'
 messages:
-    service-already-taken: 'The service name has been already taken in module "%s"'
+    service-already-taken: 'El nombre de servicio ya está en uso en el módulo "%s"'
 examples:
     -
-        description: 'Generate a services without interface specifying the module name, the service name, the class and its path'
+        description: 'Generar un servicio sin interfaz especificando el nombre del módulo, el nombre del servicio, la clase y el path del servicio'
         execution: "drupal generate:service  \\\n  --module=\"modulename\"  \\\n  --name=\"modulename.default\"  \\\n  --class=\"DefaultService\"  \\\n  --path-service=\"/modules/custom/modulename/src/\""
     -
-        description: 'Generate a services with interface specifying the module name, the service name, the class, the interface name and its path'
+        description: 'Generar un servicio con interfaz especificando el nombre del módulo, el nombre del servicio, la clase, el nombre de interfaz y su ruta'
         execution: "drupal generate:service  \\\n  --module=\"modulename\"  \\\n  --name=\"modulename.default\"  \\\n  --class=\"DefaultService\"  \\\n  --interface  \\\n  --interface-name=\"InterfaceName\"  \\\n  --path-service=\"/modules/custom/modulename/src/\"\n"

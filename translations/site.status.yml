@@ -2,7 +2,7 @@ description: 'Ver el estatus de la instalación actual de Drupal'
 messages:
     application: Aplicación
     system: 'Información del sistema'
-    hash-salt: 'Hash salt'
+    hash-salt: 'Sal del hash'
     console: 'Versión de la consola'
     database: 'Conexión de la base de datos'
     driver: Controlador

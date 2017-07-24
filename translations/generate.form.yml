@@ -23,20 +23,20 @@ questions:
     inputs: common.questions.inputs
     routing: 'Le gustaría registrar una ruta para este formulario'
     path: 'Introduzca la ruta'
-    max-amount-characters: 'Maximum amount of characters'
-    textfield-width-in-chars: 'Width of the textfield (in characters)'
-    multiselect-size-in-lines: 'Size of multiselect box (in lines)'
-    input-options: 'Input options separated by comma'
+    max-amount-characters: 'Cantidad máxima de caracteres'
+    textfield-width-in-chars: 'Ancho del campo de texto (en caracteres)'
+    multiselect-size-in-lines: 'Tamaño de la caja de multiselección (en líneas)'
+    input-options: 'Opciones del input separadas por comas'
     menu_link_gen: 'Generar un enlace de menú'
     menu_link_title: 'Título para el enlace de menú'
     menu_parent: 'Menú padre'
     menu_link_desc: 'Descripción para el enlace de menú'
 suggestions:
-    description-for-menu: 'A description for the menu entry'
+    description-for-menu: 'Descripción para la entrada del menú'
 examples:
     -
-        description: 'Generate an empty form with config file specifying the module name, the class, a form id and the path'
+        description: 'Generar un formulario vacío con un archivo de configuración especificando el nombre del módulo, la clase, id del formulario y la ruta'
         execution: "drupal generate:form  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultForm\"  \\\n  --form-id=\"default_form\"  \\\n  --config-file  \\\n  --path=\"/modulename/form/default\""
     -
-        description: 'Generate a form with 2 fields and a config file specifying the module name, the class, a form id, the inputs and the path'
+        description: 'Generar un formulario con dos campos y un archivo de configuración especificando el nombre del módulo, la clase, el id de formulario, los inputs y la ruta'
         execution: "drupal generate:form  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultForm\"  \\\n  --form-id=\"default_form\"  \\\n  --config-file  \\\n  --inputs='\"name\":\"inputname\", \"type\":\"text_format\", \"label\":\"InputName\", \"options\":\"\", \"description\":\"Just a text input\", \"maxlength\":\"\", \"size\":\"\", \"default_value\":\"\", \"weight\":\"0\", \"fieldset\":\"\"'  \\\n  --inputs='\"name\":\"email\", \"type\":\"email\", \"label\":\"Email\", \"options\":\"\", \"description\":\"Just an email input\", \"maxlength\":\"\", \"size\":\"\", \"default_value\":\"\", \"weight\":\"0\", \"fieldset\":\"\"'  \\\n  --path=\"/modulename/form/default\""

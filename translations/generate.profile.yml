@@ -16,13 +16,13 @@ questions:
     dependencies: 'Le gustaría añadir dependencias de módulos'
     distribution: 'Este perfil de instalación está destinado a ser una nueva distribución'
 suggestions:
-    my-useful-profile: 'My Useful Profile'
-    my-kick-ass-distribution: 'My Kick-ass Distribution'
+    my-useful-profile: 'Mi perfil super-útil'
+    my-kick-ass-distribution: 'Mi distribución molona'
 warnings:
     module-unavailable: 'Advertencia: Los siguientes módulos no están disponibles en su entorno local "%s"'
 errors:
     directory-exists: 'El directorio de destino "%s" no está vacío.'
 examples:
     -
-        description: 'Generate a profile specifying the profile name, the machine name, a description, the core and its module dependencies'
+        description: 'Generar un perfil especificando el nombre de perfil, el nombre máquina, una descripción, el core de Drupal y las dependencias de sus módulos'
         execution: "drupal generate:profile  \\\n  --profile=\"NewProfileName\"  \\\n  --machine-name=\"newprofilename\"  \\\n  --description=\"My Useful Profile\"  \\\n  --core=\"8.x\"  \\\n  --dependencies=\"modulename\"\n"

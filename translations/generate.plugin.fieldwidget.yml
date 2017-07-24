@@ -15,5 +15,5 @@ questions:
     field-type: 'Introduzca el tipo de campo con el que puede ser usado el plugin'
 examples:
     -
-        description: 'Generate a text type field widget plugin specifying the module name, the class, its label, the plugin id and the field type'
+        description: 'Generar un plugin de widget de campo de texto especificando el nombre del módulo, la clase, su etiqueta, el id de plugin y el tipo de campo'
         execution: "drupal generate:plugin:fieldwidget  \\\n  --module=\"modulename\"  \\\n  --class=\"ExampleFieldWidget\"  \\\n  --label=\"Example field widget\"  \\\n  --plugin-id=\"example_field_widget\"  \\\n  --field-type=\"text\"\n"

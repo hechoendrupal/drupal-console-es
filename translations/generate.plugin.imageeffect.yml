@@ -17,5 +17,5 @@ suggestions:
     my-image-effect: 'My Image Effect'
 examples:
     -
-        description: 'Generate a image effect plugin specifying the module name, the class, its label, the plugin id and a description'
+        description: 'Generar un plugin de efecto de imagen especificando el nombre de módulo, la clase, su etiqueta, el id de plugin y una descripción'
         execution: "drupal generate:plugin:imageeffect  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultImageEffect\"  \\\n  --label=\"Default image effect\"  \\\n  --plugin-id=\"default_image_effect\"  \\\n  --description=\"My Image Effect\"\n"

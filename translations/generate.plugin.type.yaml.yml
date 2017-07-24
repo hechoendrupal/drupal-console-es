@@ -13,5 +13,5 @@ questions:
     plugin-file-name: 'Introduzca el archivo del plugin (por ejemplo, MODULO.plugin.archivo.yml)'
 examples:
     -
-        description: 'Generate a plugin with Yaml discovery specifying module name, class name, plugin name and plugin file name'
+        description: 'Generar un plugin con desubrimiento Yaml especificando el nombre del módulo, el nombre de la clase, el nombre del plugin y el nombre del archivo de plugin'
         execution: "drupal generate:plugin:type:yaml  \\\n  --module=\"modulename\"  \\\n  --class=\"ExamplePlugin\"  \\\n  --plugin-name=\"example_plugin\"  \\\n  --plugin-file-name=\"example.plugin\"\n"

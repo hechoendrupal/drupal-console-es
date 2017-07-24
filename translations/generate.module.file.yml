@@ -7,5 +7,5 @@ questions:
     module: 'Introduzca el nombre del nuevo módulo'
 examples:
     -
-        description: 'Generate the .module file specifying the module name'
+        description: 'Generar el archivo .module especificando el nombre del módulo'
         execution: "drupal generate:module:file  \\\n  --module=\"modulename\""

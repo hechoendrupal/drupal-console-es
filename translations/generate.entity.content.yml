@@ -19,8 +19,8 @@ questions:
     revisionable: 'Es su entidad revisionable'
 examples:
     -
-        description: 'Generate a content entity specifying the module, the entity class, the entity name, its path and label'
+        description: 'Generar una entidad de contenido especificando el módulo, la clase de entidad, el nombre de entidad, su ruta y la etiqueta'
         execution: "drupal generate:entity:content  \\\n  --module=\"modulename\"  \\\n  --entity-class=\"DefaultEntity\"  \\\n  --entity-name=\"default_entity\"  \\\n  --base-path=\"/admin/structure\"  \\\n  --label=\"Default entity\""
     -
-        description: 'Generate a translatable and revisionable content entity specifying the module, the entity class, the entity name, its path and label'
+        description: 'Generar una entidad de contenido con revisiones y traducible especificando el módulo, la clase de entidad, el nombre de entidad, la ruta, y su etiqueta'
         execution: "drupal generate:entity:content  \\\n  --module=\"modulename\"  \\\n  --entity-class=\"DefaultEntity\"  \\\n  --entity-name=\"default_entity\"  \\\n  --base-path=\"/admin/structure\"  \\\n  --label=\"Default entity\"  \\\n  --is-translatable  \\\n  --revisionable"
