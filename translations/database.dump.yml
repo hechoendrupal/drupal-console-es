@@ -3,13 +3,13 @@ arguments:
     database: 'Clave de la base de datos, desde settings.php'
 options:
     file: ' Nombre del archivo para el respaldo de la base de datos'
-    gz: 'Pase esta opción si desea que el archivo sql resultante sea compimido en formato gz'
+    gz: 'Pasar esta opción si desea el archivo de resultado sql comprimido con gzip'
 messages:
     success: 'Base de datos exportada a:'
 examples:
     -
-        description: 'Dump default database or the one specified on the argument'
+        description: 'Volcar la base de datos por defecto o la especificada como argumento'
         execution: "drupal database:dump \\\n  <database>"
     -
-        description: 'Dump in gz compressed format'
+        description: 'Volcar en formato comprimido con gzip'
         execution: "drupal database:dump \\\n  --gz"

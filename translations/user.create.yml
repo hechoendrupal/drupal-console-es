@@ -1,31 +1,37 @@
-description: 'Crea usuarios para la aplicación'
+description: 'Crea usuarios en el sitio'
 help: 'El comando <info>user:create</info> le ayuda a crear usuarios.'
-welcome: 'Bienvenido al generador de usuarios de Drupal'
+welcome: 'Bienvenido al generador de usuarios Drupal'
 options:
-    username: 'Nombre del usuario que será creado'
-    password: 'Contraseña del usuario'
-    roles: 'Roles del usuario'
-    email: 'E-mail del ususario'
-    status: 'Estado del usuario'
+  username: 'Nombre del usuario que será creado'
+  password: 'Contraseña del usuario'
+  roles: 'Roles del usuario'
+  email: 'E-mail del usuario'
+  status: 'Estado del usuario'
 questions:
-    username: 'Nombre del usuario que será creado'
-    password: 'Contraseña del usuario (dejar en blanco para auto-generar)'
-    roles: 'Roles del usuario (en blanco para abandonar)'
-    email: 'E-mail del usuario (en blanco para abandonar)'
-    status: 'Status del usuario (en blanco para abandonar)'
+  username: 'Nombre del usuario que será creado'
+  password: 'Contraseña del usuario (dejar vacío para autogenerar)'
+  roles: 'Roles de usuario (dejar vacío para omitir)'
+  email: 'E-mail del usuario (dejar vacío para omitir)'
+  status: 'Estado del usuario (dejar vacío para omitir)'
 messages:
-    user-id: 'ID del usuario'
-    username: 'Nombre de usuario'
-    password: Contraseña
-    email: E-mail
-    roles: Roles
-    created: Creado
-    status: Status
-    user-created: 'El usuario "%s" ha sido creado con éxito'
+  user-id: 'ID de usuario'
+  username: 'Nombre de usuario'
+  password: 'Contraseña'
+  email: 'E-mail'
+  roles: 'Roles'
+  created: 'Creado'
+  status: 'Estado'
+  user-created: 'El usuario "%s" ha sido creado con éxito'
 examples:
-    -
-        description: 'Create user specifying username, password, role, email and status'
-        execution: "drupal user:create  john p455w0rd  \\\n  --roles='authenticated'  \\\n  --email=\"john@anexusit.com\"  \\\n  --status=\"1\""
-    -
-        description: 'Create admin user specifying username, password, role, email and status'
-        execution: "drupal user:create  doe p455w0rd  \\\n  --roles='administrator'  \\\n  --email=\"doe@anexusit.com\"  \\\n  --status=\"1\"\n"
+  - description: 'Crear usuario especificando nombre de usuario, contraseña, rol, email y estado'
+    execution: |
+      drupal user:create  john p455w0rd  \
+        --roles='authenticated'  \
+        --email="john@anexusit.com"  \
+        --status="1"
+  - description: 'Crear usuario administrador especificando nombre de usuario, contraseña, rol, email y estado'
+    execution: |
+      drupal user:create  doe p455w0rd  \
+        --roles='administrator'  \
+        --email="doe@anexusit.com"  \
+        --status="1"

@@ -7,5 +7,5 @@ messages:
     deleted: 'El Estado "%s" fue eliminado con éxito.'
 examples:
     -
-        description: 'Delete state specifying the state name'
+        description: 'Eliminar Estado especificando el nombre de Estado'
         execution: "drupal state:delete  comment.maintain_entity_statistics\n"

@@ -13,4 +13,5 @@ messages:
     selected-method: 'Método seleccionado'
     selected-formats: 'Formatos seleccionados'
     selected-authentication-providers: 'Proveedores de autenticación seleccionados'
-    success: 'Rest ID "%s" está habilitado'
+    success: 'El ID Rest "%s" ha sido habilitado'
+    selected-state: 'Estado seleccionado'

@@ -1,11 +1,11 @@
-description: 'Ofrece un listado de las features registradas.'
+description: 'List registered features.'
 help: ''
 arguments:
-    bundle: 'Nombre del bundle'
+  bundle: 'Bundle name'
 messages:
-    bundle: Bundle
-    name: Nombre
-    machine-name: 'Machine Name'
-    status: Estado
-    state: Situación
-    machine_name: 'Nombre máquina'
+  bundle: 'Bundle'
+  name: 'Name'
+  machine-name: 'Machine Name'
+  status: 'Status'
+  state: 'State'
+  machine_name: 'Nombre máquina'

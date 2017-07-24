@@ -18,7 +18,7 @@ questions:
     path: 'Introduzca la ruta para los servicios'
     interface_name: 'Introduzca el nombre de la interfaz'
 messages:
-    service-already-taken: 'Ese nombre de servicio ya está cogido en el módulo "%s"'
+    service-already-taken: 'The service name has been already taken in module "%s"'
 examples:
     -
         description: 'Generate a services without interface specifying the module name, the service name, the class and its path'

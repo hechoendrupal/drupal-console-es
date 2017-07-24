@@ -6,5 +6,5 @@ options:
 messages: null
 examples:
     -
-        description: 'Get the relative path of the module specifying the module name'
+        description: 'Obtener la ruta relativa del módulo especificando el nombre del módulo'
         execution: "drupal module:path  modulename\n"

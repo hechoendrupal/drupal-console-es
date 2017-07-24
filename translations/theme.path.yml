@@ -1,11 +1,11 @@
-description: 'Devuelve la ruta relativa al theme (o ruta absoluta)'
+description: 'Devuelve la ruta relativa al tema (o ruta absoluta)'
 arguments:
-    theme: 'Theme name'
-    module: 'El nombre del theme (nombre máquina)'
+    theme: 'Nombre del tema'
+    module: 'El nombre del tema (nombre máquina)'
 options:
-    absolute: 'Devuelve la ruta absoluta del theme'
+    absolute: 'Devuelve la ruta absoluta del tema'
 messages: null
 examples:
     -
-        description: 'Get the path of mytheme'
+        description: 'Obtener la ruta de mytheme'
         execution: "drupal theme:path  mytheme\n"

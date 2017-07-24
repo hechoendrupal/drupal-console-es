@@ -9,9 +9,9 @@ messages:
     error-generating: 'Error estableciendo el nuevo idioma en el archivo de configuración.'
     error-writing: 'Error al escribir el archivo de configuración.'
     success: 'La configuración "%s" fué actualizada a "%s"'
-    missing-file: 'El archivo de configuración "%s" no está disponible, intente ejecutar `drupal init`'
-    missing-language: 'El idioma "%s" provisto no ha sido encontrado'
+    missing-file: 'El archivo de configuración "%s" no está disponible, intenta ejecutando `drupal init`'
+    missing-language: 'No se ha encontrado el idioma especificado: "%s"'
 examples:
     -
-        description: 'Set application language setting value to "es"'
+        description: 'Establecer el valor del idioma de la aplicación como "es"'
         execution: 'drupal settings:set  application.language es'

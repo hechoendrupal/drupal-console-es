@@ -15,5 +15,5 @@ messages:
     error-creating-folder: 'Error creando el directorio "%s", por favor, compruebe sus permisos'
 examples:
     -
-        description: 'Download theme specifying name and version'
+        description: 'Descargar un tema especificando el nombre y la versión'
         execution: "drupal theme:download  Alina 7.x-1.2\n"

@@ -5,5 +5,5 @@ messages:
     error: 'Error al intentar actualizar las entidades'
 examples:
     -
-        description: 'Update entities'
+        description: 'Actualizar entidades'
         execution: "drupal update:entities\n"

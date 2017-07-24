@@ -12,15 +12,15 @@ messages:
     password: Contraseña
     theme: Temas
     connection: Conexión
-    theme-default: 'Default theme'
-    theme-admin: 'Admin theme'
+    theme-default: 'Tema por defecto'
+    theme-admin: 'Tema de administración'
     directory: Directorios
-    directory-root: 'Site root directory'
-    directory-temporary: 'Site temporary directory'
-    directory-theme-default: 'Default theme directory'
-    directory-theme-admin: 'Admin theme directory'
-    current-version: 'Current Drupal ("%s")'
-    not-installed: 'Drupal is not installed'
+    directory-root: 'Directorio raíz del sitio'
+    directory-temporary: 'Directorio temporal del sitio'
+    directory-theme-default: 'Directorio por defecto del tema'
+    directory-theme-admin: 'Directorio del tema de administración'
+    current-version: 'Drupal actual ("%s")'
+    not-installed: 'Drupal no está instalado'
     hash_salt: 'Sal del hash'
     theme_default: 'Tema por defecto'
     theme_admin: 'Tema de administración'
@@ -31,10 +31,10 @@ messages:
     current_version: 'Versión de Drupal ("%s")'
     not_installed: 'Drupal no está instalado'
     not_available: 'No disponible'
-    configuration: Configuración
+    configuration: 'Configuración'
     active: 'Ruta de la configuración activa'
     staging: 'Ruta de la configuración de staging'
 examples:
     -
-        description: 'Get drupal installation status specifying the output format as table'
+        description: 'Obtener el estatus de la instalación de drupal especificando el formato de salida como tabla'
         execution: "drupal site:status  \\\n  --format=\"table\"\n"

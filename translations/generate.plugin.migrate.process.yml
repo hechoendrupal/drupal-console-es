@@ -10,4 +10,8 @@ questions:
 examples:
     -
         description: 'Generate a migration plugin process specifying the module name, the class and its id'
-        execution: "drupal generate:plugin:migrate:process  \\\n  --module=\"modulename\"  \\\n  --class=\"MigrationProcess\"  \\\n  --plugin-id=\"migrationprocess\"\n"
+        execution: |
+            drupal generate:plugin:migrate:process  \
+                --module="modulename"  \
+                --class="MigrationProcess"  \
+                --plugin-id="migrationprocess"

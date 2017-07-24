@@ -27,11 +27,11 @@ messages:
     no-releases: 'No hay ninguna versión disponible del módulo "%s"'
     installing: 'Instalando módulo(s) "%s"'
     composer: 'El módulo ha sido instalado exitosamente mediante Composer'
-    error-creating-folder: 'Error creando el directorio "%s", por favor, compruebe sus permisos'
-    download-with-composer: 'Module %s was downloaded with Composer.'
-    not-installed-with-composer: 'Module %s seems not to be installed with Composer. Halting.'
-    invalid-name: 'Invalid module name: %s'
+    error-creating-folder: 'Error creando el directorio "%s"; por favor, compruebe sus permisos'
+    download-with-composer: 'El módulo %s ha sido descargado con Composer.'
+    not-installed-with-composer: 'El módulo %s parece no estar instalado con Composer. Alto.'
+    invalid-name: 'Nombre de módulo no válido: %s'
 examples:
     -
-        description: 'Install module specifying the module name'
+        description: 'Instalar un módulo especificando el nombre del módulo'
         execution: "drupal module:install  modulename\n"

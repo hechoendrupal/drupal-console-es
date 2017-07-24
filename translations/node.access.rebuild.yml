@@ -1,5 +1,5 @@
 description: 'Reconstruir los permisos de acceso a nodos. La reconstrucción eliminará todos los privilegios al contenudo y los reemplazará con permisos basado en los módulos y configuración actual,'
-help: 'Reconstruir los permisos eliminará todos los privilegios sobre el contenido y los reemplazará con permisos basados en la configuración y los módulos actuales.'
+help: 'Reconstruir eliminará todos los privilegios al contenido y los reemplazará con permisos basados en los módulos y configuraciones existentes.'
 options:
     batch: 'Procesar en modo batch.'
 messages:

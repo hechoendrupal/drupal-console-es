@@ -6,8 +6,8 @@ messages:
     lock: 'Intentando correr de nuevo el cron mientras ya está corriendo previamente'
 examples:
     -
-        description: 'Execute the cron globally'
+        description: 'Executar el cron globalmente'
         execution: "drupal cron:execute\n"
     -
-        description: 'Execute the cron on the specified module'
+        description: 'Ejecutar el cron en el módulo especificado'
         execution: "drupal cron:execute \\\n  <module>\n"

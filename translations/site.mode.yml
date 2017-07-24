@@ -2,7 +2,7 @@ description: 'Cambiar la configuración de rendimiento del sistema'
 arguments:
     environment: 'Nombre de entorno'
 options:
-    local: 'Utilice esta opción si desea testear la configuración de Producción pero utilizando el archivo settings.local.php para utilizar su configuración local'
+    local: 'Use esta opción para probar la configuración de PRODUCCIÓN, pero usando el settings.local.php para conectar a su entorno local'
 messages:
     configuration: 'Nombre de la configuración'
     configuration-key: 'Clave de la configuración'
@@ -18,8 +18,8 @@ messages:
     services-file-overwritten: 'El archivo de servicios "%s" ha sido sobreescrito'
 examples:
     -
-        description: 'Switch system to prod'
+        description: 'Cambiar el sistema a producción'
         execution: 'drupal site:mode  prod'
     -
-        description: 'Switch system to dev'
+        description: 'Cambiar el sistema a desarrollo'
         execution: "drupal site:mode  dev\n"

@@ -4,8 +4,8 @@ messages:
     disabled-successfully: 'La vista "%s" ha sido deshabilitada con éxito.'
 examples:
     -
-        description: 'Enable content view'
+        description: 'Habilitar contenido de la vista'
         execution: "drupal views:enable  content\n"
     -
-        description: 'Enable frontpage view'
+        description: 'Habilitar vista de Portada'
         execution: "drupal views:enable  frontpage\n"

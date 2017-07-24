@@ -12,4 +12,5 @@ messages:
 examples:
     -
         description: 'Delete entity type content using node id'
-        execution: 'drupal entity:delete node 1'
+        execution: |
+            drupal entity:delete node 1

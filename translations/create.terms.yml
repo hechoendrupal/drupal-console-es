@@ -18,8 +18,8 @@ messages:
     created-terms: 'Han sido creados "%s" términos con éxito'
 examples:
     -
-        description: 'Provide the vocabulary term name.'
+        description: 'Facilitando el nombre de vocabulario.'
         execution: 'drupal create:terms vocabulary'
     -
-        description: 'Provide the limit of terms to add and limit of title words.'
+        description: 'Facilitando el límite de términos a añadir y el límite de palabras en el título.'
         execution: "drupal create:terms tags \\\n  --limit=\"10\" \\\n  --name-words=\"5\"\n"
