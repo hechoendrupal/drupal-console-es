@@ -15,6 +15,9 @@ questions:
     core: 'Introduzca la versión del core de Drupal'
     dependencies: 'Le gustaría añadir dependencias de módulos'
     distribution: 'Este perfil de instalación está destinado a ser una nueva distribución'
+suggestions:
+    my-useful-profile: 'My Useful Profile'
+    my-kick-ass-distribution: 'My Kick-ass Distribution'
 warnings:
     module-unavailable: 'Advertencia: Los siguientes módulos no están disponibles en su entorno local "%s"'
 errors:

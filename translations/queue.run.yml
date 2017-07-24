@@ -2,6 +2,7 @@ description: 'Procesa la cola seleccionada.'
 arguments:
     name: 'Nombre de la cola.'
 messages:
+    success: 'Processed "%s": "%s"/"%s" items in "%s" seconds.'
     failed: '"%s" ha fallado: "%s".'
     missing-name: 'Introduzca un nombre de cola válido.'
     invalid-name: 'El nombre de cola "%s" provisto es inválido.'

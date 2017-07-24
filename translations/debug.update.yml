@@ -14,5 +14,4 @@ messages:
 examples:
     -
         description: 'List of pending updates'
-        execution: |
-            drupal debug:update
+        execution: "drupal debug:update\n"

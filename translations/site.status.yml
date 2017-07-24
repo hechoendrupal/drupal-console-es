@@ -31,7 +31,7 @@ messages:
     current_version: 'Versión de Drupal ("%s")'
     not_installed: 'Drupal no está instalado'
     not_available: 'No disponible'
-    configuration: 'Configuración'
+    configuration: Configuración
     active: 'Ruta de la configuración activa'
     staging: 'Ruta de la configuración de staging'
 examples:

@@ -2,13 +2,8 @@ description: 'Editar en vivo el watchdog imprimiendo las nuevas entradas en el l
 arguments:
     duration: 'Duración en segundos en los que se producirá el intervalo de lecturas en la base de datos'
 messages:
-    warning: | 
-                No usar en entornos de producción
-                Dado que este script bloquea el sistema, considérese advertido de ejecutarlo en máquinas con múltiples cores por razones de rendimiento
-                ¡ Detenga el mecanismo de edición en vivo antes de limpiar/truncar la tabla del watchdog !
-                Salga de la edición en vivo con ^C
+    warning: "No usar en entornos de producción\nDado que este script bloquea el sistema, considérese advertido de ejecutarlo en máquinas con múltiples cores por razones de rendimiento\n¡ Detenga el mecanismo de edición en vivo antes de limpiar/truncar la tabla del watchdog !\nSalga de la edición en vivo con ^C\n"
 examples:
-    - description: 'Imprimir las entradas del log cada x segundos'
-      execution: |
-        drupal database:log:poll \
-          100
+    -
+        description: 'Imprimir las entradas del log cada x segundos'
+        execution: "drupal database:log:poll \\\n  100\n"
