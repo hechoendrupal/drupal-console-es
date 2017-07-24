@@ -9,4 +9,4 @@ examples:
 examples:
     - description: 'Mostrar los breakpoints disponibles en el sitio'
       execution: |
-        drupal debug:breakpoints>>>>>> upstream/master
+        drupal debug:breakpoints
