@@ -3,7 +3,7 @@ help: 'Actualiza el comando de consola a la última versión'
 arguments:
     test-class: 'Clase de Test'
 options:
-    group: Group
+    group: Grupo
 messages:
     class: 'Clase de Test'
     description: Descripción

@@ -1,6 +1,6 @@
 description: 'Deshabilita un recurso rest en la aplicación'
 arguments:
-    resource-id: 'Rest ID'
+    resource-id: 'ID Rest'
     states: 'Estados REST a deshabilitar para el recurso Rest'
 questions:
     resource-id: 'ID Rest'

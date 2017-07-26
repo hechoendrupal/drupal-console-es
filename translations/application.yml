@@ -39,7 +39,7 @@ messages:
             extra: 'Debe ejecutar "%s" en su lugar'
 errors:
     invalid-command: 'El comando "%s" no está definido.'
-    renamed-command: 'Command "%s" was renamed, use "%s" instead.'
+    renamed-command: 'El comando "%s" ha sido renombrado, use "%s" en su lugar.'
 site:
     messages:
         path: 'Ruta del sitio'
@@ -64,15 +64,15 @@ remote:
         console-not-found: 'No se encuentra Drupal Console en este sitio'
 gitbook:
     messages:
-        title: 'Available Drupal Console Commands'
-        note: Note
-        note-description: 'Drupal Console commands *must* be run from the root of a Drupal 8 installation'
-        command: 'Drupal Console Command'
-        command_description: 'The **"%s"** command "%s"'
-        usage: Usage
-        options: 'Available options'
-        option: Option
-        details: Details
-        arguments: 'Available arguments'
-        argument: Argument
-        examples: Examples
+        title: 'Comandos de Drupal Console disponibles'
+        note: Nota
+        note-description: 'Los comandos de Drupal Console *debeb* de ser ejecutados desde el raíz de la instalación de Drupal 8'
+        command: 'Comando de Drupal Console'
+        command_description: 'El **"%s"** comando "%s"'
+        usage: Uso
+        options: 'Opciones disponibles'
+        option: Opción
+        details: Detalles
+        arguments: 'Argumentos disponibles'
+        argument: Argumento
+        examples: Ejemplos

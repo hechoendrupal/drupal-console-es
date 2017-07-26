@@ -14,5 +14,5 @@ questions:
     breakpoint-add: '¿Desea añadir otro breakpoint?'
 examples:
     -
-        description: 'Generate a breakpoint specifying the theme, a breakpoint name, its label, the media query, its weight and multipliers'
+        description: 'Generar un breakpoint especificando el theme, nombre del breakpoint, su etiqueta, la media query, su peso y sus múltiplos'
         execution: "drupal generate:breakpoint  \\\n  --theme=\"classy\"  \\\n  --breakpoints='\"breakpoint_name\":\"narrow\", \"breakpoint_label\":\"narrow\", \"breakpoint_media_query\":\"all and (min-width: 560px) and (max-width: 850px)\", \"breakpoint_weight\":\"1\", \"breakpoint_multipliers\":\"1x\"'"

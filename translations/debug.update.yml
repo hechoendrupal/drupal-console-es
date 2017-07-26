@@ -13,5 +13,5 @@ messages:
     post-update: 'Función de post-actualización'
 examples:
     -
-        description: 'List of pending updates'
+        description: 'Listar todas las actualizaciones pendientes'
         execution: "drupal debug:update\n"

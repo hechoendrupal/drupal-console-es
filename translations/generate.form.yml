@@ -9,10 +9,10 @@ options:
     config-file: 'Añadir un fichero de configuración'
     inputs: common.options.inputs
     path: 'Introduzca la ruta del formulario'
-    menu-link-gen: 'Generate a menu link'
-    menu-link-title: 'A title for the menu link'
-    menu-parent: 'Menu parent'
-    menu-link-desc: 'A description for the menu link'
+    menu-link-gen: 'Generar un enlace de menú'
+    menu-link-title: 'Título para el enlace de menú'
+    menu-parent: 'Menú padre'
+    menu-link-desc: 'Descripción para el enlace de menú'
     routing: 'Generar una ruta'
 questions:
     module: common.questions.module

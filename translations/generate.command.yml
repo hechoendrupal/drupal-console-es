@@ -21,5 +21,5 @@ messages:
     title-not-empty: 'el Título no puede estar vacío'
 examples:
     -
-        description: 'Generate a command specifying the extension name and type, its class and the name.'
+        description: 'Generar un comando especificando el nombre de extensión, el tipo, la clase y el nombre.'
         execution: "drupal generate:command  \\\n  --extension=\"ExtensionName\"  \\\n  --extension-type=\"module\"  \\\n  --class=\"DefaultCommand\"  \\\n  --name=\"CommandName\""

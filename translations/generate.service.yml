@@ -13,7 +13,7 @@ questions:
     service-name: 'Introduzca el nombre del servicio'
     class: 'Introduzca el nombre de la clase'
     interface: 'Crear una interfaz'
-    interface-name: 'Enter the interface name'
+    interface-name: 'Introduzca el nombre de interfaz'
     services: common.options.services
     path: 'Introduzca la ruta para los servicios'
     interface_name: 'Introduzca el nombre de la interfaz'

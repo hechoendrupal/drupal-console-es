@@ -18,7 +18,7 @@ questions:
     default-widget: 'Introduzca el widget de campo por defecto para este plugin'
     default-formatter: 'Introduzca el formateador de campo por defecto para este plugin'
 suggestions:
-    my-field-type: 'My Field Type'
+    my-field-type: 'Mi tipo de campo'
 examples:
     -
         description: 'Generar un plugin de tipo de campo especificando el nombre del módulo, la clase, su etiqueta, el id de plugin y una descripción'

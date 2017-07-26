@@ -6,8 +6,8 @@ messages:
     key: 'La clave de Estado'
 examples:
     -
-        description: 'List of the states on the site'
+        description: 'Listar todos las claves de estado del sitio'
         execution: "drupal debug:state\n"
     -
-        description: 'Displays a detail of the state install_task tok from the list of states'
+        description: 'Muestra información detallada sobre la clave de estado install_task'
         execution: "drupal debug:state install_task\n"

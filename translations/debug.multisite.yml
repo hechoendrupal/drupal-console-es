@@ -7,5 +7,5 @@ messages:
     site-format: 'Los sitios son escritos usando el formato: <port>.<domain>.<path>'
 examples:
     -
-        description: 'Displays multisite information'
+        description: 'Muestra información sobre multisite'
         execution: "drupal debug:multisite\n"

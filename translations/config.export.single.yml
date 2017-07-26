@@ -26,8 +26,8 @@ messages:
     config_exported: 'La(s) configuración(es) ha(n) sido exportada(s) de modo exitoso'
 examples:
     -
-        description: 'Provide config settings name to be exported'
+        description: 'Facilitar el nombre de la configuración que será exportada'
         execution: "drupal config:export:single \\\n  --name=config.settings.name"
     -
-        description: 'if uuid and/or config hashes will be removed.'
+        description: 'Eliminar el uuid y/o los hashes de configuración en la exportación de la configuración'
         execution: "drupal config:export:single \\\n  --name=config.settings.name \\\n  --remove-uuid \\\n  --remove-config-hash\n"

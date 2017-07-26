@@ -11,8 +11,8 @@ messages:
     type: Tipo
 examples:
     -
-        description: 'Show all tables on a database'
+        description: 'Mostrar todas las tablas en la base de datos'
         execution: 'drupal debug:database:table'
     -
-        description: 'Show fields on the node table or another specified on the argument'
+        description: 'Mostrar los campos de la tabla de nodo u otra especificada en el argumento'
         execution: "drupal debug:database:table node\n"

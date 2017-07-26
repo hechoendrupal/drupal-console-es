@@ -5,5 +5,5 @@ messages:
     class: Clase
 examples:
     -
-        description: 'Displays the queues of the application'
+        description: 'Muestra todas las colas de la aplicación'
         execution: "drupal debug:queue\n"

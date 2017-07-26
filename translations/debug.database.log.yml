@@ -20,8 +20,8 @@ messages:
     invalid-severity: 'Tipo de severidad no es válido, el filtro fue ignorado'
 examples:
     -
-        description: 'List all the entries on the log'
+        description: 'Listar todas las entradas del log'
         execution: 'drupal debug:database:log'
     -
-        description: 'List specific log entry by Event ID'
+        description: 'Listar una entrada del log específica por ID de evento'
         execution: "drupal debug:database:log 21228\n"

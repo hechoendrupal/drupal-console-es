@@ -14,7 +14,7 @@ questions:
     plugin-id: 'Introduzca el ID del plugin'
     description: 'Introduzca la descripción del plugin'
 suggestions:
-    my-image-effect: 'My Image Effect'
+    my-image-effect: 'Mi efecto de imagen'
 examples:
     -
         description: 'Generar un plugin de efecto de imagen especificando el nombre de módulo, la clase, su etiqueta, el id de plugin y una descripción'

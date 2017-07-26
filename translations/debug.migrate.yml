@@ -8,5 +8,5 @@ messages:
     tags: Etiquetas
 examples:
     -
-        description: 'Displays current migration'
+        description: 'Mostrar información sobre la migración actual'
         execution: "drupal debug:migrate\n"

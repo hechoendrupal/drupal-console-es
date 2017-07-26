@@ -13,8 +13,8 @@ options:
     include-module-dependencies: 'Incluir las dependencias del módulo en un fichero YAML'
 examples:
     -
-        description: 'Provide a view id'
+        description: 'Es posible facilitar un id de vista como argumento'
         execution: 'drupal config:export:view viewid'
     -
-        description: 'You can provide the interactive values like parameter.'
+        description: 'Puede facilitar valores interactivos como parámetro.'
         execution: "drupal config:export:view viewid \\\n  --module=\"modulename\" \\\n  --optional-config \\\n  --include-module-dependencies\n"

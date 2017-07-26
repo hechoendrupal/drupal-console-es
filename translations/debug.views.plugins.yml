@@ -8,5 +8,5 @@ messages:
     views: Vistas
 examples:
     -
-        description: 'List of views plugins'
+        description: 'Listado de plugins de vista'
         execution: "drupal debug:views:plugins\n"

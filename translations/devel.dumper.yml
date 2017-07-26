@@ -1,7 +1,7 @@
 messages:
-    change-devel-dumper-plugin: 'Change the devel dumper plugin'
-    name-devel-dumper-plugin: 'Name of the devel dumper plugin'
-    devel-must-be-installed: 'Devel must be installed'
-    select-debug-dumper: 'Select a Debug Dumper'
-    dumper-not-exist: 'Dumper does not exist'
-    devel-dumper-set: 'Devel Dumper set to: %s'
+    change-devel-dumper-plugin: 'Cambiar el plugin de dumper de desarrollo'
+    name-devel-dumper-plugin: 'Nombre del plugin de dumper de desarrollo'
+    devel-must-be-installed: 'El módulo Devel debe estar instalado'
+    select-debug-dumper: 'Seleccione un dumper de debug'
+    dumper-not-exist: 'El dumper no existe'
+    devel-dumper-set: 'Ha sido seleccionado el siguiente dumper de desarrollo: %s'

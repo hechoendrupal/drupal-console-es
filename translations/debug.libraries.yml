@@ -6,8 +6,8 @@ messages:
     info: 'Información de las librerías'
 examples:
     -
-        description: 'List all available libraries'
+        description: 'Listar todas las librerías disponibles'
         execution: "drupal debug:libraries\n"
     -
-        description: 'List block library information'
+        description: 'Listar información sobre la librería block'
         execution: "drupal debug:libraries block\n"

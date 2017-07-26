@@ -11,5 +11,5 @@ messages:
     deleted: 'La entidad %s con id %s ha sido eliminada con éxito'
 examples:
     -
-        description: 'Delete entity type content using node id'
+        description: 'Eliminar una entidad de tipo de contenido usando su id de nodo'
         execution: "drupal entity:delete node 1\n"
