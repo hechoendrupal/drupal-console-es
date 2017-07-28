@@ -17,5 +17,5 @@ questions:
     button-icon-path: 'Introduzca la ruta del icono o imagen del botón'
 examples:
     -
-        description: 'Generate CKEditor button specifying the module name, the class, the label, its id, the button name and the icon path'
+        description: 'Generar un botón de CKEditor especificando el nombre del módulo, la clase, la etiqueta, su id y la ruta del icono'
         execution: "drupal generate:plugin:ckeditorbutton  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultCKEditorButton\"  \\\n  --label=\"Default ckeditor button\"  \\\n  --plugin-id=\"default ckeditor button\"  \\\n  --button-name=\"Default ckeditor button\"  \\\n  --button-icon-path=\"modules/custom/modulename/js/plugins/default ckeditor button/images/icon.png\""

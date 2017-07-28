@@ -8,7 +8,7 @@ options:
     format: 'Formato de salida (txt, xml, json, or md)'
 messages:
     usage: "<comment>Uso:</comment>\n"
-    usage-details: "  command [options] [arguments]\n\n"
+    usage-details: "  comando [opciones] [argumentos]\n\n"
     arguments: '<comment>Argumentos:</comment>'
     options: '<comment>Opciones:</comment>'
     help: '<comment>Ayuda:</comment>'

@@ -4,19 +4,19 @@ options:
 questions:
     chain-file: 'Seleccione un archivo de comandos encadenados para ejecutar'
 messages:
-    missing-file: 'You must provide a valid file path and name.'
-    invalid-file: 'The file "%s" does not exist.'
-    module-install: 'module:install command is not runnable inside a chain queue and must be run independently.'
+    missing-file: 'Debe facilitar un nombre de archivo y una ruta válidos.'
+    invalid-file: 'El siguiente archivo no existe: "%s".'
+    module-install: 'El comando module:install no es ejecutable dentro de una cadena de comandos en secuencia y debe ser ejecutado independientemente.'
     missing-environment-placeholders: 'No se encuentran el/los comodín(es) "%s" de entorno'
     set-environment-placeholders: 'Establecer comodines de entorno como:'
     missing-inline-placeholders: 'No se encuentran el/los comodín(es) "%s" en línea'
     set-inline-placeholders: 'Pasar comodines en línea como:'
-    select-value-for-placeholder: 'Select value for %s placeholder'
-    enter-value-for-placeholder: 'Enter value for %s placeholder'
+    select-value-for-placeholder: 'Seleccione un valor para el comodín %s'
+    enter-value-for-placeholder: 'Introduzca un valor para el comodín %s'
     missing_file: 'Debe proporcionar un nombre y ruta de archivo válidos.'
     invalid_file: 'El archivo "%s" no existe.'
     module_install: 'El comando module:install no es ejecutable dentro de una secuencia de comandos y se debe ejecutar de forma independiente.'
 examples:
     -
-        description: 'Providing a file option using full path.'
+        description: 'Facilitar una opción de archivo usando la ruta absoluta.'
         execution: "drupal chain \\\n  --file=\"/path/to/file/chain-file.yml\"\n"

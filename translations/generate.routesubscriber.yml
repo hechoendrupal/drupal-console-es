@@ -11,5 +11,5 @@ questions:
     class: 'Ingrese el nombre de la clase'
 examples:
     -
-        description: 'Generate a route subscriber specifying the module name, the route name and its class'
+        description: 'Generar un RouteSubscriber especificando el nombre del módulo, el nombre de enrutado y su clase'
         execution: "drupal generate:routesubscriber  \\\n  --module=\"modulename\"  \\\n  --name=\"modulename.route_subscriber\"  \\\n  --class=\"RouteSubscriber\"\n"

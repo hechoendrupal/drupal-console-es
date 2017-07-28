@@ -38,5 +38,5 @@ messages:
     title-not-empty: 'El título no puede estar vacío'
 examples:
     -
-        description: 'Generate controller specifying the module name, the class name and its routes'
+        description: 'Generar un controlador especificando el nombre del módulo, la clasee y sus rutas'
         execution: "drupal generate:controller  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultController\"  \\\n  --routes='\"title\":\"ControllerMethod\", \"name\":\"modulename.default_controller_hello\", \"method\":\"hello\", \"path\":\"/modulename/hello/{name}\"'  \\\n  --test"

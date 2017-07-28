@@ -9,9 +9,5 @@ questions:
     plugin-id: 'Introduzca el id del plugin para proceso de migración'
 examples:
     -
-        description: 'Generate a migration plugin process specifying the module name, the class and its id'
-        execution: |
-            drupal generate:plugin:migrate:process  \
-                --module="modulename"  \
-                --class="MigrationProcess"  \
-                --plugin-id="migrationprocess"
+        description: 'Generar un plugin de proceso para migración especificando el nombre de módulo, la clase y su id'
+        execution: "drupal generate:plugin:migrate:process  \\\n    --module=\"modulename\"  \\\n    --class=\"MigrationProcess\"  \\\n    --plugin-id=\"migrationprocess\"\n"

@@ -1,6 +1,6 @@
 description: 'Eliminar configuración'
 arguments:
-    type: 'Type de configuration.'
+    type: 'Tipo de configuración.'
     name: 'Nombre de la configuración.'
 messages:
     all: 'Toda la configuración fue eliminada con éxito.'
@@ -16,5 +16,5 @@ questions:
     sure: 'Esta seguro de eliminar toda la configuración'
 examples:
     -
-        description: 'Provide a config type and a config name'
+        description: 'Eliminar todas las configuraciones activas'
         execution: 'drupal config:delete active all'

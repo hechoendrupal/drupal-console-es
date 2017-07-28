@@ -4,6 +4,6 @@ welcome: 'Bienvenido la comando de debug de settings de la configuración de Dru
 messages:
     current: 'Par clave:valor actual en el archivo settings'
 examples:
-    - description: 'Mostrar los pares clave:valor que contiene el archivo settings'
-      execution: |
-        drupal debug:config:settings
+    -
+        description: 'Mostrar los pares clave:valor que contiene el archivo settings'
+        execution: "drupal debug:config:settings\n"

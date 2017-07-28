@@ -8,5 +8,5 @@ table-headers:
     entity-type: 'Tipo de la entidad'
 examples:
     -
-        description: 'Displays the available entities'
+        description: 'Mostrar las entidades existentes'
         execution: "drupal debug:entity\n"

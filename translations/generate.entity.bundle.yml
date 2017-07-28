@@ -13,5 +13,5 @@ message:
     error-state1: 'marcador de posición'
 examples:
     -
-        description: 'Generate bundle entity specifying the module, the bundle name and its title'
+        description: 'Generar un nuevo tipo de contenido especificando el módulo, el nombre del bundle y su título'
         execution: "drupal generate:entity:bundle  \\\n  --module=\"modulename\"  \\\n  --bundle-name=\"default\"  \\\n  --bundle-title=\"default\""

@@ -9,8 +9,8 @@ messages:
     error: 'Ha ocurrido un error al crear su directorio en "%s"'
 examples:
     -
-        description: 'Optional you can add the path to export'
+        description: 'Opcionalmente, puede añadir la ruta donde exportar'
         execution: "drupal config:export  \\\n  --directory=\"path/to/export\""
     -
-        description: 'If export will be in a compressed file and/or if uuid and config hashes will be removed.'
+        description: 'Volcar la exportación en un archivo comprimido y eliminar el uuid y los hashes de configuración.'
         execution: "drupal config:export  \\\n  --directory=\"path/to/export\" \\\n  --tar \\\n  --remove-uuid \\\n  --remove-config-hash\n"

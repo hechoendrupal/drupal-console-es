@@ -10,5 +10,5 @@ table-headers:
     permission-role: Rol
 examples:
     -
-        description: 'Displays all the permissions availables on the site'
+        description: 'Mostrar todos los permisos disponibles en el sitio'
         execution: "drupal debug:permission\n"

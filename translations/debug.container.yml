@@ -6,18 +6,18 @@ arguments:
 messages:
     service-id: 'ID de Servicio'
     class-name: 'Nombre de clase'
-    service: 'Servicio'
-    class: 'Clase'
-    interface: 'Interface(s)'
+    service: Servicio
+    class: Clase
+    interface: Interface(s)
     parent: 'Clase padre'
-    variables: 'Variables'
-    methods: 'Métodos'
-    arguments: 'Argumentos'
-    method: 'Método'
-    return: 'Return'
+    variables: Variables
+    methods: Métodos
+    arguments: Argumentos
+    method: Método
+    return: Return
 errors:
-    method-not-exists: "Este método no existe en este servicio."
+    method-not-exists: 'Este método no existe en este servicio.'
 examples:
-    - description: 'Mostrar los servicios views.views_data_helper'
-      execution: |
-        drupal debug:container views.views_data_helper
+    -
+        description: 'Mostrar los servicios views.views_data_helper'
+        execution: "drupal debug:container views.views_data_helper\n"

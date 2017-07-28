@@ -1,0 +1,13 @@
+description: 'Invalida las etiquetas de caché'
+options:
+    tag: 'Uno o más etiquetas a invalidar.'
+messages:
+    start: 'Invalidando etiqueta(s) %s.'
+    completed: 'Etiqueta(s) invalidada(s).'
+examples:
+    -
+        description: 'Invalidar rutas'
+        execution: 'drupal cti routes'
+    -
+        description: 'Invalidar un nodo específico'
+        execution: 'drupal cti node:1 node_list'

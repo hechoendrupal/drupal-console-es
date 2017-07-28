@@ -18,6 +18,8 @@ questions:
     account-name: 'Proporcione un nombre para la cuenta de administrador'
     account-mail: 'Proporcione un  correo electrónico para la cuenta de administrador'
     account-pass: 'Proporcione una contraseña para la cuenta de administrador'
+suggestions:
+    site-name: 'Mi sitio super-mega-guay'
 messages:
     installing: 'Comenzando el proceso de instalación de Drupal 8'
     installed: 'Drupal 8 ha sido instalado satisfactoriamente!'

@@ -17,5 +17,5 @@ messages:
     status: Estado
 examples:
     -
-        description: 'Users list on the site'
+        description: 'Listar todos los usuarios del sitio'
         execution: "drupal debug:user\n"

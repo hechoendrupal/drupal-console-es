@@ -1,6 +1,6 @@
-description: 'Muestra los themes actuales en la aplicación.'
+description: 'Muestra los temas actuales en la aplicación.'
 arguments:
-    theme: 'Especifique un theme para debuguear'
+    theme: 'Especifique un tema para debuguear'
 messages:
     theme-id: ID
     theme-name: Nombre
@@ -15,8 +15,8 @@ messages:
     theme-properties: Propiedades
 examples:
     -
-        description: 'List of themes on the site'
+        description: 'Listar todos los temas del sitio'
         execution: 'drupal debug:theme'
     -
-        description: 'Bartik theme information'
+        description: 'Mostrar información del tema Bartik'
         execution: 'drupal debug:theme bartik'

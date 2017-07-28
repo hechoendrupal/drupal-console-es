@@ -21,11 +21,11 @@ questions:
     context-definition-required: 'La definición de contexto es obligatoria'
 examples:
     -
-        description: 'Generate a plugin condition for a node entity type specifying the module name, the class, the label, its id and the context definition'
+        description: 'Generar un plugin de condición para un tipo de entidad nodo especificando el nombre del módulo, la clase, la etiqueta su id y la definición de contexto'
         execution: "drupal generate:plugin:condition  \\\n  --module=\"modulename\"  \\\n  --class=\"ExampleCondition\"  \\\n  --label=\"Example condition\"  \\\n  --plugin-id=\"example_condition\"  \\\n  --context-definition-id=\"entity:node\"  \\\n  --context-definition-label=\"node\"  \\\n  --context-definition-required"
     -
-        description: 'Generate a plugin condition for language specifying the module name, the class, the label, its id and the context definition'
+        description: 'Generar un plugin de condición para idioma especificando el nombre del módulo, la clase, la etiqueta su id y la definición de contexto'
         execution: "drupal generate:plugin:condition  \\\n  --module=\"modulename\"  \\\n  --class=\"ExampleCondition\"  \\\n  --label=\"Example condition\"  \\\n  --plugin-id=\"example_condition\"  \\\n  --context-definition-id=\"language\"  \\\n  --context-definition-label=\"Language\"  \\\n  --context-definition-required"
     -
-        description: 'Generate a plugin condition for role configuration specifying the module name, the class, the label, its id and the context definition'
+        description: 'Generar un plugin de condición para configuración de rol especificando el nombre del módulo, la clase, la etiqueta, su id y la definición de contexto'
         execution: "drupal generate:plugin:condition  \\\n  --module=\"modulename\"  \\\n  --class=\"ExampleCondition\"  \\\n  --label=\"Example condition\"  \\\n  --plugin-id=\"example_condition\"  \\\n  --context-definition-id=\"entity:user_role\"  \\\n  --context-definition-label=\"user_role\"  \\\n  --context-definition-required\n"

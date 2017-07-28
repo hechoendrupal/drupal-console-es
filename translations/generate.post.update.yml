@@ -9,5 +9,5 @@ messages:
     post-update-name-already-implemented: 'El nombre de post actualización "%s" ya ha sido implementado'
 examples:
     -
-        description: 'Generate an implementation of post update hook specifying the module name and the post update name'
+        description: 'Generar una implementación del hook post_update especificando el nombre del módulo y el nombre de post_update'
         execution: "drupal generate:post:update  \\\n  --module=\"modulename\"  \\\n  --post-update-name=\"PostUpdateName\"\n"

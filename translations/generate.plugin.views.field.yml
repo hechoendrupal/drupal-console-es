@@ -11,5 +11,5 @@ questions:
     description_default: 'Mi fantástico plugin de campo de vista personalizado.'
 examples:
     -
-        description: 'Generate a custom view field plugin specifying the module name, the class, a title and its description'
+        description: 'Generar un plugin de campo de vista personalizado especificando el nombre del módulo, la clase, un título y su descripción'
         execution: "drupal generate:plugin:views:field  \\\n  --module=\"modulename\"  \\\n  --class=\"CustomViewsField\"  \\\n  --title=\"Custom views field\"  \\\n  --description=\"My awesome custom views field plugin.\"\n"

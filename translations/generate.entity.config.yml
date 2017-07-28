@@ -16,5 +16,5 @@ questions:
     base-path: 'Introduzca la el directorio raíz para las rutas de la entidad de configuración'
 examples:
     -
-        description: 'Generate config entity specifying the module, the entity class, the entity name, its path and label'
+        description: 'Generar una entidad de configuración especificando el módulo, la clase de entidad, el nombre de entidad, la ruta y su etiqueta'
         execution: "drupal generate:entity:config  \\\n  --module=\"modulename\"  \\\n  --entity-class=\"DefaultEntity\"  \\\n  --entity-name=\"default_entity\"  \\\n  --base-path=\"/admin/structure\"  \\\n  --label=\"Default entity\""

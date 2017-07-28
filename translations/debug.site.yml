@@ -10,8 +10,8 @@ messages:
     connect-error: 'Error al conectar con la máquina remota'
     directory-not-found: 'Directorio local de sitios no encontrado'
 options:
-    target: Target
-    property: Property
+    target: Destino
+    property: Propiedad
 examples:
     -
         description: ''

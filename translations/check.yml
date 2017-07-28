@@ -1,6 +1,11 @@
 description: 'Comprobador de requisitos del sistema'
 messages:
     file: 'Comprobando los requisitos usando el fichero en:'
+    php-invalid: 'La versión instalada actualmente "%s" no es válida, se requiere "%s" o superior'
+    configuration-missing: 'La configuración "%s" no se encuentra.'
+    configuration-overwritten: 'La configuración de PHP (php.ini) "%s" no se encuentra y está sobreescrita con "%s".'
+    extension-missing: 'No se encuentra la extensión "%s"'
+    extension-recommended: 'Se recomienda instalar la extensión "%s"'
     success: 'Todas las comprobaciones han pasado con éxito.'
     php_invalid: 'La versión instalada de PHP actualmente "%s" no es válida, es necesaria la versión "%s" o superior'
     configuration_missing: 'No se encuentra la configuración "%s" .'

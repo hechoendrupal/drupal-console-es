@@ -24,9 +24,9 @@ questions:
     dependencies: 'Le gustaría añadir dependencias al módulo'
     invalid-theme: 'El tema "%s" seleccionado es inválido'
     global-library: 'Introduzca el nombre de la librería de estilo global'
-    library-add: 'Do you want to add another library'
-    library-name: 'Enter library name'
-    library-version: 'Enter library version'
+    library-add: '¿Le gustaría añadir otra librería?'
+    library-name: 'Introduzca el nombre de la librería'
+    library-version: 'Introduzca la versión de la librería'
     regions: 'Desea generar las regiones del tema'
     region-name: 'Introduzca un nombre para la region'
     region-machine-name: 'Introduzca el nombre máquina de la región'
@@ -38,14 +38,17 @@ questions:
     breakpoint-weight: 'Introduzca el peso del punto de ruptura'
     breakpoint-multipliers: 'Introduzca los multiplicadores del breakpoint'
     breakpoint-add: 'Desea añadir otro punto de ruptura'
+suggestions:
+    my-awesome-theme: 'Mi tema super-guay'
+    other: Otro
 warnings:
     module-unavailable: 'Advertencia: Los siguientes módulos todavía no están disponibles en tu entorno local "%s"'
 errors:
     directory-exists: 'El directorio de destino "%s" no está vacío.'
 examples:
     -
-        description: 'Generate a theme without region and without breakpoint specifying the theme name, its machine name, the theme path, a description, the drupal core, the package name and the global library'
+        description: 'Generar un tema sin regiones y sin breakpoints especificando el nombre del tema, su nombre máquina, la ruta del tema, una descripción, el core de Drupal, el nombre del paquete y la librería global'
         execution: "drupal generate:theme  \\\n  --theme=\"AnotherTheme\"  \\\n  --machine-name=\"anothertheme\"  \\\n  --theme-path=\"/themes/custom\"  \\\n  --description=\"My Awesome theme\"  \\\n  --core=\"8.x\"  \\\n  --package=\"PackageName\"  \\\n  --global-library=\"global-styling\"  \\\n  --base-theme=\"false\""
     -
-        description: 'Generate a theme base on stable theme with two region defined and one breakpoint specifying the theme name, its machine name, the theme path, a description, the drupal core, the package name, a global library, its base, the regions and the breakpoint'
+        description: 'Generar un tema base sobre un tema estable con dos regiones definida y un breakpoint especificando el nombre, su nombre máquina, la ruta del theme, una descripción, el core de drupal, el nombre del paquete, una librería global, el tema base, '
         execution: "drupal generate:theme  \\\n  --theme=\"MyTheme\"  \\\n  --machine-name=\"mytheme\"  \\\n  --theme-path=\"/themes/custom\"  \\\n  --description=\"My Awesome theme\"  \\\n  --core=\"8.x\"  \\\n  --package=\"MyThemePackage\"  \\\n  --global-library=\"global-styling\"  \\\n  --base-theme=\"stable\"  \\\n  --regions='\"region_name\":\"Content\", \"region_machine_name\":\"content\"'  \\\n  --regions='\"region_name\":\"Panel\", \"region_machine_name\":\"panel\"'  \\\n  --breakpoints='\"breakpoint_name\":\"narrow\", \"breakpoint_label\":\"narrow\", \"breakpoint_media_query\":\"all and (min-width: 560px) and (max-width: 850px)\", \"breakpoint_weight\":\"1\", \"breakpoint_multipliers\":\"1x\"'\n"

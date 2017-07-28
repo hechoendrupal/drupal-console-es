@@ -6,5 +6,5 @@ messages:
     help-already-implemented: 'El hook de ayuda ya está implementado en el módulo "%s"'
 examples:
     -
-        description: 'Generate a hook help specifying the module name and the description'
+        description: 'Generar un hook_help() especificando el nombre del módulo y la descripción'
         execution: "drupal generate:help  \\\n  --module=\"modulename\"  \\\n  --description=\"My Awesome Module\""

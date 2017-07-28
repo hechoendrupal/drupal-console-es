@@ -25,7 +25,7 @@ questions:
     inputs:
         confirm: '¿Desea generar la estructura de un formulario?'
         label: 'Etiqueta del campo de entrada'
-        machine-name: 'Input machine name'
+        machine-name: 'Nombre máquina del campo de entrada'
         permission: '¿Desea generar permisos?'
         type: Tipo
         invalid: 'El campo de tipo "%s" es inválido.'

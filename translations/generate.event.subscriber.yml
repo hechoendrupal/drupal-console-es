@@ -4,5 +4,5 @@ questions:
     callback-name: 'Nombre de la función de callback para manejar el evento'
 examples:
     -
-        description: 'Generate an event subscriber specifying the module name, its name, the class and the events to subscribe'
+        description: 'Generar un suscriptor de eventos especificando el nombre del módulo, su nombre, la clase  r un suscriptor de eventos especificando el nombre del módulo, su nombre, la clase y los eventos a los que suscribirse'
         execution: "drupal generate:event:subscriber  \\\n  --module=\"modulename\"  \\\n  --name=\"modulename.default\"  \\\n  --class=\"DefaultSubscriber\"  \\\n  --events='kernel_request'\n"

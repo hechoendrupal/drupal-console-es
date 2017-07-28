@@ -9,8 +9,8 @@ messages:
     no-events: 'Ese evento no existe, intente ejecutar el comando: event:debug'
 examples:
     -
-        description: 'List all the events that could be debugged'
-        execution: 'drupal debug:evet'
+        description: 'Listar todos los eventos que pueden ser debugueados'
+        execution: 'drupal debug:event'
     -
-        description: 'Show the information for the kernel.request event'
+        description: 'Mostrar la información existente sobre el evento kernel.request'
         execution: 'drupal debug:event kernel.request'
