@@ -1,6 +1,6 @@
 options:
     env: 'Nombre del ambiente.'
-    no-debug: 'Desactivar el modo de depuración.'
+    debug: 'Activa el modo de depuración'
     learning: 'Generar código con explicaciones.'
     generate-chain: 'Imprimir opciones y argumentos como YAML para ser usado el comando chain'
     generate-inline: 'Imprimir opciones y argumentos de ejecución como llamada inline para ser usados en el futuro'
@@ -17,6 +17,7 @@ options:
     no-ansi: 'Deshabilitar salida ANSI'
     no-interaction: 'No hacer ningura pregunta interactiva'
     check-fix: 'Intentar corregir cualquier configuración faltante.'
+    no-debug: 'Desactivar el modo de depuración.'
 arguments:
     command: 'El comando a ejecutar'
 messages:
@@ -40,6 +41,7 @@ messages:
 errors:
     invalid-command: 'El comando "%s" no está definido.'
     renamed-command: 'El comando "%s" ha sido renombrado, use "%s" en su lugar.'
+    drush-command: 'El comando "%s" es un comando de Drush. Ejecutando el equivalente en Drupal Console "%s" en su lugar.'
 site:
     messages:
         path: 'Ruta del sitio'

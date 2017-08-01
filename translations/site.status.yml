@@ -6,7 +6,7 @@ messages:
     console: 'Versión de la consola'
     database: 'Conexión de la base de datos'
     driver: Controlador
-    host: Host
+    host: Servidor
     port: Puerto
     username: 'Nombre de usuario'
     password: Contraseña

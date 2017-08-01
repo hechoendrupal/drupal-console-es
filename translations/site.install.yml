@@ -9,6 +9,7 @@ arguments:
     account-name: 'Nombre de la cuenta de administrador'
     account-mail: 'Correo electrónico de la cuenta de administrador'
     account-pass: 'Contraseña de la cuenta de administrador'
+    force: 'Forzar para reinstalar el sitio'
 questions:
     profile: 'Seleccione un perfil de Drupal para instalar'
     langcode: 'Seleccione un idioma para la instalación de Drupal'
