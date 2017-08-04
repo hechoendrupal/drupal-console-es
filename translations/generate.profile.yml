@@ -7,6 +7,7 @@ options:
     description: 'Descripción del perfil'
     core: 'Versión del core'
     dependencies: 'Dependencias de módulos separadas por comas (p. ej. context, panels)'
+    themes: 'Nombre del tema'
     distribution: 'Nombre de la distribución'
 questions:
     profile: 'Introduzca el nombre del nuevo perfil'
@@ -14,6 +15,7 @@ questions:
     description: 'Introduzca la descripción'
     core: 'Introduzca la versión del core de Drupal'
     dependencies: 'Le gustaría añadir dependencias de módulos'
+    themes: 'Introduzca el nombre del tema'
     distribution: 'Este perfil de instalación está destinado a ser una nueva distribución'
 suggestions:
     my-useful-profile: 'Mi perfil super-útil'

@@ -11,6 +11,7 @@ options:
     composer: 'Añadir un archivo composer.json'
     base-theme: 'Tema base (por ejemplo: classy, stable)'
     global-library: 'Nombre de la librería de estilo global'
+    libraries: Librerías
     regions: Regiones
     breakpoints: 'Puntos de ruptura'
     base_theme: 'Tema base (por ejemplo: classy, stable)'
