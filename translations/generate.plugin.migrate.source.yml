@@ -16,8 +16,8 @@ questions:
     table: 'Introduzca el nombre de la tabla'
     alias: 'Introduzca el alias para la tabla'
     group-by: 'Si lo desea, introduzca un campo por el que agrupar'
-    id: 'Enter the field id or press <info>enter</enter> if done'
-    description: 'Enter the field description'
+    id: 'Introduzca el id de campo o presione <info>enter</enter> si ha terminado'
+    description: 'Introduzca la descripción del campo'
     fields:
         id: 'Introduzca el ID del campo o presione <info>enter</enter> si ya está'
         description: 'Introduzca la descripción del campo'

@@ -16,10 +16,10 @@ questions:
     plugin-id: 'Introduzca el id del plugin'
     services: common.questions.services
     theme-region: 'Introduzca la región del theme para renderizar el Plugin Block.'
-    type: 'Enter New field type'
-    description: Description
-    default-value: 'Default value'
-    weight: 'Weight for input item'
+    type: 'Introduzca un tipo para el nuevo campo'
+    description: 'Descripción'
+    default-value: 'Valor por defecto'
+    weight: 'Peso para el elemento input'
     inputs: common.questions.inputs
 messages:
     inputs: "\nPuede añadir campos de tipo input para crear configuraciones particulares en cada bloque.\nEsto es opcional, pulse <info>enter</info> para <info>continuar</info>"
