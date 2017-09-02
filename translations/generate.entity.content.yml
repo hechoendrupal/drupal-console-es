@@ -1,5 +1,6 @@
 description: 'Generar una nueva entidad de contenido'
 help: ''
+welcome: 'Welcome to the Drupal Content Entity generator'
 options:
     module: common.options.module
     entity-class: 'Clase de la entidad de contenido'

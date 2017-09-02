@@ -14,9 +14,13 @@ questions:
     class: 'Introduzca un nombre de clase para el plugin'
     label: 'Introduzca la etiqueta del plugin'
     plugin-id: 'Introduzca el id del plugin'
-    inputs: common.questions.inputs
     services: common.questions.services
     theme-region: 'Introduzca la región del theme para renderizar el Plugin Block.'
+    type: 'Enter New field type'
+    description: Description
+    default-value: 'Default value'
+    weight: 'Weight for input item'
+    inputs: common.questions.inputs
 messages:
     inputs: "\nPuede añadir campos de tipo input para crear configuraciones particulares en cada bloque.\nEsto es opcional, pulse <info>enter</info> para <info>continuar</info>"
     invalid-theme-region: 'Región "%s" no es válida'

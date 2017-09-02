@@ -20,13 +20,22 @@ questions:
     form-id: 'Introduzca el id del formulario'
     services: common.questions.services
     config-file: '¿ Desea generar un fichero de configuración ?'
-    inputs: common.questions.inputs
     routing: 'Le gustaría registrar una ruta para este formulario'
     path: 'Introduzca la ruta'
     max-amount-characters: 'Cantidad máxima de caracteres'
     textfield-width-in-chars: 'Ancho del campo de texto (en caracteres)'
     multiselect-size-in-lines: 'Tamaño de la caja de multiselección (en líneas)'
     input-options: 'Opciones del input separadas por comas'
+    menu-link-gen: 'Generate a menu link'
+    menu-link-title: 'Enter a title for the menu link'
+    menu-parent: 'Enter Menu parent'
+    menu-link-desc: 'Enter a description for the menu link'
+    type: 'Enter New field type'
+    label: 'Input label'
+    description: Description
+    default-value: 'Default value'
+    weight: 'Weight for input item'
+    inputs: common.questions.inputs
     menu_link_gen: 'Generar un enlace de menú'
     menu_link_title: 'Título para el enlace de menú'
     menu_parent: 'Menú padre'

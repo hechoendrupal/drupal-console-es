@@ -1,0 +1,57 @@
+description: 'Genera un nuevo formulario de configuración'
+help: 'El comando <info>generate:form:config</info> le ayuda a generar un nuevo formulario de configuración'
+welcome: 'Bienvenido al generador de formularios de configuración para Drupal'
+options:
+  module: 'El nombre del módulo.'
+  class: 'El nombre de la clase del formulario'
+  form-id: 'El ID del formulario'
+  services: 'Cargar servicios desde el contendor.'
+  config-file: 'Añadir un fichero de configuración'
+  inputs: 'Crear inputs en el formulario.'
+  path: 'Introduzca la ruta del formulario'
+  menu-link-gen: 'Generar un enlace de menú'
+  menu-link-title: 'Título para el enlace de menú'
+  menu-parent: 'Elemento padre en el menú'
+  menu-link-desc: 'Descripción para el enlace de menú'
+questions:
+  module: 'Introduzca el nombre del módulo'
+  class: 'Introduzca el nombre de la clase del formulario'
+  form-id: 'Introduzca el ID del formulario'
+  services: 'Introduzca el servicio'
+  config-file: 'Desea generar un archivo de configuración'
+  routing: 'Le gustaría registrar una ruta para este formulario'
+  path: 'Introduzca el path de la ruta'
+  max-amount-characters: 'Cantidad máxima de caracteres'
+  textfield-width-in-chars: 'Ancho del campo de texto (en caracteres)'
+  multiselect-size-in-lines: 'Tamaño de la caja multiselect (en líneas)'
+  input-options: 'Opciones del input separadas por comas'
+  menu-link-gen: 'Generar un enlace de menú'
+  menu-link-title: 'Introduzca un título para el enlace de menú'
+  menu-parent: 'Introduzca el elemento padre en el menú'
+  menu-link-desc: 'Introduzca una descripción para el enlace de menú'
+  type: 'Introduzca el tipo del nuevo campo'
+  label: 'Etiqueta del input'
+  description: 'Descripción'
+  default-value: 'Valor por defecto'
+  weight: 'Peso del elemento input'
+suggestions:
+  description-for-menu: 'Descripción para la entrada del menú'
+examples:
+  - description: 'Generar un formulario vacío con un archivo de configuración especificando el nombre de módulo, la clase un ID de formulario y la ruta'
+    execution: |
+      drupal generate:form:config  \
+        --module="modulename"  \
+        --class="DefaultForm"  \
+        --form-id="default_form"  \
+        --config-file  \
+        --path="/modulename/form/default"
+  - description: 'Genera un formulario con dos campos y un archivo de configuración especificando el nombre del módulo, la clase, el ID de formulario, los inputs y la ruta'
+    execution: |
+      drupal generate:form:config  \
+        --module="modulename"  \
+        --class="DefaultForm"  \
+        --form-id="default_form"  \
+        --config-file  \
+        --inputs='"name":"inputname", "type":"text_format", "label":"InputName", "options":"", "description":"Just a text input", "maxlength":"", "size":"", "default_value":"", "weight":"0", "fieldset":""'  \
+        --inputs='"name":"email", "type":"email", "label":"Email", "options":"", "description":"Just an email input", "maxlength":"", "size":"", "default_value":"", "weight":"0", "fieldset":""'  \
+        --path="/modulename/form/default"
