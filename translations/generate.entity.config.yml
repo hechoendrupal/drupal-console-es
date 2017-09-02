@@ -1,5 +1,6 @@
 description: 'Generar una nueva entidad de configuración'
 help: ''
+welcome: 'Bienvenido al generador de entidades de configuración para Drupal'
 options:
     module: common.options.module
     entity-class: 'Clase de la entidad de configuración'

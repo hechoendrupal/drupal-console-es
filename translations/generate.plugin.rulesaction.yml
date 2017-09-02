@@ -6,20 +6,20 @@ options:
     class: 'Nombre de clase del plugin'
     label: 'Etiqueta del plugin'
     plugin-id: 'ID del plugin'
-    inputs: common.options.inputs
-    services: common.options.services
     category: 'Categoría del plugin'
     context: 'Contexto del plugin'
     type: 'Tipo de acción (usuario o nodo)'
+    inputs: common.options.inputs
+    services: common.options.services
 questions:
     module: common.questions.module
     class: 'Introduzca el nombre de la clase del plugin'
     label: 'Introduzca la etiqueta del plugin'
     plugin-id: 'Introduzca el ID del plugin'
-    inputs: common.questions.inputs
-    services: common.questions.services
     category: 'Introduzca la categoría del plugin'
     context: 'Introduzca el contexto del plugin'
+    inputs: common.questions.inputs
+    services: common.questions.services
 examples:
     -
         description: 'Generar un plugin de acción de rule de usuario especificando el nombre del módulo, la clase, su etiqueta, el id de plugin, el tipo,  su etiqueta, el id de plugin, el tipo, su etiqueta, el id de plugin, el tipo, su etiqueta, el id de plugin, el tipo, su etiqueta, el id de plugin, el tipo, su etiqueta, el id de plugin, el tipo, su etiqueta, el id de plugin, el tipo, su etiqueta, el id de plugin, el tipo, su etiqueta, el id de plugin, el tipo, su etiqueta, el id de plugin, el tipo, su etiqueta, el id de plugin, el tipo, la categoría y su contexto'

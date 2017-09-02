@@ -1,5 +1,12 @@
 description: 'Genera un contexto de caché'
+help: 'El comando <info>generate:cache:context</info> le ayuda a generar un nuevo contexto de caché'
+welcome: 'Bienvenido al generador de contextos de caché de Drupal'
+options:
+    module: 'Nombre del módulo.'
+    name: 'El nombre del contexto de caché'
+    class: 'El nombre de la clase de contexto de caché'
 questions:
+    module: 'Introduzca el nombre del módulo'
     name: 'Introduzca el nombre del contexto de caché'
     class: 'Nombre de la clase de contexto de caché'
 examples:

@@ -1,10 +1,14 @@
 description: 'Generar un Proveedor de Autenticación'
 help: 'El comando <info>generate:authentication:provider</info> le ayuda a generar un nuevo Proveedor de Autenticación'
+welcome: 'Bienvenido al generador de proveedores de autenticación de Drupal'
 options:
+    module: common.options.module
     class: 'Clase del proveedor de autenticación'
     provider-id: 'ID del proveedor'
-    module: common.options.module
-module: common.options.module
+questions:
+    module: 'Introduzca el nombre del módulo'
+    class: 'Introduzca la clase del proveedor de autenticación'
+    provider-id: 'Introduzca el ID de proveedor'
 examples:
     -
         description: 'Generar un proveedor de autenticación especificando el módulo, la clase y el id de proveedor'
