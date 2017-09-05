@@ -17,7 +17,7 @@ questions:
     services: common.questions.services
     theme-region: 'Introduzca la región del theme para renderizar el Plugin Block.'
     type: 'Introduzca un tipo para el nuevo campo'
-    description: 'Descripción'
+    description: Descripción
     default-value: 'Valor por defecto'
     weight: 'Peso para el elemento input'
     inputs: common.questions.inputs

@@ -1,0 +1,22 @@
+description: 'Muestra todas las claves del tema que proveen las funciones del hook hook_theme'
+help: |
+  Muestra todas las claves del tema, o la definición de una clave de tema específica.
+
+  Listar todas las claves del tema:
+  <info>drupal debug:theme:keys</info>
+
+  Mostrar la definición de la clave item_list del tema:
+  <info>drupal debug:theme:keys item_list</info>
+arguments:
+    key: 'Clave'
+table-headers:
+    key: 'Clave'
+    provider-type: 'Tipo de proveedor'
+    provider: 'Proveedor'
+    value: 'Valor'
+provider-types:
+    module: 'Módulo'
+    base-theme-engine: 'Motor del tema base'
+    base-theme: 'Tema base'
+    theme-engine: 'Motor del tema'
+    theme: 'Tema'
