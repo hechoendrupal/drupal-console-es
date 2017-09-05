@@ -32,7 +32,7 @@ questions:
     menu-link-desc: 'Introduzca una descripción para el enlace de menú'
     type: 'Introduzca el tipo del nuevo campo'
     label: 'Etiqueta del input'
-    description: 'Descripción'
+    description: Descripción
     default-value: 'Valor por defecto'
     weight: 'Peso del elemento input'
     inputs: common.questions.inputs

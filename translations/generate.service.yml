@@ -8,7 +8,7 @@ options:
     interface: Interfaz
     interface-name: 'Nombre de la interfaz'
     services: common.questions.services
-    path-service: 'Ruta'
+    path-service: Ruta
     path: Ruta
 questions:
     module: common.questions.module
