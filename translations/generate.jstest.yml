@@ -2,21 +2,11 @@ description: 'Genera un test Javascript.'
 help: 'El comando <info>generate:jstest</info> le ayuda a generar un nuevo test Javascript.'
 welcome: 'Bienvendio al generador de módulos para Drupal'
 options:
-  class: 'Nombre de la clase del test Javascript'
+    class: 'Nombre de la clase del test Javascript'
 questions:
-  module: common.questions.module
-  class: 'Introduzca el nombre de la clase del test Javascript'
+    module: common.questions.module
+    class: 'Introduzca el nombre de la clase del test Javascript'
 examples:
-  - description: 'Generar un módulo especificando el nombre del módulo, el nombre máquina, la ruta, su descripción, el core de Drupal y el nombre del paquete. En este ejemplo el archivo de composer, el test unitario y la plantilla de Twig también se generan'
-    execution: |
-      drupal generate:module  \
-        --module="modulename"  \
-        --machine-name="modulename"  \
-        --module-path="/modules/custom"  \
-        --description="My Awesome Module"  \
-        --core="8.x"  \
-        --package="Custom"  \
-        --module-file  \
-        --composer  \
-        --test  \
-        --twigtemplate
+    -
+        description: 'Generar un módulo especificando el nombre del módulo, el nombre máquina, la ruta, su descripción, el core de Drupal y el nombre del paquete. En este ejemplo el archivo de composer, el test unitario y la plantilla de Twig también se generan'
+        execution: "drupal generate:module  \\\n  --module=\"modulename\"  \\\n  --machine-name=\"modulename\"  \\\n  --module-path=\"/modules/custom\"  \\\n  --description=\"My Awesome Module\"  \\\n  --core=\"8.x\"  \\\n  --package=\"Custom\"  \\\n  --module-file  \\\n  --composer  \\\n  --test  \\\n  --twigtemplate\n"
