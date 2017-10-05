@@ -1,22 +1,22 @@
-description: "Update the files for a multisite installed."
-help: "The <info>multisite:new</info> command assists in setting up new multisite installs by creating the needed subdirectory and files, and can optionally copy an existing 'default' installation."
+description: 'Actualiza los archivos de una instalación multisitio.'
+help: 'El comando <info>multisite:new</info> le ayuda a configurar una nueva instalación multisitio creando los subdirectorios y archivos necesarios. Además puede copiar opcionalmente una instalación por defecto existente.'
 options:
-  uri: "Name of old directory under 'sites' which should be updated."
-  directory: "Name of new directory for multisite installed. (You could create subdir separated by '/')"
+    uri: 'Nombre del antiguo directorio bajo ''sites'' que será actualizado.'
+    directory: 'Nombre del nuevo directorio para el multisitio. (Puede crear un subdirectorio separado por ''/'')'
 questions:
-  uri: "Choice the multisite to update"
-  directory: "Enter the new name (You could use subdir separated by '/')"
+    uri: 'Elija el multisitio a actualizar'
+    directory: 'Introduzca el nuevo nombre (Puede usar subdirectorios separados por ''/'')'
 errors:
-  invalid-uri: "The --uri=%s does not exist"
-  uri-dir-empty: "You must specify a old multisite directory to update."
-  new-dir-empty: "You must specify a new name to update multisite."
-  subdir-exists: 'The "sites/%s" directory already exists.'
-  mkdir-fail: 'Unable to create "sites/%s". Please check the sites directory permissions and try again.'
-  copy-fail: 'Unable to copy "%s" to "%s". Please check permissions and try again.'
-  write-fail: 'Unable to write to the file "%s". Please check the file permissions and try again.'
+    invalid-uri: 'La --uri=%s no existe'
+    uri-dir-empty: 'Debe especificar el directorio antiguo del multisitio a actualizar.'
+    new-dir-empty: 'Debe especificar un nuevo nombre para actualizar el multisitio.'
+    subdir-exists: 'El directorio "sites/%s" ya existe.'
+    mkdir-fail: 'No se ha podido crear "sites/%s". Por favor, compruebe los permisos del directorio sites e inténtelo de nuevo.'
+    copy-fail: 'No se ha podido copiar "%s" en "%s". Por favor, compruebe los permisos e inténtelo de nuevo.'
+    write-fail: 'No se ha podido escribir en el archivo "%s". Por favor, compruebe los permisos del archivo e inténtelo de nuevo.'
 messages:
-  move-settings: 'The file settings.php was successfully movied to "sites/%s".'
+    move-settings: 'El archivo settings.php ha sido movido con éxito a "sites/%s".'
 examples:
-  - description: 'Update the files for a multisite installed specifying old path and new path'
-    execution: |
-      drupal multisite:update
+    -
+        description: 'Actualiza los archivos de un multisitio instalado especificando el nuevo y el antiguo path'
+        execution: "drupal multisite:update\n"
