@@ -1,11 +1,17 @@
 description: 'Crea una url de login de usuario de uso único.'
 options:
-    user-id: 'Id de usuario.'
+    user: 'Nombre/ID de usuario.'
+    user-id: 'ID de usuario.'
 messages:
     url: 'Login de uso único para "%s": "%s"'
+questions:
+    user: 'Introduzca un nombre de usuario o ID'
 errors:
     invalid-user: 'No se puede cargar la entidad de usuario (ID de usuario: "%s").'
 examples:
     -
-        description: 'Proporciona una url de login de un sólo uso para el id de usuario 1'
+        description: 'Proporciona una URL de login de un sólo uso para el ID de usuario 1'
         execution: "drupal user:login:url  1\n"
+    -
+        description: 'Proporciona una URL de login de un sólo uso para el usuario jmolivas'
+        execution: 'drupal user:login:url jmolivas'
