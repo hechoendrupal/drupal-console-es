@@ -3,6 +3,8 @@ arguments:
     service: 'Nombre del servicio.'
     method: 'Nombre del método.'
     arguments: 'Array de argumentos en formato CSV o JSON.'
+options:
+    tag: 'Etiqueta del servicio'
 messages:
     service-id: 'ID de Servicio'
     class-name: 'Nombre de clase'
