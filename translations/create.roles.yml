@@ -11,8 +11,9 @@ messages:
     created-roles: 'Han sido creados "%s" roles con éxito'
     error-created-role: 'El rol "%s" ha fracasado a la hora de ser creado'
 examples:
-    - description: 'Facilitar roles'
-      execution: drupal create:roles
-    - description: 'Facilitar el número de roles a crear'
-      execution: |
-        drupal create:roles
+    -
+        description: 'Facilitar roles'
+        execution: 'drupal create:roles'
+    -
+        description: 'Facilitar el número de roles a crear'
+        execution: "drupal create:roles\n"
