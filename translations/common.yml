@@ -22,6 +22,9 @@ questions:
         confirm: 'Desea cargar los servicios del contenedor'
         message: "\nEscriba el nombre del servicio o usa la tecla flecha hacia arriba o flecha hacia abajo.\nEsto es opcional, presione <info>enter</info> para <info>continuar</info>\n"
         name: 'Introduzca su servicio'
+    roles:
+        message: "\nIntroduzca el nombre del rol o use las teclas keyup o keydown.\nEsto es opcional, presione <info>enter</info> para <info>continuar</info>\n"
+        name: 'Introduzca su rol'
     inputs:
         confirm: '¿Desea generar la estructura de un formulario?'
         label: 'Etiqueta del campo de entrada'

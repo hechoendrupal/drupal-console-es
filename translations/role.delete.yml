@@ -1,0 +1,13 @@
+description: 'Eleminar roles en la aplicación'
+help: 'El comando <info>role:delete</info> le ayuda a eliminar roles.'
+welcome: 'Bienvenido al eliminador de roles de Drupal'
+arguments:
+  rolename: 'Nombre de los roles que serán eliminados'
+messages:
+  role-id: 'ID del rol'
+  role-name: 'Nombre del rol'
+  role-created: 'Los roles han sido eliminados con éxito'
+examples:
+  - description: 'Eliminar rol especificando su nombre'
+    execution: |
+      drupal role:delete  moderator
