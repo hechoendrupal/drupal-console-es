@@ -4,8 +4,8 @@ messages:
     site: Sitio
     host: Servidor
     root: Raíz
-    invalid-sites: 'No sites defined.'
-    invalid-sites-using: "Using a site alias requires local configuration, more info at:\n   https://docs.drupalconsole.com/en/alias/using-site-alias.html\n"
+    invalid-sites: 'No hay sitios definidos.'
+    invalid-sites-using: "Usar un alias de sitio requiere configuración local, más info en:\n   https://docs.drupalconsole.com/en/alias/using-site-alias.html\n"
     invalid-site: 'El nombre del sitio no es válido'
     private-key: 'Error con la clave privada'
     connect-error: 'Error al conectar con la máquina remota'
