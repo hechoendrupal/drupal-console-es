@@ -1,0 +1,13 @@
+description: 'Genera y registra un comando custom de ajax'
+help: 'El comando <info>generate:ajax:command</info> le ayuda a generar un nuevo comando custom de ajax.'
+welcome: 'Bienvenido al generador para Drupal de Ajax'
+options:
+  module: 'Nombre del módulo.'
+  class: 'Nombre de la clase Ajax'
+  method: 'Método custom ajax'
+  js-name: 'Nombre deljavascript custom'
+questions:
+  module: 'Introduzca el nombre del módulo'
+  class: 'Introduzca el nombre de la clase ajax'
+  method: 'Introduzca el nombre del método render'
+  js-name: 'Introduzca un nombre para el javascript custom'
