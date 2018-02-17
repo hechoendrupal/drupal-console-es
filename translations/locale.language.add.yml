@@ -1,4 +1,8 @@
 description: 'Añadir un idioma que sea soportado en el sitio'
 messages:
     invalid-language: 'El idioma "%s", no es idioma válido'
+    invalid-languages: 'Los idiomas "%s" son inválidos'
     language-add-successfully: 'El idioma "%s" fue agregado exitósamente.'
+    languages-add-successfully: 'Los idiomas "%s" han sido añadidos con éxito.'
+    language-installed: 'El idioma "%s" ya está instalado.'
+    languages-installed: 'Los idiomas "%s" ya están instalados.'

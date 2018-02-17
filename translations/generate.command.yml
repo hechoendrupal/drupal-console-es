@@ -6,8 +6,10 @@ options:
     class: 'Nombre de la Clase de Comandos'
     name: 'Nombre del comando.'
     interact: 'Añadir método interactivo.'
+    initialize: 'Añadir método initialize.'
     container-aware: 'Conoce el comando acerca de la instalación del sitio drupal cuando sea ejecutado'
     services: 'Cargar servicios desde el contenedor.'
+    generator: 'Añadir una clase Generator para este comando.'
     module: common.options.module
     controller-title: 'Título del controlador'
     command: 'Nombre del Comando'
@@ -17,8 +19,10 @@ questions:
     class: 'Introduzca el nombre de la Clase de Comandos'
     name: 'Ingrese el nombre del comando.'
     interact: 'Desea añadir el método interactivo ?'
+    initialize: 'Desea añadir el método initialize?'
     container-aware: 'Conoce el comando acerca de la instalación del sitio drupal cuando sea ejecutado?.'
     services: 'Introduzca su servicio'
+    generator: 'Desea añadir una clase Generator?.'
     module: common.questions.module
     command: 'Introduzca el nombre del Comando'
     container: 'Necesita acceder al contenedor de servicios'

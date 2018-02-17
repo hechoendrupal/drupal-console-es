@@ -7,6 +7,7 @@ messages:
     role-id: 'ID del rol'
     role-name: 'Nombre del rol'
     role-created: 'Los roles han sido eliminados con éxito'
+    invalid-machine-name: 'El rol no existe'
 examples:
     -
         description: 'Eliminar rol especificando su nombre'

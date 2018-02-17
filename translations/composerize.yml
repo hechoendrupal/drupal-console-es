@@ -1,0 +1,14 @@
+description: 'Convierte código Drupal a Composer.'
+options:
+  show-packages: 'Muestra un listado de paquetes.'
+  include-version: 'Incluir versión en el resultado del comando sugerido.'
+messages:
+  name: 'Nombre'
+  version: 'Versión'
+  dependencies: 'Dependencias'
+  profile: 'Perfil detectado'
+  module: 'Módulo detectado'
+  theme: 'Tema detectado'
+  from: 'Desde el ráiz de su proyecto:'
+  execute: 'Ejecutar el comando:'
+  ignore: 'Para ignorar librerías, perfiles y/o módulos  de terceros añada lo siguiente a su archivo .gitignore:'
