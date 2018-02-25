@@ -37,6 +37,7 @@ questions:
         weight: 'Peso para el elemento ''input''.'
         title: Título
         fieldset: 'Conjunto de campos'
+        new-field: 'Introduzca las propiedades del nuevo campo'
         machine_name: 'Introduzca el nombre de máquina'
 errors:
     module-dependency: 'Depencia "%s" del modulo faltante'
@@ -52,3 +53,4 @@ messages:
     drupal-core: 'Core de Drupal'
     move-phar: 'Accediendo a la consola desde cualquier lugar en su sistema'
     quick-start: 'Descargar, instalar y servir Drupal 8'
+    available-field-types: 'Tipos disponibles: <comment>%s</comment>'
