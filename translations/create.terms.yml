@@ -16,6 +16,7 @@ messages:
     name: Nombre
     invalid-vocabularies: 'Los vocabulario(s) "%s" no son válidos'
     created-terms: 'Han sido creados "%s" términos con éxito'
+    error: 'Error creando términos: "%s"'
 examples:
     -
         description: 'Facilitando el nombre de vocabulario.'
