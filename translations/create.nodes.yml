@@ -26,6 +26,7 @@ messages:
     created: 'Fecha de creación'
     invalid-content-types: 'Los tipos de contenido "%s" son inválidos'
     created-nodes: '"%s" nodos creados con éxito'
+    error: 'Error creando nodos: "%s"'
     generated-content: '"%s" nodos creados con éxito'
 examples:
     -
