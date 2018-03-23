@@ -9,6 +9,7 @@ messages:
     role-id: 'ID del rol'
     role-name: 'Nombre del rol'
     created-roles: 'Han sido creados "%s" roles con éxito'
+    error: 'Error creando roles: "%s"'
     error-created-role: 'El rol "%s" ha fracasado a la hora de ser creado'
 examples:
     -

@@ -25,6 +25,7 @@ messages:
     username: 'Nombre de usuario'
     created: 'Fecha de creación'
     created-users: 'Han sido creados "%s" usuarios con éxito'
+    error: 'Error creando usuarios: "%s"'
 examples:
     -
         description: 'Facilitar el rol de usuario.'
