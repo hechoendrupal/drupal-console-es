@@ -1,0 +1,41 @@
+description: 'Genera un plugin de acción de regla'
+help: 'El comando <info>generate:plugin:rulesaction</info> le ayuda a generar un nuevo plugin de acción de regla.'
+welcome: 'Bienvenido al generador de plugins de acción de reglas para Drupal'
+options:
+  module: common.options.module
+  class: 'Clase del plugin'
+  label: 'Etiqueta del plugin'
+  plugin-id: 'ID del plugin'
+  category: 'Categoría del plugin'
+  context: 'Contexto del plugin'
+questions:
+  module: common.questions.module
+  class: 'Introduzca la clase del plugin'
+  label: 'Introduzca la etiqueta del plugin'
+  plugin-id: 'Introduzca el ID del plugin'
+  category: 'Introduzca la categoría del plugin'
+  context: '¿Le gustaría añadir un contexto?'
+  another-context: '¿Le gustaría añadir otro contexto?'
+  context-name: 'Introduzca el nombre del contexto'
+  context-type: 'Introduzca el tipo de contexto (entidad, entity:user_role, entity:user, idioma, cualquiera, etc.)'
+  context-label: 'Introduzca la etiqueta del contexto'
+  context-description: 'Introduzca la descripción del contexto'
+examples:
+  - description: 'Generar un plugin de regla de usuario especificando el nombre del módulo, la clase, su etiqueta, el id del plugin, el tipo, la categoría y su contexto'
+    execution: |
+      drupal generate:plugin:rules:action \
+        --module="modulename" \
+        --class="DefaultAction" \
+        --label="Default Action" \
+        --plugin-id="default_action" \
+        --category="Action category" \
+        --context='"name":"user", "type":"entity:user", "label":"Context label", "description":"Context description"'
+  - description: 'Generar un plugin de regla de entidad especificando el nombre del módulo, la clase, su etiqueta, el id del plugin, el tipo, la categoría y su contexto'
+    execution: |
+      drupal generate:plugin:rules:action \
+        --module="modulename" \
+        --class="DefaultAction" \
+        --label="Default Action" \
+        --plugin-id="default_action" \
+        --category="Action category" \
+        --context='"entity":"node", "type":"entity", "label":"Context label", "description":"Context description"'

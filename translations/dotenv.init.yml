@@ -1,0 +1,38 @@
+description: 'Añade el soporte y la configuración necesarios para trabajar con un archivo .env'
+messages:
+  template-env: |
+    Este archivo es una "plantilla" de la cual necesitan las variables de entorno para ser definidas
+    en su aplicación, use sólo en entornos de desarrollo.
+    Cree variables de entorno real cuando despliegue en producción.
+  load-from-env: |
+    Cuando no se usan variables de entorno real.
+    Asegúrese de que añade la dependencia usando Composer.
+
+    Drupal 8.5 y versiones superiores `composer require symfony/dotenv`
+    if (file_exists(dirname(DRUPAL_ROOT) . '/.env')) {
+      $dotenv = new \Symfony\Component\Dotenv\Dotenv(dirname(DRUPAL_ROOT));
+      $dotenv->load();
+    }
+
+    Drupal 8.4 y versiones anteriores `composer require vlucas/phpdotenv`
+    if (file_exists(dirname(DRUPAL_ROOT) . '/.env')) {
+      $dotenv = new \Dotenv\Dotenv(dirname(DRUPAL_ROOT));
+      $dotenv->load();
+    }
+  load-settings: |
+    # Cargar configuraciones clave/valor
+    $settings_drupal = array_filter(
+        $_SERVER,
+        function($key) {
+            return  strpos($key, 'SETTINGS_') === 0;
+        },
+        ARRAY_FILTER_USE_KEY
+    );
+
+    # Disponer configuraciones clave/valor
+    foreach ($settings_drupal as $name => $value) {
+      if (substr($name, 0, 9) === 'SETTINGS_') {
+        $key = strtolower(substr($name, 9));
+        $settings['settings'][$key] = $value;
+      }
+    }

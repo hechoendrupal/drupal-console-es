@@ -1,6 +1,8 @@
 description: 'Lista los nombres de objetos de configuración y objectos de configuración única.'
 arguments:
     name: 'Nombre de configuración de objeto, por ejemplo "system.site".'
+options:
+    show-overridden: 'Mostrar configuraciones sobreescritas.'
 errors:
     not-exists: 'La configuración "%s" no existe.'
 examples:
@@ -13,3 +15,6 @@ examples:
     -
         description: 'Lista todos los nombres de configuración de sistema.'
         execution: 'drupal config:debug | grep system'
+    -
+        description: 'Lista toda la configuración incluyendo valores sobreescritos.'
+        execution: 'drupal debug:config --show-overridden'

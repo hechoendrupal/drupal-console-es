@@ -3,6 +3,7 @@ options:
     destination: 'Directorio de destino para copiar los archivos'
     override: 'Sobreescribir los archivos de configuración'
     autocomplete: 'Flag para herramienta de autocompletado.'
+    site: 'Usar el sitio local como destino.'
     local: 'Copiar config.yml en el directorio actual'
 questions:
     destination: 'Seleccionar destino para copiar la configuración'
