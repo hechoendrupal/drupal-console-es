@@ -12,6 +12,8 @@ questions:
     title: 'Título del plugin de campo de vista'
     description: 'Descripcion del plugin de campo de vista'
     description_default: 'Mi fantástico plugin de campo de vista personalizado.'
+messages:
+    views-data-already-implemented: 'El hook views data ya ha sido implementado en el módulo "%s". Por favor, mergee el código manualmente'
 examples:
     -
         description: 'Generar un plugin de campo de vista personalizado especificando el nombre del módulo, la clase, un título y su descripción'
