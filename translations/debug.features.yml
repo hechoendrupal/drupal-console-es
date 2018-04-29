@@ -6,6 +6,6 @@ messages:
     bundle: Bundle
     name: Nombre
     machine-name: 'Nombre máquina'
-    status: Status
+    status: Estado
     state: Estado
     machine_name: 'Nombre máquina'
