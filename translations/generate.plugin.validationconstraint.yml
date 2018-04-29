@@ -2,29 +2,20 @@ description: 'Genera un plugin de validación de restricción.'
 help: 'El comando <info>generate:plugin:validationconstraint</info> le ayuda a generar un nuevo plugin de validación de restricción.'
 welcome: 'Bienvendio al generador de plugins de validación de restricción para Drupal'
 options:
-  class: 'Nombre de la clase del plugin'
-  label: 'Etiqueta del plugin'
-  plugin-id: 'ID del plugin'
-  hook: 'Generar hook para validar un campo'
-  bundle: 'Bundle'
-  field-id: 'ID del campo'
+    class: 'Nombre de la clase del plugin'
+    label: 'Etiqueta del plugin'
+    plugin-id: 'ID del plugin'
+    hook: 'Generar hook para validar un campo'
+    bundle: Bundle
+    field-id: 'ID del campo'
 questions:
-  class: 'Introduzca el nombre de la clase del plugin'
-  label: 'Introduzca la etiqueta del plugin'
-  plugin-id: 'Introduzca el ID del plugin'
-  hook: '¿Desea generar un hook para validad un campo?'
-  bundle: 'Introduzca el bundle de entidad'
-  field-id: 'Introduzca el ID del campo'
+    class: 'Introduzca el nombre de la clase del plugin'
+    label: 'Introduzca la etiqueta del plugin'
+    plugin-id: 'Introduzca el ID del plugin'
+    hook: '¿Desea generar un hook para validad un campo?'
+    bundle: 'Introduzca el bundle de entidad'
+    field-id: 'Introduzca el ID del campo'
 examples:
-  - description: 'Generar un plugin de validación de restricción especificando el nombre del módulo, la clase, su etiqueta, el ID del plugin, el bundle de entidad y el ID del campo'
-    execution: |
-      drupal generate:plugin:validationconstraint  \
-        --module="modulename" \
-        --class="ExampleConstraint" \
-        --label="Example validation constraint" \
-        -plugin-id="example_validation_constraint" \
-        --hook \
-        --field-id="field_exmaple_id" \
-        --bundle="entity_example_bundle" \
-        --no-interaction
-
+    -
+        description: 'Generar un plugin de validación de restricción especificando el nombre del módulo, la clase, su etiqueta, el ID del plugin, el bundle de entidad y el ID del campo'
+        execution: "drupal generate:plugin:validationconstraint  \\\n  --module=\"modulename\" \\\n  --class=\"ExampleConstraint\" \\\n  --label=\"Example validation constraint\" \\\n  -plugin-id=\"example_validation_constraint\" \\\n  --hook \\\n  --field-id=\"field_exmaple_id\" \\\n  --bundle=\"entity_example_bundle\" \\\n  --no-interaction\n"
