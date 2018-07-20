@@ -36,7 +36,8 @@ Or
 $ php -r "readfile('https://drupalconsole.com/installer');" > drupal.phar
 ```
 
-$mv drupal.phar /usr/local/bin/drupal
+```
+$ mv drupal.phar /usr/local/bin/drupal
 $ chmod +x /usr/local/bin/drupal
 ```
 
@@ -51,7 +52,7 @@ Si quiere contribuir a esta traducción, es necesario seguir los siguientes paso
 A fin de estar al día con otras contribuciónes se debe configurar una conexión con el repositorio principal mediante el siguiente comando git
 
 ```
-$ git remote add upstream git@github.com:hechoendrupal/drupal-console-fr.git
+$ git remote add upstream git@github.com:hechoendrupal/drupal-console-es.git
 ```
 
 Para obtener las ultimas contribuciónes antes de empezar, se deben ejecutar los siguientes comandos
