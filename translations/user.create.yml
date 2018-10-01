@@ -5,27 +5,27 @@ options:
     username: 'Nombre del usuario que será creado'
     password: 'Contraseña del usuario'
     roles: 'Roles del usuario'
-    email: 'E-mail del usuario'
+    email: 'Correo electrónico del usuario'
     status: 'Estado del usuario'
 questions:
     username: 'Nombre del usuario que será creado'
     password: 'Contraseña del usuario (dejar vacío para autogenerar)'
     roles: 'Roles de usuario (dejar vacío para omitir)'
-    email: 'E-mail del usuario (dejar vacío para omitir)'
+    email: 'Correo electrónico del usuario (dejar vacío para omitir)'
     status: 'Estado del usuario (dejar vacío para omitir)'
 messages:
     user-id: 'ID de usuario'
     username: 'Nombre de usuario'
     password: Contraseña
-    email: E-mail
+    email: 'Correo electrónico'
     roles: Roles
     created: Creado
     status: Estado
     user-created: 'El usuario "%s" ha sido creado con éxito'
 examples:
     -
-        description: 'Crear usuario especificando nombre de usuario, contraseña, rol, email y estado'
+        description: 'Crear usuario especificando nombre de usuario, contraseña, rol, correo electrónico y estado'
         execution: "drupal user:create  john p455w0rd  \\\n  --roles='authenticated'  \\\n  --email=\"john@anexusit.com\"  \\\n  --status=\"1\""
     -
-        description: 'Crear usuario administrador especificando nombre de usuario, contraseña, rol, email y estado'
+        description: 'Crear usuario administrador especificando nombre de usuario, contraseña, rol, correo electrónico y estado'
         execution: "drupal user:create  doe p455w0rd  \\\n  --roles='administrator'  \\\n  --email=\"doe@anexusit.com\"  \\\n  --status=\"1\"\n"
