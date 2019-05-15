@@ -1,0 +1,21 @@
+description: 'Desbloquea un usuario dado.'
+help: 'El comando <info>user:unblock</info> le ayuda a desbloquear a un usuario dado.'
+welcome: 'Bienvenido al desbloqueador de usuarios de Drupal'
+options:
+  user: 'Nombre/id de usuario'
+questions:
+  invalid-user: 'Nombre o id "%s" no válido, el id de usuario debe ser un entero'
+  user: 'Introduzca el id o nombre de usuario'
+messages:
+  unblock-successful: 'El usuario "%s" ha sido desbloqueado.'
+warnings:
+  unblocked-user: 'El usuario "%s" ya está desbloqueado'
+errors:
+  invalid-user: 'El nombre o id "%s" de usuario es inválido'
+examples:
+  - description: 'Desbloquea un usuario indicando su id'
+    execution: |
+      drupal user:unblock 2
+  - description: 'Desbloquea un usuario indicando su nombre'
+    execution: |
+      drupal user:unblock johndoe
