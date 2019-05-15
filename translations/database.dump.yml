@@ -1,9 +1,11 @@
 description: 'Volcado de la estructura y contenidos de las bases de datos y tablas MySQL'
 arguments:
     database: 'Clave de la base de datos, desde settings.php'
+    target: 'Base de datos objetivo del settings.php'
 options:
-    file: ' Nombre del archivo para el respaldo de la base de datos'
-    gz: 'Pasar esta opción si desea el archivo de resultado sql comprimido con gzip'
+    file: 'Nombre del archivo para el respaldo de la base de datos'
+    gz: 'Pase esta opción si desea el archivo de resultado sql comprimido con gzip'
+    exclude-cache: 'Pase esta opción si desea excluir las tablas de caché.'
 messages:
     success: 'Base de datos exportada a:'
 examples:

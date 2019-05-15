@@ -6,6 +6,7 @@ questions:
     content-type: 'Tipo de contenido a exportar'
     remove-uuid: 'Tipo de contenido que será exportado sin clave UUID.'
     optional-config: 'Exportar un tipo de contenido en un módulo como una configuración opcional'
+    all: 'Todos los tipos de contenido'
     remove-config-hash: 'Tipo de contenido a exportar sin la clave hash del sitio por defecto.'
     content_type: 'El tipo de contenido que será exportado'
 messages:

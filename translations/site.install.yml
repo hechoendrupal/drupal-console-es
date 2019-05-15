@@ -26,6 +26,7 @@ messages:
     installed: 'Drupal 8 ha sido instalado satisfactoriamente!'
     using-current-database: 'Usando base de datos "%s" con nombre "%s" y usuario "%s"'
     already-installed: 'Drupal está ya instalado, intente vaciar la base de datos y ejecutar site:install nuevamente'
+    connection-failed: 'La conexión con la base de datos ha fallado; por favor, compruebe en su archivo de settings que tiene correctamente configurados: nombre de usuario, contraseña, base de datos, máquina y puerto.'
     sites-backup: 'El archivo sites.php ha sido renombrado temporalmente a backup.sites.php mientras Drupal se instala.'
     sites-restore: 'La copia de sites.php ha sido restaurada a sites.php.'
     invalid-multisite: 'Multisitio no válido; por favor, cree un multisitio utilizando el comando drupal multisite:new %s "%s"'

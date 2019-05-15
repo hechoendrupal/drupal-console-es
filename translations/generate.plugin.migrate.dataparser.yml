@@ -1,0 +1,20 @@
+description: 'Genera un analizador de datos de migración'
+help: 'El comando <info>generate:plugin:migrate:dataparser</info> le ayuda a generar un nuevo analizador de datos de migración.'
+welcome: 'Bienvenido al generador de analizadorees de datos para migraciones de Drupal'
+options:
+  module: 'El nombre del módulo.'
+  class: 'Nombre de la clase Plugin'
+  plugin-id: 'Id del Plugin'
+  plugin-title: 'Título del Plugin'
+questions:
+  class: 'Introduzca el nombre de la clase Plugin'
+  plugin-id: 'Introduzca el id del plugin'
+  plugin-title: 'Introduzca el título del plugin'
+examples:
+  - description: 'Generar un analizador de datos de migración especificando el nombre del módulo, la clase, el id del plugin y el título del plugin'
+    execution: |
+      drupal generate:plugin:migrate:source  \
+        --module="modulename"  \
+        --class="PluginClassName"  \
+        --plugin-id="plugin_class_name"  \
+        --plugin-title="Data parser"
