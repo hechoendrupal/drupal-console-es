@@ -8,6 +8,7 @@ questions:
     optional-config: 'Exportar un tipo de contenido en un módulo como una configuración opcional'
     all: 'Todos los tipos de contenido'
     remove-config-hash: 'Tipo de contenido a exportar sin la clave hash del sitio por defecto.'
+    include-module-dependencies: 'Include content type module dependencies in module info YAML file'
     content_type: 'El tipo de contenido que será exportado'
 messages:
     content-type-exported: 'Exportando tipo de contenido'
@@ -16,6 +17,7 @@ options:
     optional-config: 'Exportar tipo de contenido como un fichero de configuración YAML opcional en tu módulo'
     remove-uuid: 'Si se da, la configuración será exportada sin clave uuid.'
     remove-config-hash: 'Si se da, la configuración será exportada sin la clave has por defecto del sitio.'
+    include-module-dependencies: 'Include content type module dependencies in module info YAML file'
 examples:
     -
         description: 'Puede facilitar un nombre de módulo para la exportación del tipo de contenido'
