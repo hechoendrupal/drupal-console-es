@@ -1,13 +1,20 @@
 description: 'Ejecuta una función específica de Actualizar N dentro de un módulo, o ejecutarlos todos'
+questions:
+    update: '¿Desea ejecutar las actualizaciones pendientes especificadas?'
+    post-update: '¿Desea ejecutrar las post-actualizaciones pendientes especificadas?'
 arguments:
     module: 'Nombre del módulo'
     update-n: 'Función específica de Update N que será ejecutada'
 messages:
     no-module-updates: 'No hay actualizaciones disponibles para el módulo "%s"'
     executing-update: 'Ejecutando función de actualización "%s" del módulo "%s"'
+    executing-post-update: 'Ejecutando función de post-actualización "%s" del módulo "%s"'
     module-update-function-not-found: 'El módulo "%s" no tiene una función de actualización para "%s"'
     executing-required-previous-updates: 'Ejecutando las actualizaciones previas requeridas'
     no-pending-updates: 'No hay actualizaciones disponibles'
+    no-pending-post-updates: 'No hay post-actualizaciones disponibles'
+    pending-post-updates: 'Existen las siguientes post-actualizaciones disponibles:'
+    pending-updates: 'Existen las siguientes actualizaciones disponibles:'
 examples:
     -
         description: 'Actualizar todas las entidades'
