@@ -1,19 +1,19 @@
-description: 'Drupal Console Queueworker generator.'
-help: 'The <info>generate:plugin:queue</info> command helps you generate a new queue worker plugin.'
-welcome: 'Welcome to the Drupal Queue Worker Plugin generator'
+description: 'Generador de worker para colas de Drupal Console.'
+help: 'El comando <info>generate:plugin:queue</info> le ayuda a generar un nuevo plugin de worker para colas.'
+welcome: 'Bienvenido al generador de plugins de worker para colas de Drupal'
 options:
-  module: 'The module name'
-  class: 'QueueWorker file name'
-  plugin-id: 'Plugin QueueWorker id'
-  cron-time: 'Cron time'
-  label: 'Queue description'
+  module: 'El nombre del módulo'
+  class: 'Nombre del archivo QueueWorker'
+  plugin-id: 'Id del plugin QueueWorker'
+  cron-time: 'Periodo del cron'
+  label: 'Descripción de la cola'
 questions:
-  class: 'Enter the QueueWorker class name'
-  plugin-id: 'Enter the Plugin QueueWorker id'
-  cron-time: 'Enter the cron time to execute you queue'
-  label: 'Enter the Queue description'
+  class: 'Introduzca el nombre de la clase QueueWorker'
+  plugin-id: 'Introduzca el id del plugin QueueWorker'
+  cron-time: 'Introduzca el periodo del cron para ejecutar su cola'
+  label: 'Introduzca la descripción de la cola'
 examples:
-  - description: 'Generate a queue worker plugin specifying the module name, the class and its plugin id'
+  - description: 'Genera un plugin de worker de cola plugin especificando el nombre del módulo, la clase y su Id de plugin'
     execution: |
       drupal generate:plugin:queue  \
         --module="modulename"  \
@@ -22,4 +22,4 @@ examples:
         --cron-time="30"  \
         --label="Example QueueWorker"
 messages:
-    success: 'The Queueworker was generated successfully.'
+    success: 'El worker de cola ha sido generado con éxito.'

@@ -8,7 +8,7 @@ options:
     host: 'La ip/dominio del sitio remoto. No obligatorio para sitios locales.'
     port: 'El puesto a usar al conectar por ssh.'
     user: 'El nombre de usuario a usar al conectar por ssh.'
-    drupal-console-binary: 'The name of your drupal console binary. By default is "drupal"'
+    drupal-console-binary: 'El nombre del binario de Drupal console. Por defecto es "drupal"'
     extra-options: 'Usado sólo cuando el objetivo requiere opciones extra, como un método de autenticación alternativa y/o un archivo de identidad alternativo.'
     site-uri: 'Uri del Drupal (para multisitios).'
     directory: 'Directorio para guardar el alias del sitio generado.'
@@ -21,11 +21,11 @@ questions:
     host: 'Introduzca la ip/dominio del sistema remoto.'
     port: 'Introduzca el puerto a usar al conectar por ssh.'
     user: 'Introduzca el nombre de usuario a usar para conectar por ssh.'
-    drupal-console-binary: 'Enter the name of your drupal console binary'
+    drupal-console-binary: 'Introduzca el nombre de su binario de Drupal console'
     extra-options: 'Seleccione o introduzca una opción extra válida.'
     site-uri: 'Introduzca la uri Drupal (para multisitios).'
     directory: 'Seleccione el directorio donde guardar el alias del sitio generado.'
 examples:
     -
-        description: 'Generate site alias to connect with ssh using tty as extra-option'
+        description: 'Genera un alias de sitio para conectar por SSH usando un tty como opción extra'
         execution: "drupal generate:site:alias  \\\n  --name=\"demo\"  \\\n  --environment=\"dev\"  \\\n  --type=\"ssh\" \\\n  --composer-root=\"/path/to/remote/project\" \\\n  --site-uri=\"default\" \\\n  --host=\"hostName/domain\" \\\n  --user=\"userName\" \\\n  --port=\"port\" \\\n  --drupal-console-binary=\"drupal\" \\\n  --extra-options=\"-tt\" \\\n  --directory=\"/Users/hjuarez/drupalSq/console/\""
