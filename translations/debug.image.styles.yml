@@ -1,9 +1,9 @@
 description: 'Lista los estilos de imagen en el sitio'
 messages:
     styles-list: 'Estilos de imagen definidos en el sitio'
-    styles-label: 'Etiqueta'
+    styles-label: Etiqueta
     styles-name: 'Nombre Máquina'
 examples:
-    - description: 'Listar todos los estilos de imagen en el sitio'
-      execution: |
-        drupal debug:image:styles
+    -
+        description: 'Listar todos los estilos de imagen en el sitio'
+        execution: "drupal debug:image:styles\n"

@@ -1,8 +1,11 @@
 description: 'Generar una implementación de hook_update_N()'
 help: 'El comando <info>"%s"</info> le ayuda a generar un hook de actualización N "%s"'
+welcome: 'Welcome to the Drupal Update generator'
 options:
+    module: 'The Module name.'
     update-n: 'Número de actualización'
 questions:
+    module: 'Enter the module name'
     update-n: 'Por favor, indique la actualización N que será implementada'
 messages:
     wrong-update-n: 'El número de actualización "%s" no es válido'

@@ -2,19 +2,21 @@ description: 'Eliminar usuarios del sitio'
 help: 'El comando <info>user:delete</info> le ayuda a borrar usuarios.'
 welcome: 'Bienvenido a la herramienta de borrado de usuarios de Drupal 8'
 options:
-    user-id: 'Id de usuario que será eliminado'
+    user: 'User name/id to be deleted'
     roles: 'Roles asociados a los usuarios que serán eliminados'
+    user-id: 'Id de usuario que será eliminado'
 questions:
-    user-id: 'Id del usuario que será eliminado (dejar vacío para omitir)'
+    user: 'User name/id to be deleted (empty to skip)'
     roles: 'Seleccione los role(s) asociados a los usuarios que serán eliminados'
+    user-id: 'Id del usuario que será eliminado (dejar vacío para omitir)'
 messages:
     user-id: 'ID de usuario'
     username: 'Nombre de usuario'
     user-deleted: 'El usuario "%s" ha sido eliminado con éxito'
     users-deleted: '"%s" usuarios han sido eliminados con éxito'
 errors:
-    invalid-user-id: 'El id de usuario "%s" no es válido'
     invalid-user: 'El id de usuario "%s" no es válido'
+    invalid-user-id: 'El id de usuario "%s" no es válido'
 examples:
     -
         description: 'Eliminar un usuario especificando el id y el rol de usuario'
@@ -22,3 +24,6 @@ examples:
     -
         description: 'Eliminar un usuario especificando su id'
         execution: "drupal user:delete  \\\n  --user-id=\"3\"\n"
+    -
+        description: 'Delete users with the role "authenticated"'
+        execution: "drupal user:delete  \\\n  --role=\"authenticated\"\n"

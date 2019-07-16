@@ -7,6 +7,7 @@ options:
     db-pass: 'Contraseña de base de datos'
     db-prefix: 'Prefijo de base de datos'
     db-port: Puerto
+    source-base-path: 'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
     source-base_path: 'Directorio local que contiene los fuentes de su sitio (p.ej. /var/www/docroot), o la dirección de su sitio (por ejemplo, http://example.com)'
     files-directory: 'Directorio de archivos'
 questions:
@@ -17,6 +18,7 @@ questions:
     db-pass: 'Contraseña de base de datos'
     db-prefix: 'Prefijo de base de datos'
     db-port: Puerto
+    source-base-path: 'Local file directory containing your source site (e.g. /var/www/docroot), or your site address (for example http://example.com)'
     source-base_path: 'Directorio local que contiene los fuentes de su sitio (p.ej. /var/www/docroot), o la dirección de su sitio (por ejemplo, http://example.com)'
     files-directory: 'Directorio de archivos'
 messages:

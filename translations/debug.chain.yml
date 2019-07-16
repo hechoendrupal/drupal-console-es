@@ -1,4 +1,6 @@
 description: 'Lista los archivos chain disponibles.'
 messages:
-    directory: 'Directorio'
+    directory: Directorio
     file: 'Nombre de fichero chain.'
+    command: 'Command name.'
+    no-files: 'No chain files found.'

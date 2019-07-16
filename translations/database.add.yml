@@ -17,9 +17,6 @@ questions:
     driver: 'Introduzca el driver de la base de datos'
 error: 'No se ha podido escribir el fichero de configuración del sitio. O bien lance este comando con sudo o cambie temporalmente los permisos de modo que se permita la escritura en el settings.php.'
 examples:
-    - description: 'Añadir una base de datos al settings.php'
-      execution: |
-        drupal database:add \
-          --database=DATABASE \
-          --username=USERNAME \
-          --password=PASSWORD
+    -
+        description: 'Añadir una base de datos al settings.php'
+        execution: "drupal database:add \\\n  --database=DATABASE \\\n  --username=USERNAME \\\n  --password=PASSWORD\n"

@@ -10,3 +10,4 @@ messages:
     user: Usuario
     severity: 'Severidad'''
     invalid-severity: 'El tipo de severidad no es válido, ignorando el filtro'
+    user-deleted: 'User has been deleted'

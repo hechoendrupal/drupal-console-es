@@ -1,6 +1,7 @@
 description: 'Restaurar la estructura y los contenidos de bases de datos y tablas MySQL'
 arguments:
     database: 'Clave de la base de datos en el settings.php'
+    target: 'Database target from settings.php'
 options:
     file: 'El nombre de archivo para su archivo de respaldo de la base de datos'
 messages:

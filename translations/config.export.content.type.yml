@@ -4,13 +4,20 @@ arguments:
     content_type: 'El tipo de contenido que será exportado'
 questions:
     content-type: 'Tipo de contenido a exportar'
+    remove-uuid: 'Content Type to be exported without uuid key.'
     optional-config: 'Exportar un tipo de contenido en un módulo como una configuración opcional'
+    all: 'All content types'
+    remove-config-hash: 'Content type to be exported without the default site hash key.'
+    include-module-dependencies: 'Include content type module dependencies in module info YAML file'
     content_type: 'El tipo de contenido que será exportado'
 messages:
     content-type-exported: 'Exporting content type'
     content_type_exported: 'Exportando tipo de contenido'
 options:
     optional-config: 'Exportar tipo de contenido como un fichero de configuración YAML opcional en tu módulo'
+    remove-uuid: 'If set, the configuration will be exported without uuid key.'
+    remove-config-hash: 'If set, the configuration will be exported without the default site hash key.'
+    include-module-dependencies: 'Include content type module dependencies in module info YAML file'
 examples:
     -
         description: 'Provide a content type  and module name'

@@ -1,6 +1,8 @@
 description: 'Muestra las rutas actuales de la aplicación o la información detallada de una ruta en particular'
 arguments:
     route-name: 'Nombres de ruta'
+options:
+    pattern: 'Route pattern'
 messages:
     name: 'Nombre de ruta'
     class: 'Ruta al archivo de la clase'
@@ -17,3 +19,12 @@ examples:
     -
         description: 'Muestra la información detallada de la ruta user.page (/user)'
         execution: 'drupal rod user.page'
+    -
+        description: 'Shows the routes list on the site'
+        execution: 'drupal debug:router'
+    -
+        description: 'Display information on the user.login'
+        execution: 'drupal debug:router user.login'
+    -
+        description: 'Display information for the routes by pattern (/user/login)'
+        execution: 'drupal debug:router --pattern=/user/login'

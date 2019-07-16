@@ -1,8 +1,11 @@
 description: 'Generar una implementación de hook_post_update_NAME()'
 help: 'El comando <info>"%s"</info> le ayuda a generar un hook post update NAME "%s"'
+welcome: 'Welcome to the Drupal Post Updat generator'
 options:
+    module: 'The Module name.'
     post-update-name: 'Nombre Post Actualización'
 questions:
+    module: 'Enter the module name'
     post-update-name: 'Por favor, indique un nombre Post Actualización para ser implementado'
 messages:
     wrong-post-update-name: 'El nombre de post actualización "%s" no es válido'

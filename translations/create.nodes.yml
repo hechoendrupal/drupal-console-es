@@ -7,6 +7,7 @@ options:
     limit: '¿Cuántos nodos le gustaría crear?'
     title-words: 'Número máximo de palabras en el título de los nodos'
     time-range: 'Desde cuándo deberían ser fechados los nodos'
+    revision: 'Create revisions'
 questions:
     content-type: 'Seleccione los tipos de contenido que se usarán en la generación de nodos'
     limit: 'Introduzca cuántos nodos le gustaría crear'
@@ -19,6 +20,7 @@ questions:
         - 'Hace una semana'
         - 'Hace un mes'
         - 'Hace un año'
+    revision: 'Do you want to add revisions?'
 messages:
     node-id: 'Id del nodo'
     content-type: 'Tipo de contenido'
@@ -26,6 +28,7 @@ messages:
     created: 'Fecha de creación'
     invalid-content-types: 'Los tipos de contenido "%s" son inválidos'
     created-nodes: '"%s" nodos creados con éxito'
+    error: 'Error creating nodes: "%s"'
     generated-content: '"%s" nodos creados con éxito'
 examples:
     -

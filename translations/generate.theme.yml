@@ -10,7 +10,9 @@ options:
     package: 'Paquete del tema'
     composer: 'Añadir un archivo composer.json'
     base-theme: 'Tema base (por ejemplo: classy, stable)'
+    base-theme-regions: 'Add the default regions of the chosen base theme'
     global-library: 'Nombre de la librería de estilo global'
+    libraries: Libraries
     regions: Regiones
     breakpoints: 'Puntos de ruptura'
     base_theme: 'Tema base (por ejemplo: classy, stable)'
@@ -38,6 +40,9 @@ questions:
     breakpoint-weight: 'Introduzca el peso del punto de ruptura'
     breakpoint-multipliers: 'Introduzca los multiplicadores del breakpoint'
     breakpoint-add: 'Desea añadir otro punto de ruptura'
+suggestions:
+    my-awesome-theme: 'My Awesome theme'
+    other: Other
 warnings:
     module-unavailable: 'Advertencia: Los siguientes módulos todavía no están disponibles en tu entorno local "%s"'
 errors:

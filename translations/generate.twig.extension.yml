@@ -2,8 +2,15 @@ description: 'Generar una extensión de Twig.'
 help: 'El <info>generate:twig:extension</info> commando ayuda a generar una extensión de Twig.'
 welcome: 'Bienvenido al Drupal generador de extensión Twig'
 options:
+    module: 'The Module name.'
     name: 'Nombre de la extensión Twig'
+    class: 'Class name'
+    services: 'Load services from the container.'
 questions:
+    module: 'Enter the module name'
+    name: 'Enter the twig Extension name'
+    class: 'Class name'
+    services: 'Enter your service'
     twig-extension: 'Ingrese el nombre de la extensión Twig'
 examples:
     -

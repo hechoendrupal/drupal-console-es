@@ -1,6 +1,6 @@
 options:
     env: 'Nombre del ambiente.'
-    no-debug: 'Desactivar el modo de depuración.'
+    debug: 'Switches on debug mode'
     learning: 'Generar código con explicaciones.'
     generate-chain: 'Imprimir opciones y argumentos como YAML para ser usado el comando chain'
     generate-inline: 'Imprimir opciones y argumentos de ejecución como llamada inline para ser usados en el futuro'
@@ -17,6 +17,7 @@ options:
     no-ansi: 'Deshabilitar salida ANSI'
     no-interaction: 'No hacer ningura pregunta interactiva'
     check-fix: 'Intentar corregir cualquier configuración faltante.'
+    no-debug: 'Desactivar el modo de depuración.'
 arguments:
     command: 'El comando a ejecutar'
 messages:
@@ -29,6 +30,8 @@ messages:
     files:
         generated: '¡Ya puedes comenzar a usar el código generado!'
         copied: 'Los archivos fueron copiados'
+    lines-code: 'Generated lines: %s'
+    path: 'Generation path'
     learning:
         route: "Con el fin de crear páginas es necesario definir rutas para ellas.\nUna ruta asigna una URL a un controlador. Se define con qué función\no método será llamado cuando se accede a una URL.\nSi el usuario accede la ruta http://drupal8.dev/{{ route }},\nel sistema buscará una ruta con ese camino. En este caso, si encuentra una\nejecutará la devolución de la llamada _controller.\nEn este caso, la devolución de llamada es definida como un nombre de clase\n(\"\\Drupal\\{{ module }}\\Controller\\{{ class_name }}\")\ny un método (\"{{ method_name }}\")."
     autocomplete: "Bash o Zsh: Agregar esta línea al archivo de configuración del shell:\n<info>source \"$HOME/.console/console.rc\" 2>/dev/null</info>\n\nFish: Crear un link simbólico\n<info>ln -s ~/.console/drupal.fish ~/.config/fish/completions/drupal.fish</info>\n"
@@ -40,6 +43,9 @@ messages:
 errors:
     invalid-command: 'El comando "%s" no está definido.'
     renamed-command: 'Command "%s" was renamed, use "%s" instead.'
+    drush-command: 'Command "%s" is a Drush command (deprecated). Drupal Console equivalent "%s" was executed instead.'
+    statistics-failed: "The Drupal console failed to send statistics. After 10 attempts, this feature was disabled.\nIf you want to enable it again, use the following command:\n\n<info>drupal settings:set statistics.enabled true</info>\n"
+    statistics-url-failed: "The Drupal console failed to send statistics.\nYou must configure it in the global config.yml, use the following command and choose your preference:\n\n<info>drupal init</info>"
 site:
     messages:
         path: 'Ruta del sitio'

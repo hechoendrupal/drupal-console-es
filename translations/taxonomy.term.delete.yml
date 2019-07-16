@@ -2,10 +2,10 @@ description: 'Eliminar términos de una taxonomía de un vocabulario'
 vid: 'Introduzca el ID del vocabulario'
 help: 'Este comando toma el VID como argumento o, en su ausencia, borrará todos los términos de todos los vocabularios'
 messages:
-  nothing: 'Todos los términos del vocabulario "%s" ya han sido borrados.'
-  processing: 'Borrando el término de la taxonomía "%s" .'
-  invalid-vocabulary: 'El vocabulario "%s" no es válido.'
+    nothing: 'Todos los términos del vocabulario "%s" ya han sido borrados.'
+    processing: 'Borrando el término de la taxonomía "%s" .'
+    invalid-vocabulary: 'El vocabulario "%s" no es válido.'
 examples:
-  - description: 'Eliminar todos los términos del vocabulario "tags"'
-    execution: |
-      drupal taxonomy:term:delete  tags
+    -
+        description: 'Eliminar todos los términos del vocabulario "tags"'
+        execution: "drupal taxonomy:term:delete  tags\n"

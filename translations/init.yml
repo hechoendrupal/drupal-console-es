@@ -3,6 +3,7 @@ options:
     destination: 'Directorio de destino para copiar los archivos'
     override: 'Sobreescribir los archivos de configuración'
     autocomplete: 'Flag para herramienta de autocompletado.'
+    site: 'Use local site as destination.'
     local: 'Copiar config.yml en el directorio actual'
 questions:
     destination: 'Seleccionar destino para copiar la configuración'
@@ -14,5 +15,9 @@ questions:
     learning: '¿Mostrar información explicativa que le ayude a aprender Drupal 8?'
     generate-inline: '¿Mostrar una representación subsiguiente al comando ejecutado?'
     generate-chain: 'Mostrar el comando ejecutado como comando chain?'
+    statistics: 'Allow to collect and send this information to drupalConsole server?'
     local: '¿Copiar console/config.yml en el directorio actual?'
     root: 'Introduzca el directorio raíz de Drupal [web, docroot] (en blanco para indicar ninguno)'
+messages:
+    statistics: "Help us improve the Drupal Console project, providing information about how you use the application.\nThe colleted information at \"%s\", would be:\n\n- Used language\n- Executed command\n- Generated lines of code\n\nYou could read about our privacy policy at http://drupalconsole.com/privacy.\n"
+    statistics-disable: "You can stop sending information using the following command:\n\ndrupal settings:set statistics.enabled false\n"

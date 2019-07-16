@@ -13,6 +13,9 @@ messages:
     set-inline-placeholders: 'Pasar comodines en línea como:'
     select-value-for-placeholder: 'Select value for %s placeholder'
     enter-value-for-placeholder: 'Enter value for %s placeholder'
+    legacy-inline: 'Update inline legacy placeholders from %{{name}} to {{name}}.'
+    legacy-environment: 'Update environment legacy placeholders from ${{(NAME}} or %env(NAME)% to {{env("NAME")}}.'
+    metadata-registration: "You should register your chain file as command by providing metadata, more info at:\n   https://docs.drupalconsole.com/en/chains/registering.html"
     missing_file: 'Debe proporcionar un nombre y ruta de archivo válidos.'
     invalid_file: 'El archivo "%s" no existe.'
     module_install: 'El comando module:install no es ejecutable dentro de una secuencia de comandos y se debe ejecutar de forma independiente.'
