@@ -9,6 +9,7 @@ options:
     inputs: common.options.inputs
     services: common.options.services
     theme-region: 'Región del tema para renderizar el plugin de bloque'
+    twigtemplate: 'Generate theme template'
     label: 'Etiqueta del plugin'
 questions:
     module: common.questions.module
@@ -22,6 +23,7 @@ questions:
     description: Descripción
     default-value: 'Valor por defecto'
     weight: 'Peso para el elemento input'
+    twigtemplate: 'Do you want to generate a themeable template?'
     inputs: common.questions.inputs
 messages:
     inputs: "\nPuede añadir campos de tipo input para crear configuraciones particulares en cada bloque.\nEsto es opcional, pulse <info>enter</info> para <info>continuar</info>"
