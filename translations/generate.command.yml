@@ -3,6 +3,7 @@ help: 'El comando <info>generate:command</info> le ayudará a generar un nuevo c
 welcome: 'Bienvenido al generador de Comandos de Drupal'
 options:
     extension: 'El nombre de la extensión (que contendrá el comando).'
+    extension-type: 'The type of the Extension (can be module, profile or theme).'
     class: 'Nombre de la Clase de Comandos'
     name: 'Nombre del comando.'
     interact: 'Añadir método interactivo.'
