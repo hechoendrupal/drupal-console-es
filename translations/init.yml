@@ -15,5 +15,9 @@ questions:
     learning: '¿Mostrar información explicativa que le ayude a aprender Drupal 8?'
     generate-inline: '¿Mostrar una representación subsiguiente al comando ejecutado?'
     generate-chain: 'Mostrar el comando ejecutado como comando chain?'
+    statistics: '¿Permitir recoger y enviar esta información al servidor de Drupal console?'
     local: '¿Copiar console/config.yml en el directorio actual?'
     root: 'Introduzca el directorio raíz de Drupal [web, docroot] (en blanco para indicar ninguno)'
+messages:
+    statistics: "Ayúdenos a mejorar el proyecto de Drupal console facilitando información sobre cómo usa la aplicación..\nLa información es recogida en \"%s\", sería:\n\n- Idioma utilizado\n- Comando ejecutado\n- Líneas de código generadas\n\nPuede informarse sobre nuestra política de privacidad en http://drupalconsole.com/privacy.\n"
+    statistics-disable: "Puede dejar de enviar información usando el siguiente comando:\n\ndrupal settings:set statistics.enabled false\n"

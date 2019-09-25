@@ -8,15 +8,22 @@ questions:
     view: 'La vista que será exportada'
     optional-config: 'Exportar la vista en un módulo como una configuración opcional'
     include-module-dependencies: 'Incluir las dependencias del módulo para la vista en un fichero YAML'
+    remove-uuid: 'La vista será exportada sin la clave uuid.'
+    remove-config-hash: 'La vista será exportada sin la clave has por defecto del sitio.'
 arguments:
     view-id: 'ID de la vista'
 options:
     optional-config: 'Exportar la vista como una configuración YAML opcional en tu módulo'
     include-module-dependencies: 'Incluir las dependencias del módulo en un fichero YAML'
+    remove-uuid: 'Si se indica, la configuración será exportada sin la clave uuid.'
+    remove-config-hash: 'Si se indica, la configuración será exportada sin la clave hash por defecto del sitio.'
 examples:
     -
-        description: 'Es posible facilitar un id de vista como argumento'
+        description: 'Es posible facilitar un id de vista como argumento.'
         execution: 'drupal config:export:view viewid'
     -
         description: 'Puede facilitar valores interactivos como parámetro.'
         execution: "drupal config:export:view viewid \\\n  --module=\"modulename\" \\\n  --optional-config \\\n  --include-module-dependencies\n"
+    -
+        description: 'Export as config for the provided module, updating the module''s info.yml with any module dependencies from the view.'
+        execution: "drupal config:export:view viewid \\\n  --module=\"modulename\" \\\n  --optional-config \\\n  --include-module-dependencies"
