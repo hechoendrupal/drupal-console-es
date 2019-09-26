@@ -1,15 +1,13 @@
-description: 'Displays current updates available from the composer file'
+description: 'Muestra las actualizaciones actualmente disponibles en el archivo composer'
 options:
-    only-drupal: Show only drupal (modules/themes) updates
+    only-drupal: 'Mostrar sólo actualizaciones de drupal (módulos/temas)'
 messages:
-    description: 'Description'
-    current-version: 'Version'
-    latest-version: 'Latest'
-    name: 'Name'
-    composer-list: 'Composer with pending updates'
+    description: Descripción
+    current-version: Versión
+    latest-version: Última
+    name: Nombre
+    composer-list: 'Composer con actualizaciones pendientes'
 examples:
-    - description: 'List of pending updates from composer'
-      execution: |
-        drupal debug:update:composer
-
-
+    -
+        description: 'Listado de actualizaciones pendientes en composer'
+        execution: "drupal debug:update:composer\n"
