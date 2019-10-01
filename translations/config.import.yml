@@ -3,9 +3,9 @@ options:
     file: 'Ruta a un archivo de configuración para importar.'
     directory: 'Ruta de un directorio de configuración para importar.'
     remove-files: 'Eliminar archivos después de la sincronización.'
-    skip-uuid: 'Skip uuid from files'
+    skip-uuid: 'Ignorar uuid de archivos'
 questions:
-    directory: 'Enter the directory name to import the configuration files.'
+    directory: 'Introduzca el nombre del directorio donde importar los archivos de configuración.'
 messages:
     config_files_imported: 'Listado de archivos de configuración.'
     imported: 'Todos los archivos de configuración han sido importados y copiados al directorio de ''staging''.'

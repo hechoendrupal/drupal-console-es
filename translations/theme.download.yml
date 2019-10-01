@@ -2,9 +2,6 @@ description: 'Descarga un tema para la aplicación'
 arguments:
     version: 'Versión del tema, por ejemplo, 1.x-dev'
     theme: 'El nombre del tema'
-options:
-    composer: 'Use la opción --composer para llevar a cabo la descarga del tema con Composer'
-    version: 'Versión del tema, por ejemplo, 1.x-dev'
 messages:
     no-releases: 'No hay ninguna versión para el tema "%s"'
     getting-releases: 'Obteniendo versiones para el tema "%s"'

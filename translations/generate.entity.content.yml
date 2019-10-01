@@ -8,9 +8,10 @@ options:
     label: Etiqueta
     has-bundles: 'La entidad tiene bundles'
     has-forms: 'La entidad tiene formularios'
-    has-owner: 'Entity has owner'
+    has-owner: 'La entidad tiene dueño'
     base-path: 'El directorio raíz para las rutas de la entidad de contenido'
     is-translatable: 'Entidad de contenido traducible'
+    has-bundle-permissions: 'Permisos a nivel de bundle'
 questions:
     module: 'Proporcione el nombre del módulo'
     entity-class: 'Proporcione la clase de la nueva entidad de contenido'
@@ -18,10 +19,11 @@ questions:
     label: 'Proporcione la etiqueta de la nueva entidad de contenido'
     has-bundles: '¿Desea que esta entidad de contenido tenga bundles?'
     has-forms: '¿Desea que esta entidad de contenido tenga formularios?'
-    has-owner: 'Do you want this (content) entity to have an owner?'
+    has-owner: '¿Desea que esta entidad de contenido tenga dueño?'
     base-path: 'Proporcione el directorio raíz para las rutas de la entidad de contenido'
     is-translatable: '¿Es su entidad traducible?'
     revisionable: '¿Es su entidad revisionable?'
+    has-bundle-permissions: '¿Desea que esta entidad tenga permisos "por bundle"?'
 examples:
     -
         description: 'Generar una entidad de contenido especificando el módulo, la clase de entidad, el nombre de entidad, su ruta y la etiqueta'
