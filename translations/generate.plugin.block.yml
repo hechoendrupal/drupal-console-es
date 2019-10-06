@@ -9,7 +9,7 @@ options:
     inputs: common.options.inputs
     services: common.options.services
     theme-region: 'Región del tema para renderizar el plugin de bloque'
-    twigtemplate: 'Generate theme template'
+    twigtemplate: 'Generar plantilla de theme'
     label: 'Etiqueta del plugin'
 questions:
     module: common.questions.module
@@ -23,11 +23,11 @@ questions:
     description: Descripción
     default-value: 'Valor por defecto'
     weight: 'Peso para el elemento input'
-    twigtemplate: 'Do you want to generate a themeable template?'
+    twigtemplate: '¿Desea crear una plantilla tematizable?'
     inputs: common.questions.inputs
 messages:
     inputs: "\nPuede añadir campos de tipo input para crear configuraciones particulares en cada bloque.\nEsto es opcional, pulse <info>enter</info> para <info>continuar</info>"
-    invalid-theme-region: 'Región "%s" no es válida'
+    invalid-theme-region: 'La región "%s" no es válida'
 examples:
     -
         description: 'Generar un plugin de bloque en la región de la cabecera con un campo tipo input especificando el nombre del módulo, la clase, la etiqueta, su id, la región y el input'

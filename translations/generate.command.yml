@@ -3,7 +3,7 @@ help: 'El comando <info>generate:command</info> le ayudará a generar un nuevo c
 welcome: 'Bienvenido al generador de Comandos de Drupal'
 options:
     extension: 'El nombre de la extensión (que contendrá el comando).'
-    extension-type: 'The type of the Extension (can be module, profile or theme).'
+    extension-type: 'Tipo de la Extensión (puede ser un módulo, perfil o theme)'
     class: 'Nombre de la Clase de Comandos'
     name: 'Nombre del comando.'
     interact: 'Añadir método interactivo.'
@@ -19,14 +19,14 @@ questions:
     extension: 'Introduzca el nombre de la extensión'
     class: 'Introduzca el nombre de la Clase de Comandos'
     name: 'Ingrese el nombre del comando.'
-    interact: 'Desea añadir el método interactivo ?'
-    initialize: 'Dese añadir el método initialize?'
+    interact: '¿Desea añadir el método interactivo?'
+    initialize: '¿Dese añadir el método initialize?'
     container-aware: 'Conoce el comando acerca de la instalación del sitio drupal cuando sea ejecutado?.'
     services: 'Introduzca su servicio'
-    generator: 'Desea añadir una clase Generator?.'
+    generator: '¿Desea añadir una clase Generator?.'
     module: common.questions.module
     command: 'Introduzca el nombre del Comando'
-    container: 'Necesita acceder al contenedor de servicios'
+    container: '¿Necesita acceder al contenedor de servicios?'
     controller-title: 'Título del controlador'
 messages:
     title-not-empty: 'el Título no puede estar vacío'

@@ -25,5 +25,5 @@ examples:
         description: 'Puede facilitar valores interactivos como parámetro.'
         execution: "drupal config:export:view viewid \\\n  --module=\"modulename\" \\\n  --optional-config \\\n  --include-module-dependencies\n"
     -
-        description: 'Export as config for the provided module, updating the module''s info.yml with any module dependencies from the view.'
+        description: 'Exportar como configuración para el módulo provisto, actualizando el info.yml del módulo con cualquier dependencia requerida desde la vista.'
         execution: "drupal config:export:view viewid \\\n  --module=\"modulename\" \\\n  --optional-config \\\n  --include-module-dependencies"
