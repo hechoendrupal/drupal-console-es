@@ -13,7 +13,7 @@ options:
 questions:
     theme: 'Introduzca el nombre del nuevo theme'
     theme-path: 'Añada la ruta del theme'
-    favicon: 'Use the favicon supplied by the theme'
+    favicon: 'Usar el favicon facilitado por el theme'
     comment-user-picture: 'Usar imágenes del usurio en los comentarios'
     comment-user-verification: 'Usar el estado de verificiación del usuario en los comentarios'
     node-user-picture: 'Usar imágenes del usuario en los posts'
