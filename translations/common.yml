@@ -8,9 +8,11 @@ options:
     tags: 'Asignar etiquetas de servicio desde el contenedor.'
     inputs: 'Crear campos de entrada en un formulario.'
     permissions: 'Crear permisos.'
+    theme: 'El nombre del  Theme'
 questions:
     class: 'Introduzca el nombre de la clase'
     module: 'Escriba el nombre del módulo'
+    theme: 'Enter the theme name'
     extension: 'Introduzca el nombre de la extensión'
     extension-type: 'Introduzca el tipo de la extensión'
     confirm: '¿Confirma la generación?'
@@ -54,3 +56,4 @@ messages:
     move-phar: 'Accediendo a la consola desde cualquier lugar en su sistema'
     quick-start: 'Descargar, instalar y servir Drupal 8'
     available-field-types: 'Tipos disponibles: <comment>%s</comment>'
+    theme: 'The %s theme is not instaled'

@@ -1,0 +1,30 @@
+description: 'Generar un ajuste para una configuración de theme'
+help: 'The <info>generate:theme:setting</info> command helps you generates a config YML file.'
+welcome: 'Bienvenido al generador de ajustes del theme'
+options:
+    theme: 'El nombre del theme'
+    theme-path: 'La ruta del  theme'
+    favicon: 'Favicon proporcionado por el  theme'
+    comment-user-picture: 'Imágenes del usuario en los comentarios'
+    comment-user-verification: 'Estado de verificación del usuario en los comentarios'
+    node-user-picture: 'Imágenes de usuario en los posts'
+    logo: 'Logo proporcionado por el theme'
+    merge-existing-file: 'Mergear la configuración con el archivo existente'
+questions:
+    theme: 'Introduzca el nombre del nuevo theme'
+    theme-path: 'Añada la ruta del theme'
+    favicon: 'Use the favicon supplied by the theme'
+    comment-user-picture: 'Usar imágenes del usurio en los comentarios'
+    comment-user-verification: 'Usar el estado de verificiación del usuario en los comentarios'
+    node-user-picture: 'Usar imágenes del usuario en los posts'
+    logo: 'Usar el logo proporcionado por el theme'
+    merge-existing-file: 'Mergear la configuración con el archivo existente'
+suggestions:
+    my-awesome-theme: 'Mi theme super-estupendo'
+    other: Otros
+warnings:
+  module-unavailable: 'Warning: Los siguientes módulos no están disponibles en su entorno local "%s"'
+errors:
+    theme: 'El nombre del theme "%s" no es válido.'
+    directory-notexists: 'El directorio destino "%s" no existe'
+examples: null
