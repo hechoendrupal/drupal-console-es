@@ -6,8 +6,8 @@ questions:
 arguments:
     name: 'Nombre del servicio'
 options:
-    key: 'Clave'
-    value: 'Valor'
+    key: Clave
+    value: Valor
 messages:
     service-name: 'Nombre del servicio'
     service-key: 'Clave del servicio'
@@ -16,11 +16,6 @@ messages:
     invalid-name: 'El objeto de servicio "%s" no existe.'
     invalid-config-file: 'El archivo de servicio no existe.'
 examples:
-    - description: "Sobreescribir opciones del servicio twig.config"
-      execution: |
-        drupal service:override twig.config \
-          --key='debug' \
-          --key='cache' \
-          --value='true' \
-          --value='false' \
-          --no-interaction
+    -
+        description: 'Sobreescribir opciones del servicio twig.config'
+        execution: "drupal service:override twig.config \\\n  --key='debug' \\\n  --key='cache' \\\n  --value='true' \\\n  --value='false' \\\n  --no-interaction\n"
