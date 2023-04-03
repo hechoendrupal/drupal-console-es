@@ -1,0 +1,26 @@
+description: 'Generar un nuevo tipo de bloque'
+help: 'El comando <info>generate:block:type</info> le ayuda a generar un nuevo tipo de bloque.'
+welcome: 'Bienvenido al generador de tipos de bloques'
+options:
+  module: 'Nombre del módulo.'
+  class: 'Nombre de la clase del tipo de módulo'
+  block-label: 'Etiqueta del tipo de bloque'
+  block-description: 'Descripción del tipo de bloque'
+  block-id: 'ID del bloque'
+questions:
+  module: 'Introduzca el nombre del módulo'
+  class: 'Introduzca el nombre de la clase del tipo de bloque'
+  block-label: 'Introduzca la etiqueta del bloque'
+  block-description: 'Introduzca la descripción del bloque'
+  block-id: 'Introduzca el ID del tipo de bloque'
+  description: 'Descripción'
+  default-value: 'Valor por defecto'
+messages:  
+examples:
+  - description: 'Generar un tipo de bloque especificando el nombre del módulo'
+    execution: |
+      drupal generate:block:type  \
+        --module="modulename"  \
+        --class="DefaultBlock"  \
+        --label="Default block"  \
+        --block-id="default_block"

@@ -1,0 +1,30 @@
+description: 'generar una nueva opción de configuración para un tema'
+help: 'El comando <info>generate:theme:setting</info> le ayuda a generar un archivo YML.'
+welcome: 'Bienvenido al generador de opciones de configuración para temas de Drupal'
+options:
+  theme: 'Nombre del tema'
+  theme-path: 'Ruta del tema'
+  favicon: 'Favicon proporcionado por el tema'
+  comment-user-picture: 'Imágenes del usuario en los comentarios'
+  comment-user-verification: 'Estado de verificación del usuario en los comentarios'
+  node-user-picture: 'Imágenes de usuario en las publicaciones'
+  logo: 'Logo proporcionado pro el tema'
+  merge-existing-file: 'Mergear la configuración con el archivo existente'
+questions:
+  theme: 'Introduzca el nombre del nuevo tema'
+  theme-path: 'Añada la ruta del tema'
+  favicon: 'Usar el favicon proporcionado por el tema'
+  comment-user-picture: 'Usar la imagen de usuario en los comentarios'
+  comment-user-verification: 'Usar el estado de verificación de usuario en los comentarios'
+  node-user-picture: 'Usar fotos de usuarios en las publicaciones'
+  logo: 'Usar el logo proporcionado por el tema'
+  merge-existing-file: 'Mergear la configuración con el archivo existente'
+suggestions:
+  my-awesome-theme: 'Mi supe-tema'
+  other: 'Other'
+warnings:
+  module-unavailable: 'Advertencia: Los siguientes módulos no están disponibles en su entorno local "%s"'
+errors:
+  theme: 'El nombre del tema "%s" no es válido.'
+  directory-notexists: 'El directorio de destino "%s" no existe.'
+examples:
