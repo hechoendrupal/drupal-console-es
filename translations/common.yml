@@ -8,9 +8,11 @@ options:
     tags: 'Asignar etiquetas de servicio desde el contenedor.'
     inputs: 'Crear campos de entrada en un formulario.'
     permissions: 'Crear permisos.'
+    theme: 'The Theme name'
 questions:
     class: 'Introduzca el nombre de la clase'
     module: 'Escriba el nombre del módulo'
+    theme: 'Enter the theme name'
     extension: 'Introduzca el nombre de la extensión'
     extension-type: 'Introduzca el tipo de la extensión'
     confirm: '¿Confirma la generación?'
@@ -22,6 +24,9 @@ questions:
         confirm: 'Desea cargar los servicios del contenedor'
         message: "\nEscriba el nombre del servicio o usa la tecla flecha hacia arriba o flecha hacia abajo.\nEsto es opcional, presione <info>enter</info> para <info>continuar</info>\n"
         name: 'Introduzca su servicio'
+    roles:
+        message: "\nIntroduzca el nombre del rol o use las teclas keyup o keydown.\nEsto es opcional, presione <info>enter</info> para <info>continuar</info>\n"
+        name: 'Introduzca su rol'
     inputs:
         confirm: '¿Desea generar la estructura de un formulario?'
         label: 'Etiqueta del campo de entrada'
@@ -34,6 +39,7 @@ questions:
         weight: 'Peso para el elemento ''input''.'
         title: Título
         fieldset: 'Conjunto de campos'
+        new-field: 'Introduzca las propiedades del nuevo campo'
         machine_name: 'Introduzca el nombre de máquina'
 errors:
     module-dependency: 'Depencia "%s" del modulo faltante'
@@ -49,3 +55,5 @@ messages:
     drupal-core: 'Core de Drupal'
     move-phar: 'Accediendo a la consola desde cualquier lugar en su sistema'
     quick-start: 'Descargar, instalar y servir Drupal 8'
+    available-field-types: 'Tipos disponibles: <comment>%s</comment>'
+    theme: 'The %s theme is not instaled'

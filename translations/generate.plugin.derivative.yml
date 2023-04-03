@@ -1,0 +1,38 @@
+description: 'Generar un plugin de bloque custom derivativo'
+help: 'El comando <info>generate:plugin:derivative</info> le ayuda a generar un nuevo plugin de bloque derivativo'
+welcome: 'Welcome to the Drupal Plugin Block Derivative generator'
+options:
+  module: 'Nombre del módulo.'
+  class: 'Nombre de la clase.'
+  block_label: 'Etiqueta del bloque'
+  block_description: 'Descripción del bloque'
+  block_id: 'ID del bloque'
+questions:
+  module: 'Introduzca el nombre del bloque'
+  class: 'Introduzca el nombre de la clase del plugin de bloque derivativo'
+  block_label: 'Introduzca la etiqueta del bloque'
+  block_description: 'EIntroduzca la Descripción del blque'
+  block_id: 'Introduzca el ID del bloque'
+suggestions:
+  class: 'CustomBlockDerivative'
+  block_description: 'Mi bloque $databases['default']['default'] = [
+ *   'database' => 'databasename',
+ *   'username' => 'sqlusername',
+ *   'password' => 'sqlpassword',
+ *   'host' => 'localhost',
+ *   'port' => '3306',
+ *   'driver' => 'mysql',
+ *   'prefix' => '',
+ *   'collation' => 'utf8mb4_general_ci',
+ * ]; derivativo.'
+  block_label: 'Bloque personalizado derivativo'
+  block_id: 'custom_block_derivative'
+examples:
+  - description: 'Generar un plugin de campo de vista personalizada especificando el nombre del módulo, la clase, un título y su descripción'
+    execution: |
+      drupal generate:plugin:views:field  \
+        --module="modulename"  \
+        --class="CustomBlockDerivative"  \
+        --block-label="Custom block derivative"  \
+        --block-description="My custom block derivative." \
+        --block-id="custom_block_derivative"
