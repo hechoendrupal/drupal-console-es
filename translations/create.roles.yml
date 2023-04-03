@@ -1,0 +1,20 @@
+description: 'Crea roles de ejemplo para su aplicación Drupal 8.'
+help: 'El comando <info>create:roles</info> le ayuda a crear roles de ejemplo.'
+welcome: 'Bienvenido al generador de roles para Drupal 8'
+options:
+    limit: 'Cuántos roles le gustaría crear'
+questions:
+    limit: 'Introduzca cuántos roles le gustaría crear'
+messages:
+    role-id: 'ID del rol'
+    role-name: 'Nombre del rol'
+    created-roles: 'Han sido creados "%s" roles con éxito'
+    error: 'Error creando roles: "%s"'
+    error-created-role: 'El rol "%s" ha fracasado a la hora de ser creado'
+examples:
+    -
+        description: 'Facilitar roles'
+        execution: 'drupal create:roles'
+    -
+        description: 'Facilitar el número de roles a crear'
+        execution: "drupal create:roles\n"

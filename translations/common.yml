@@ -57,3 +57,4 @@ messages:
     quick-start: 'Descargar, instalar y servir Drupal 8'
     available-field-types: 'Tipos disponibles: <comment>%s</comment>'
     theme: 'The %s theme is not instaled'
+

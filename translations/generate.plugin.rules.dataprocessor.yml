@@ -1,0 +1,20 @@
+description: 'Genera un plugin procesador de datos para rules'
+help: 'El comando <info>generate:plugin:rules:dataprocessor</info> le ayuda a generar un nuevo plugin procesador de datos para rules.'
+welcome: 'Bienvenido al generador de plugins de Drupal de procesador de datos'
+options:
+    module: 'Nombre del módulo'
+    class: 'Nombre de la clase del plugin'
+    label: 'Etiqueta del plugin'
+    plugin-id: 'Id del plugin'
+    category: 'Categoría del plugin'
+    context: 'Contexto del plugin'
+    type: 'Tipo del procesador de datos (usuario o nodo)'
+questions:
+    module: 'Introuduzca el nombre del módulo'
+    class: 'Introduzca el nombre de la clase del plugin'
+    label: 'Introuduzca la etiqueta del plugin'
+    plugin-id: 'Introduzca el id del plugin'
+examples:
+    -
+        description: 'Genera un plugin procesador de datos de usuario para rules especificando el nombre del módulo, la clase, su etiqueta, el id del plugin, el tipo, la categoría y su contexto'
+        execution: "drupal generate:plugin:rules:dataprocessor  \\\n  --module=\"modulename\"  \\\n  --class=\"DefaultDataprocessor\"  \\\n  --label=\"Default dataprocessor\"  \\\n  --plugin-id=\"default_dataprocessor\"  \\\n"

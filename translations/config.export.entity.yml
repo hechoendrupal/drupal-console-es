@@ -1,0 +1,27 @@
+description: 'Exporta una entidad específica de configuración y sus campos.'
+arguments:
+    entity-type: 'El tipo de entidad (node_type, taxonomy_vocabulary, paragraphs_type) que será exportada'
+    bundle: 'El bundle que será exportado'
+questions:
+    all: Todo
+    entity-type: 'Seleccione el tipo de entidad'
+    bundle: 'El bundle que será exportado'
+    remove-uuid: 'El bundle que será exportado in clave uuid.'
+    optional-config: 'Exportar el bundle en el módulo como una configuración opcional'
+    remove-config-hash: 'El bundle será exportado sin la clave hash del sitio por defecto.'
+    include-module-dependencies: 'Incluir las dependencias del módulo del bundle en un archivo YAML info del módulo'
+messages:
+    bundle-exported: 'Exportando bundle %s'
+    content-type-exported: 'Exportando el bundle'
+options:
+    optional-config: 'Exportar el bundle como una configuración YAML opcional en su módulo'
+    remove-uuid: 'Si se indica, la configuración será exportada sin clave uuid.'
+    remove-config-hash: 'Si se indica, la configuración será exportada sin la clave hash del sitio por defecto.'
+    include-module-dependencies: 'Incluir las dependencias del módulo del bundle en un archivo YAML info del módulo'
+examples:
+    -
+        description: 'Introduzca un tipo de entidad, un bundle y un nombre de módulo'
+        execution: "drupal config:export:entity node_type page \\\n  --module=\"demo\""
+    -
+        description: 'Si desea exportar un bundle como configuración opcional'
+        execution: "drupal config:export:entity node_type page \\\n  --module=\"demo\" \\\n  --optional-config\n"

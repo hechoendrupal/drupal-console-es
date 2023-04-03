@@ -2,6 +2,7 @@ description: 'Ejecuta una consulta SQL directamente como argumento'
 arguments:
     query: 'La consulta SQL a ejecutar'
     database: 'Clave de la base de datos en el settings.php'
+    target: 'Base de datos objetivo del settings.php'
 options:
     quick: 'No cachear cada resultado de la query, imprimir cada fila como se reciba'
     debug: 'Imprime información de debug, memoria y uso de CPU cuando se ejecute el programa'

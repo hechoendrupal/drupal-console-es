@@ -4,26 +4,30 @@ welcome: 'Bienvenido al generador de plugins de bloque para Drupal'
 options:
     module: common.options.module
     class: 'Nombre de la clase del plugin'
-    label: 'Etiqueta del plugin'
+    plugin-label: 'Etiqueta del plugin'
     plugin-id: 'ID del plugin'
     inputs: common.options.inputs
     services: common.options.services
     theme-region: 'Región del tema para renderizar el plugin de bloque'
+    twigtemplate: 'Generar plantilla de theme'
+    label: 'Etiqueta del plugin'
 questions:
     module: common.questions.module
     class: 'Introduzca un nombre de clase para el plugin'
-    label: 'Introduzca la etiqueta del plugin'
+    plugin-label: 'Introduzca la etiqueta del plugin'
     plugin-id: 'Introduzca el id del plugin'
     services: common.questions.services
     theme-region: 'Introduzca la región del theme para renderizar el Plugin Block.'
     type: 'Introduzca un tipo para el nuevo campo'
+    label: 'Introduzca la etiqueta del plugin'
     description: Descripción
     default-value: 'Valor por defecto'
     weight: 'Peso para el elemento input'
+    twigtemplate: '¿Desea crear una plantilla tematizable?'
     inputs: common.questions.inputs
 messages:
     inputs: "\nPuede añadir campos de tipo input para crear configuraciones particulares en cada bloque.\nEsto es opcional, pulse <info>enter</info> para <info>continuar</info>"
-    invalid-theme-region: 'Región "%s" no es válida'
+    invalid-theme-region: 'La región "%s" no es válida'
 examples:
     -
         description: 'Generar un plugin de bloque en la región de la cabecera con un campo tipo input especificando el nombre del módulo, la clase, la etiqueta, su id, la región y el input'

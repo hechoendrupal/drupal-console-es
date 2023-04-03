@@ -19,6 +19,10 @@ messages:
     theme-default-success: 'El tema "%s" ha sido instalado satisfactoriamente como tema por defecto'
     disabled-themes: 'Solo desactivar temas que serán listados en autocompletar'
     invalid-theme-default: 'La opción por defecto es válida solo para un tema'
+    getting-releases: 'Obteniendo versiones del tema "%s"'
+    select-release: 'Por favor, seleccione su versión favorita'
+    downloading: 'Descargando la versión "%s" del tema "%s"'
+    downloaded: 'La versión "%s" del módulo "%s" ha sido descargada exitosamente en "%s"'
 examples:
     -
         description: 'Instalar un tema especificando el nombre'

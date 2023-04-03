@@ -3,6 +3,7 @@ help: 'El comando <info>generate:plugin:views:field</info> le ayuda a generar un
 welcome: 'Bienvenido al generador de plugins de campo de vista para Drupal'
 options:
     module: 'El nombre del módulo.'
+    fields: 'Definición de campos (nombre de clase, título y descripción).'
     class: 'Nombre de la clase del plugin de campo de vista'
     title: 'Título del plugin de campo de vista'
     description: 'Descripción del plugin de campo de vista'
@@ -12,6 +13,9 @@ questions:
     title: 'Título del plugin de campo de vista'
     description: 'Descripcion del plugin de campo de vista'
     description_default: 'Mi fantástico plugin de campo de vista personalizado.'
+    field-add: '¿Desea añadir otro campo?'
+messages:
+    views-data-already-implemented: 'El hook views data ya ha sido implementado en el módulo "%s". Por favor, mergee el código manualmente'
 examples:
     -
         description: 'Generar un plugin de campo de vista personalizado especificando el nombre del módulo, la clase, un título y su descripción'

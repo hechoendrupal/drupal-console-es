@@ -4,6 +4,8 @@ options:
     tar: 'Si se indica, la configuración será exportada a un archivo.'
     remove-uuid: 'Si se indica, la configuración será exportada sin la clave uuid.'
     remove-config-hash: 'Si se indica, la configuración será exportada sin la clave hash del sitio por defecto.'
+questions:
+    directory: 'Introduzcca el nombre del directorio donde guardar los archivos de configuración.'
 messages:
     directory: 'La configuración exportada fue guardada en el archivo "%s"'
     error: 'Ha ocurrido un error al crear su directorio en "%s"'

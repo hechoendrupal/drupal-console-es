@@ -1,0 +1,45 @@
+description: 'Genera un archivo composer.json'
+help: 'El comando <info>"%s"</info> le ayuda a generar un nuevo archivo composer.json'
+welcome: 'Bienvenido al generador de archivos de Composer de Drupal'
+options:
+    module: common.options.module
+    name: 'Nombre del paquete'
+    type: 'Tipo del paquete'
+    description: 'Descripción del paquete'
+    keywords: 'Palabras clave del paquete'
+    license: Licencia
+    homepage: 'Página web del proyecto'
+    minimum-stability: 'Estabilidad mínima'
+    authors: 'Autores del proyecto'
+    support: 'Canales de soporte'
+    required: 'Paquetes requeridos'
+questions:
+    module: common.questions.module
+    name: 'Introduzca el nombre del paquete'
+    type: 'Introduzca el tipo del paquete'
+    description: 'Introduzca la descripción del paquete'
+    add-keywords: '¿Desea añadir palabras clave al paquete?'
+    keyword: 'Introduzca una palabra clave o presione <info>enter</info> para continuar'
+    license: 'Introduzca la información de la licencia'
+    homepage: 'Introduzca la página web del proyecto'
+    minimum-stability: 'Introduzca la estabilidad mínima (stable, dev, alpha, beta o RC)'
+    add-author: '¿Desea añadir los autores del proyecto?'
+    add-another-author: '¿Desea añadir otros autores al proyecto?'
+    author-name: 'Introduzca el nombre del autor o presione <info>enter</info> para terminar el proceso'
+    author-email: 'Introduzca el correo electrónico del autor o presione <info>enter</info> para terminar el proceso'
+    author-homepage: 'Introduzca la página web del autor o presione <info>enter</info> para terminar el proceso'
+    author-role: 'Introduzca el rol del autor o presione <info>enter</info> para terminar el proceso'
+    add-support: '¿Desea añadir información sobre canales de ayuda?'
+    add-another-support: '¿Desea añadir otra información sobre canales de ayuda?'
+    support-channel: 'Introduzca un canal de ayuda (correo-e, issues, foro, wiki, irc, código fuente, documentos, rss)'
+    support-value: 'Introduzca un valor para el canal de ayuda'
+    add-required: '¿Desea añadir paquetes requeridos para el proyecto?'
+    add-another-required: '¿Desea añadir otros paquetes requeridos para el proyecto?'
+    required-name: 'Introduzca el nombre del paquete requerido'
+    required-version: 'Introduzca la versión del paquete requerido'
+suggestions:
+    description-for-menu: 'Una descripción para la entrada del menú'
+examples:
+    -
+        description: 'Generar un archivo de Composer especificando el nombre máquina del módulo, nombre del paquete, tipo del paquete, descripción del paquete, palabras clave, licencia, página web, estabilidad mínima, autores, canales de ayuda y paquetes requeridos'
+        execution: "drupal generate:composer \\\n  --module=\"module_name\" \\\n  --name=\"drupal/module_name\" \\\n  --type=\"drupal-module\" \\\n  --description=\"Package description\" \\\n  --keywords='Drupal' --keywords='logging' \\\n  --license=\"GPL-2.0+\" \\\n  --homepage=\"https://www.drupal.org/project/module_name\" \\\n  --minimum-stability=\"stable\" \\\n  --authors='\"name\":\"Author name\", \"email\":\"author@email.com\", \"homepage\":\"http://website.com\", \"role\":\"Developer\"' \\\n  --support='\"channel\":\"email\", \"url\":\"author@email.com\"' \\\n  --support='\"channel\":\"source\", \"url\":\"http://github.com\"' \\\n  --required='\"name\":\"drupal/views\", \"version\":\"^1.0\"' \\\n  --required='\"name\":\"drupal/token\", \"version\":\"^2.0\"'\n"

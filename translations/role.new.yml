@@ -1,0 +1,18 @@
+description: 'Crea roles para la aplicación'
+help: 'El comando <info>role:new</info> le ayuda a crear roles.'
+welcome: 'Bienvenido al creador de roles para Drupal'
+arguments:
+    rolename: 'Nombre del rol que será creado'
+    machine-name: 'Nombre máquina del rol'
+questions:
+    rolename: 'Nombre del rol que será creado'
+    machine-name: 'Nombre máquina del rol'
+messages:
+    role-id: 'ID del rol'
+    role-name: 'Nombre del rol'
+    role-created: 'El rol "%s" ha sido creado con éxito'
+    invalid-machine-name: 'Ese nombre máquina ya existe'
+examples:
+    -
+        description: 'Crear un rol especificando el nombre de rol y el nombre máquina'
+        execution: "drupal role:new  moderator moderator\n"

@@ -7,6 +7,7 @@ options:
     class: 'Nombre de la clase'
     interface: Interfaz
     interface-name: 'Nombre de la interfaz'
+    logger-channel: 'Canal del logger'
     services: common.questions.services
     path-service: Ruta
     path: Ruta
@@ -16,6 +17,7 @@ questions:
     class: 'Introduzca el nombre de la clase'
     interface: 'Crear una interfaz'
     interface-name: 'Introduzca el nombre de interfaz'
+    logger-channel: 'Crear un canal logger'
     services: common.options.services
     path-service: 'Introduzca la ruta para los servicios'
     path: 'Introduzca la ruta para los servicios'
